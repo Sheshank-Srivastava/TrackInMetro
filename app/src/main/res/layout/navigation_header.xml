@@ -2,26 +2,35 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="150dp"
-    android:background="@drawable/gradient_toolbar">
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:layout_alignParentBottom="true"
-    android:paddingLeft="@dimen/large_padding">
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/large_padding">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="sheshank"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MetroID: 897458"/>
-</LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sheshank"
+            android:textSize="@dimen/text_small"
+            android:padding="@dimen/small_padding"
+            android:textAllCaps="true"
+            android:fontFamily="@font/sourcesansproregular"
+            android:textColor="@color/textColotWhite"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MetroID: 897458"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_small"
+            android:fontFamily="@font/sourcesansproregular"
+            android:textColor="@color/textColotWhite"/>
+    </LinearLayout>
 </RelativeLayout>

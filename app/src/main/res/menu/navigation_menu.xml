@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/setTrip_menu"
@@ -7,11 +9,11 @@
             android:title="Set Trip"/>
         <item
             android:id="@+id/route_menu"
-            android:icon="@drawable/ic_change"
+            android:icon="@drawable/ic_route"
             android:title="Route"/>
         <item
             android:id="@+id/fare_menu"
-            android:icon="@drawable/ic_change"
+            android:icon="@drawable/ic_ticket"
             android:title="Fare"/>
         <item
             android:id="@+id/map_menu"

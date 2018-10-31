@@ -13,30 +13,34 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@drawable/gradient_toolbar"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
     </android.support.design.widget.AppBarLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="@dimen/layout_very_small_margin">
 
-        <TextView
+        <AutoCompleteTextView
             android:id="@+id/txtSource"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/layout_small_margin"
+            android:layout_marginTop="@dimen/layout_small_margin"
+            android:layout_marginRight="@dimen/spacing_xxlarge"
             android:padding="@dimen/small_padding"
-            android:text="Hello World!"
+            android:hint="Source"
             android:textSize="@dimen/text_small" />
 
-        <TextView
+        <AutoCompleteTextView
             android:id="@+id/txtDestination"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/layout_small_margin"
             android:padding="@dimen/small_padding"
-            android:text="Hello World!"
+            android:layout_marginEnd="@dimen/spacing_xxlarge"
+            android:hint="Destination"
             android:textSize="@dimen/text_small" />
 
         <ImageView
@@ -44,23 +48,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:layout_marginRight="@dimen/layout_medium_margin"
+            android:layout_marginEnd="@dimen/layout_medium_margin"
             android:layout_marginTop="-60dp"
             android:background="@drawable/circular_button"
             android:src="@drawable/ic_change" />
 
         <Button
             android:id="@+id/butFindRoute"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:text="Find Route" />
+            android:text="@string/find_route"
+            android:layout_gravity="center_horizontal"  />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Recent Trips"
-            android:padding="@dimen/small_padding"/>
+            android:text="@string/recent_trips"
+            android:padding="@dimen/small_padding"
+            android:textSize="@dimen/text_small"
+            android:textColor="@android:color/black"/>
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recRecentTrip"
             android:layout_width="match_parent"
