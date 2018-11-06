@@ -206,6 +206,12 @@ txtSource.setFocusableInTouchMode(true);
             startActivity(new Intent(MainActivity.this, MapActivity.class));
         } else if (id == R.id.firstLast_menu) {
             startActivity(new Intent(MainActivity.this, FirstLastActivity.class));
+        }else if (id == R.id.logout_menu) {
+//            startActivity(new Intent(MainActivity.this, AboutActivity.class));
+//            SplashActivity.splash_once = 0;
+            finish();
+        }else if (id == R.id.nav_about) {
+            startActivity(new Intent(MainActivity.this, AboutActivity.class));
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

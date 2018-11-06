@@ -36,4 +36,8 @@
         android:layout_marginTop="-60dp"
         android:background="@drawable/circular_button"
         android:src="@drawable/ic_change" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recRouteToShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

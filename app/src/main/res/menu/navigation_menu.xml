@@ -5,7 +5,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/setTrip_menu"
-            android:icon="@drawable/ic_change"
+            android:icon="@drawable/ic_set_trip"
             android:title="Set Trip"/>
         <item
             android:id="@+id/route_menu"
@@ -17,13 +17,30 @@
             android:title="Fare"/>
         <item
             android:id="@+id/map_menu"
-            android:icon="@drawable/ic_change"
+            android:icon="@drawable/ic_map"
             android:title="Map"/>
         <item
             android:id="@+id/firstLast_menu"
-            android:icon="@drawable/ic_change"
+            android:icon="@drawable/ic_first_last"
             android:title="First/Last"/>
+
+        <item
+            android:id="@+id/logout_menu"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"/>
 
 
     </group>
+    <item android:title="Extra">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/nav_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About" />
+        </menu>
+    </item>
 </menu>
