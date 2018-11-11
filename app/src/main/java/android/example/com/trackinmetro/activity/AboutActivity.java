@@ -17,6 +17,7 @@ ActionBar actionBar;
 
     private void initComponent() {
         actionBar.setTitle("About");
-
+        actionBar.setDisplayShowHomeEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
     }
 }

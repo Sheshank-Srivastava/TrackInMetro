@@ -210,6 +210,17 @@ txtSource.setFocusableInTouchMode(true);
 //            startActivity(new Intent(MainActivity.this, AboutActivity.class));
 //            SplashActivity.splash_once = 0;
             finish();
+        }else if (id == R.id.nav_share) {
+            Intent share = new Intent(android.content.Intent.ACTION_SEND);
+            share.setType("text/plain");
+            share.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
+
+            // Add data to the intent, the receiving app will decide
+            // what to do with it.
+            share.putExtra(Intent.EXTRA_SUBJECT, "Title Of The Post");
+            share.putExtra(Intent.EXTRA_TEXT, "https://www.youtube.com/");
+
+            startActivity(Intent.createChooser(share, "Share App"));
         }else if (id == R.id.nav_about) {
             startActivity(new Intent(MainActivity.this, AboutActivity.class));
         }
@@ -224,13 +235,17 @@ txtSource.setFocusableInTouchMode(true);
     public void getData() {
         String json = "";
         try {
-            InputStream is = getAssets().open("metro.json");
+            InputStream is = getAssets().open("metroall.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
             is.close();
 
             json = new String(buffer, "UTF-8");
+            json = json.replace("\n","");
+            json = json.replace(" ","");
+            Log.d("JsonData",json+"======================");
+
             JSONArray jsonArray = new JSONArray(json);
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject obj = jsonArray.getJSONObject(i);

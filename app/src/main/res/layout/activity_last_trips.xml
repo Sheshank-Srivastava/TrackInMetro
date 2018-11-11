@@ -39,5 +39,7 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recRouteToShow"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="@dimen/small_padding"/>
 </LinearLayout>
