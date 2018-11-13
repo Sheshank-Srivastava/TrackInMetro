@@ -1,6 +1,6 @@
 {
   "res": "1",
-  "colorCode":"Y_yellow,B_Blue,R_red,G_green,V_violet,O_Orange_AirportExpress,M_magenta,P_pink",
+  "colorCode":"Y_yellow,B_Blue,R_red,G_green,V_violet,O_Orange_AirportExpress,M_magenta,P_pink,S_Yellow_Rapid",
   "stationLine": [
     {
       "name": "Adarsh Nagar",
@@ -60,7 +60,7 @@
         "layout": "Elevated",
         "longitude": 77.12583,
         "latitude": 28.48076,
-        "stationNumber": "Y06"
+        "stationNumber": ["Y06"]
       }
     },
     {
@@ -79,12 +79,13 @@
       "name": "Azadpur",
       "details": {
         "line": [
-          "Yellow Line"
+          "Yellow Line",
+            "Pink Line"
         ],
-        "layout": "Underground",
+        "layout": "Elevated(YL),Underground(PL)",
         "longitude": 77.18053,
         "latitude": 28.70696,
-        "stationNumber": "Y32"
+        "stationNumber": ["Y32","P"]
       }
     },
     {
@@ -133,7 +134,7 @@
         "layout": "Underground",
         "longitude": 77.21191,
         "latitude": 28.61474,
-        "stationNumber": "Y20"
+        "stationNumber": ["Y20"]
       }
     },
     {
@@ -145,7 +146,7 @@
         "layout": "Underground",
         "longitude": 77.23014,
         "latitude": 28.65785,
-        "stationNumber": "Y25"
+        "stationNumber": ["Y25"]
       }
     },
     {
@@ -157,7 +158,7 @@
         "layout": "Elevated",
         "longitude": 77.17484,
         "latitude": 28.50671,
-        "stationNumber": "Y09"
+        "stationNumber": ["Y09"]
       }
     },
     {
@@ -169,7 +170,7 @@
         "layout": "Underground",
         "longitude": 77.22637,
         "latitude": 28.64931,
-        "stationNumber": "Y24"
+        "stationNumber": ["Y24"]
       }
     },
     {
@@ -181,7 +182,7 @@
         "layout": "Underground",
         "longitude": 77.22410,
         "latitude": 28.67726,
-        "stationNumber": "Y27"
+        "stationNumber": ["Y27"]
       }
     },
     {
@@ -217,7 +218,7 @@
         "layout": "Elevated",
         "longitude": 77.32142,
         "latitude": 28.67592,
-        "stationNumber": ""
+        "stationNumber": ["R1"]
       }
     },
     {
@@ -350,7 +351,7 @@
         "layout": "Elevated",
         "longitude": 77.14922,
         "latitude": 28.49383,
-        "stationNumber": "Y07"
+        "stationNumber": ["Y07"]
       }
     },
     {
@@ -374,7 +375,7 @@
         "layout": "Underground",
         "longitude": 77.20682,
         "latitude": 28.55979,
-        "stationNumber": "Y14"
+        "stationNumber": ["Y14"]
       }
     },
     {
@@ -386,7 +387,7 @@
         "layout": "Underground",
         "longitude": 77.20722,
         "latitude": 28.69785,
-        "stationNumber": "Y30"
+        "stationNumber": ["Y30"]
       }
     },
     {
@@ -398,19 +399,20 @@
         "layout": "Elevated",
         "longitude": 77.10232,
         "latitude": 28.48203,
-        "stationNumber": "Y05"
+        "stationNumber": ["Y05"]
       }
     },
     {
       "name": "Hauz Khas",
       "details": {
         "line": [
-          "Yellow Line"
+          "Yellow Line",
+            "Magenta Line"
         ],
         "layout": "Underground",
         "longitude": 77.20667,
         "latitude": 28.54335,
-        "stationNumber": "Y13"
+        "stationNumber": ["Y13","M"]
       }
     },
     {
@@ -422,7 +424,7 @@
         "layout": "Elevated",
         "longitude": 77.07268,
         "latitude": 28.45927,
-        "stationNumber": "Y01"
+        "stationNumber": ["Y01"]
       }
     },
     {
@@ -434,19 +436,20 @@
         "layout": "Elevated",
         "longitude": 77.07175,
         "latitude": 28.47209,
-        "stationNumber": "Y02"
+        "stationNumber": ["Y02"]
       }
     },
     {
       "name": "INA",
       "details": {
         "line": [
-          "Yellow Line"
+          "Yellow Line",
+            "Pink Line"
         ],
         "layout": "Underground",
         "longitude": 77.20935,
         "latitude": 28.57526,
-        "stationNumber": "Y16"
+        "stationNumber": ["Y16","P"]
       }
     },
     {
@@ -459,7 +462,7 @@
         "layout": "Elevated",
         "longitude": 77.16994,
         "latitude": 28.67319,
-        "stationNumber": ""
+        "stationNumber": ["B13","G"]
       }
     },
     {
@@ -495,7 +498,7 @@
         "layout": "Underground",
         "longitude": 77.16267,
         "latitude": 28.72592,
-        "stationNumber": "Y34"
+        "stationNumber": ["Y34"]
       }
     },
     {
@@ -579,7 +582,7 @@
         "layout": "Elevated",
         "longitude": 77.31239,
         "latitude": 28.67579,
-        "stationNumber": ""
+        "stationNumber": ["B2"]
       }
     },
     {
@@ -591,7 +594,7 @@
         "layout": "Underground",
         "longitude": 77.21209,
         "latitude": 28.58708,
-        "stationNumber": "Y17"
+        "stationNumber": ["Y17"]
       }
     },
     {
@@ -627,7 +630,7 @@
         "layout": "Elevated",
         "longitude": 77.16459,
         "latitude": 28.68254,
-        "stationNumber": ""
+        "stationNumber": ["B14"]
       }
     },
     {
@@ -659,12 +662,13 @@
       "details": {
         "line": [
           "Red Line",
-          "Yellow Line"
+          "Yellow Line",
+            "Voilet Line"
         ],
-        "layout": "Elevated(RL), Underground(YL)",
+        "layout": "Elevated(RL), Underground(YL),Underground(VL)",
         "longitude": 77.22817,
         "latitude": 28.66750,
-        "stationNumber": "Y26"
+        "stationNumber": ["Y26","R8","V"]
       }
     },
     {
@@ -688,7 +692,7 @@
         "layout": "Elevated",
         "longitude": 77.16160,
         "latitude": 28.68894,
-        "stationNumber": ""
+        "stationNumber": ["B15"]
       }
     },
     {
@@ -725,7 +729,7 @@
         "layout": "Elevated",
         "longitude": 77.14024,
         "latitude": 28.69810,
-        "stationNumber": ""
+        "stationNumber": ["B17"]
       }
     },
     {
@@ -773,7 +777,7 @@
         "layout": "Underground",
         "longitude": 77.20565,
         "latitude": 28.52798,
-        "stationNumber": "Y12"
+        "stationNumber": ["Y12"]
       }
     },
     {
@@ -797,7 +801,7 @@
         "layout": "Elevated",
         "longitude": 77.30095,
         "latitude": 28.67544,
-        "stationNumber": ""
+        "stationNumber": ["B3"]
       }
     },
     {
@@ -833,7 +837,7 @@
         "layout": "Elevated",
         "longitude": 77.08006,
         "latitude": 28.47957,
-        "stationNumber": "Y03"
+        "stationNumber": ["Y03"]
       }
     },
     {
@@ -845,7 +849,7 @@
         "layout": "Underground",
         "longitude": 77.19363,
         "latitude": 28.70278,
-        "stationNumber": "Y31"
+        "stationNumber": ["Y31"]
       }
     },
     {
@@ -953,7 +957,7 @@
         "layout": "Elevated",
         "longitude": 77.15226,
         "latitude": 28.69591,
-        "stationNumber": ""
+        "stationNumber": ["B16"]
       }
     },
     {
@@ -978,7 +982,7 @@
         "layout": "Underground",
         "longitude": 77.22144,
         "latitude": 28.64307,
-        "stationNumber": "Y23"
+        "stationNumber": ["Y23","O"]
       }
     },
     {
@@ -1098,7 +1102,7 @@
         "layout": "Underground",
         "longitude": 77.21389,
         "latitude": 28.62295,
-        "stationNumber": "Y21"
+        "stationNumber": ["Y21"]
       }
     },
     {
@@ -1134,7 +1138,7 @@
         "layout": "Elevated",
         "longitude": 77.13223,
         "latitude": 28.70317,
-        "stationNumber": ""
+        "stationNumber": ["B18"]
       }
     },
     {
@@ -1158,7 +1162,7 @@
         "layout": "Elevated",
         "longitude": 77.19882,
         "latitude": 28.66662,
-        "stationNumber": ""
+        "stationNumber": ["B11"]
       }
     },
     {
@@ -1182,7 +1186,7 @@
         "layout": "Elevated",
         "longitude": 77.20727,
         "latitude": 28.66636,
-        "stationNumber": ""
+        "stationNumber": ["B10"]
       }
     },
     {
@@ -1206,7 +1210,7 @@
         "layout": "Elevated",
         "longitude": 77.18648,
         "latitude": 28.51302,
-        "stationNumber": "Y10"
+        "stationNumber": ["Y10"]
       }
     },
     {
@@ -1218,7 +1222,7 @@
         "layout": "Underground",
         "longitude": 77.21088,
         "latitude": 28.59726,
-        "stationNumber": "Y18"
+        "stationNumber": ["Y18"]
       }
     },
     {
@@ -1255,7 +1259,7 @@
         "layout": "Underground",
         "longitude": 77.21826,
         "latitude": 28.63282,
-        "stationNumber": "Y22"
+        "stationNumber": ["Y22","B"]
       }
     },
     {
@@ -1303,7 +1307,7 @@
         "layout": "Elevated",
         "longitude": 77.10713,
         "latitude": 28.72072,
-        "stationNumber": ""
+        "stationNumber": ["B21"]
       }
     },
     {
@@ -1315,7 +1319,7 @@
         "layout": "Elevated",
         "longitude": 77.12591,
         "latitude": 28.70760,
-        "stationNumber": ""
+        "stationNumber": ["B19"]
       }
     },
     {
@@ -1327,7 +1331,7 @@
         "layout": "Elevated",
         "longitude": 77.11467,
         "latitude": 28.71483,
-        "stationNumber": ""
+        "stationNumber": ["B20"]
       }
     },
     {
@@ -1339,7 +1343,7 @@
         "layout": "Underground",
         "longitude": 77.20138,
         "latitude": 28.52060,
-        "stationNumber": "Y11"
+        "stationNumber": ["Y11"]
       }
     },
     {
@@ -1375,7 +1379,7 @@
         "layout": "At Grade",
         "longitude": 77.26678,
         "latitude": 28.66989,
-        "stationNumber": ""
+        "stationNumber": ["B6"]
       }
     },
     {
@@ -1399,7 +1403,7 @@
         "layout": "At Grade",
         "longitude": 77.28962,
         "latitude": 28.67345,
-        "stationNumber": ""
+        "stationNumber": ["B4"]
       }
     },
     {
@@ -1411,7 +1415,7 @@
         "layout": "Elevated",
         "longitude": 77.18169,
         "latitude": 28.66999,
-        "stationNumber": ""
+        "stationNumber": ["B12"]
       }
     },
     {
@@ -1423,7 +1427,7 @@
         "layout": "At Grade",
         "longitude": 77.24994,
         "latitude": 28.66800,
-        "stationNumber": ""
+        "stationNumber": ["B7"]
       }
     },
     {
@@ -1454,12 +1458,13 @@
       "name": "Sikandarpur",
       "details": {
         "line": [
-          "Yellow Line"
+          "Yellow Line",
+            "Rapid Line"
         ],
         "layout": "Elevated",
         "longitude": 77.09235,
         "latitude": 28.48182,
-        "stationNumber": "Y04"
+        "stationNumber": ["Y04","S"]
       }
     },
     {
@@ -1483,7 +1488,7 @@
         "layout": "Elevated",
         "longitude": 77.16153,
         "latitude": 28.49927,
-        "stationNumber": "Y08"
+        "stationNumber": ["Y08"]
       }
     },
     {
@@ -1531,7 +1536,7 @@
         "layout": "Elevated",
         "longitude": 77.21653,
         "latitude": 28.66711,
-        "stationNumber": ""
+        "stationNumber": ["B9"]
       }
     },
     {
@@ -1555,7 +1560,7 @@
         "layout": "Underground",
         "longitude": 77.21198,
         "latitude": 28.61166,
-        "stationNumber": "Y19"
+        "stationNumber": ["Y19"]
       }
     },
     {
@@ -1615,7 +1620,7 @@
         "layout": "Underground",
         "longitude": 77.22140,
         "latitude": 28.68802,
-        "stationNumber": "Y28"
+        "stationNumber": ["Y28"]
       }
     },
     {
@@ -1627,7 +1632,7 @@
         "layout": "Underground",
         "longitude": 77.21483,
         "latitude": 28.69480,
-        "stationNumber": "Y29"
+        "stationNumber": ["Y29"]
       }
     },
     {
@@ -1639,7 +1644,7 @@
         "layout": "At Grade",
         "longitude": 77.27756,
         "latitude": 28.67180,
-        "stationNumber": ""
+        "stationNumber": ["B5"]
       }
     },
     {
@@ -1651,7 +1656,7 @@
         "layout": "Elevated",
         "longitude": 77.14913,
         "latitude": 28.729923,
-        "stationNumber": "Y35"
+        "stationNumber": ["Y35"]
       }
     },
     {
@@ -1663,7 +1668,7 @@
         "layout": "Elevated",
         "longitude": 77.137127,
         "latitude": 28.745447,
-        "stationNumber": "Y37"
+        "stationNumber": ["Y37"]
       }
     },
     {
@@ -1675,7 +1680,7 @@
         "layout": "Elevated",
         "longitude": 77.139866,
         "latitude": 28.7738394,
-        "stationNumber": "Y36"
+        "stationNumber": ["Y36"]
       }
     },
     {
