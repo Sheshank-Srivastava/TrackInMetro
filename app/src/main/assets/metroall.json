@@ -1,6 +1,6 @@
 {
   "res": "1",
-  "colorCode":"Y_yellow,B_Blue",
+  "colorCode":"Y_yellow,B_Blue,R_red,G_green,V_violet,O_Orange_AirportExpress,M_magenta,P_pink",
   "stationLine": [
     {
       "name": "Adarsh Nagar",
@@ -11,9 +11,10 @@
         "layout": "Underground",
         "longitude": 77.17046,
         "latitude": 28.71642,
-        "stationNumber": "Y33"
+        "stationNumber": ["Y33"]
       }
     },
+      
     {
       "name": "AIIMS",
       "details": {
@@ -23,7 +24,7 @@
         "layout": "Underground",
         "longitude": 77.20771,
         "latitude": 28.56892,
-        "stationNumber": "Y15"
+        "stationNumber": ["Y15"]
       }
     },
     {
