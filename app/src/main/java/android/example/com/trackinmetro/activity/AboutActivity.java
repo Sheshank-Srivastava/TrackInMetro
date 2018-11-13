@@ -1,9 +1,9 @@
 package android.example.com.trackinmetro.activity;
 
 import android.example.com.trackinmetro.R;
+import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class AboutActivity extends AppCompatActivity {
 ActionBar actionBar;
