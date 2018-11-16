@@ -36,7 +36,11 @@
         "layout": "Elevated",
         "longitude": 77.27869,
         "latitude": 28.61806,
+<<<<<<< HEAD
         "stationNumber": ["B35"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -48,7 +52,11 @@
         "layout": "Elevated",
         "longitude": 77.31603,
         "latitude": 28.64695,
+<<<<<<< HEAD
         "stationNumber": ["C06"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -73,7 +81,12 @@
         "layout": "Elevated",
         "longitude": 77.15527,
         "latitude": 28.67153,
+<<<<<<< HEAD
         "stationNumber": ["G02","H01"]
+=======
+
+        "stationNumber": ["G02",""]
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -98,7 +111,11 @@
         "layout": "Elevated",
         "longitude": 77.30307,
         "latitude": 28.49334,
+<<<<<<< HEAD
         "stationNumber": ["V23"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -110,7 +127,11 @@
         "layout": "Underground",
         "longitude": 77.22436,
         "latitude": 28.63003,
+<<<<<<< HEAD
         "stationNumber": ["B30"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -122,7 +143,11 @@
         "layout": "Elevated",
         "longitude": 77.33420,
         "latitude": 28.56409,
+<<<<<<< HEAD
         "stationNumber": ["B42"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     
@@ -195,7 +220,7 @@
         "layout": "Underground",
         "longitude": 77.12092,
         "latitude": 28.54881,
-        "stationNumber": ""
+        "stationNumber": []
       }
     },
     {
@@ -207,7 +232,7 @@
         "layout": "Elevated",
         "longitude": 77.16155,
         "latitude": 28.59178,
-        "stationNumber": ""
+        "stationNumber": []
       }
     },
     {
@@ -231,7 +256,11 @@
         "layout": "Elevated",
         "longitude": 77.02197,
         "latitude": 28.61564,
+<<<<<<< HEAD
         "stationNumber": ["B09"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -243,7 +272,11 @@
         "layout": "Elevated",
         "longitude": 77.03326,
         "latitude": 28.61932,
+<<<<<<< HEAD
         "stationNumber": ["B10"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -255,7 +288,11 @@
         "layout": "Elevated",
         "longitude": 77.05682,
         "latitude": 28.58068,
+<<<<<<< HEAD
         "stationNumber": ["B4"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -267,7 +304,11 @@
         "layout": "Elevated",
         "longitude": 77.04929,
         "latitude": 28.58657,
+<<<<<<< HEAD
         "stationNumber": ["B05"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -279,7 +320,11 @@
         "layout": "Elevated",
         "longitude": 77.04051,
         "latitude": 28.59232,
+<<<<<<< HEAD
         "stationNumber": ["B06"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -291,7 +336,11 @@
         "layout": "Elevated",
         "longitude": 77.03326,
         "latitude": 28.59722,
+<<<<<<< HEAD
         "stationNumber": ["B07"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -303,7 +352,11 @@
         "layout": "Elevated",
         "longitude": 77.02588,
         "latitude": 28.60223,
+<<<<<<< HEAD
         "stationNumber": ["B08"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -316,7 +369,11 @@
         "layout": "Underground",
         "longitude": 77.05828,
         "latitude": 28.55226,
+<<<<<<< HEAD
         "stationNumber": ["B01","O"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -328,7 +385,11 @@
         "layout": "Elevated",
         "longitude": 77.06706,
         "latitude": 28.56583,
+<<<<<<< HEAD
         "stationNumber": ["B02"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -340,7 +401,11 @@
         "layout": "Elevated",
         "longitude": 77.06454,
         "latitude": 28.57487,
+<<<<<<< HEAD
         "stationNumber": ["B03"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -364,7 +429,11 @@
         "layout": "Elevated",
         "longitude": 77.26401,
         "latitude": 28.54451,
+<<<<<<< HEAD
         "stationNumber": ["V17"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -475,7 +544,7 @@
         "layout": "Underground",
         "longitude": 77.08669,
         "latitude": 28.55693,
-        "stationNumber": ""
+        "stationNumber": []
       }
     },
     {
@@ -487,7 +556,11 @@
         "layout": "Elevated",
         "longitude": 77.24993,
         "latitude": 28.62051,
+<<<<<<< HEAD
         "stationNumber": ["B33"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -511,7 +584,11 @@
         "layout": "Elevated",
         "longitude": 77.08669,
         "latitude": 28.63305,
+<<<<<<< HEAD
         "stationNumber": ["B15"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -523,7 +600,11 @@
         "layout": "Elevated",
         "longitude": 77.07767,
         "latitude": 28.62943,
+<<<<<<< HEAD
         "stationNumber": ["B14"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -533,6 +614,7 @@
           "Violet Line"
         ],
         "layout": "Underground",
+<<<<<<< HEAD
         "longitude": 77.239605,
         "latitude": 28.583287,
         "stationNumber": ["V11"]
@@ -547,6 +629,11 @@
         "longitude": 77.2144779,
         "latitude": 28.6232809,
         "stationNumber": ["V08"]
+=======
+        "longitude": 77.23766,
+        "latitude": 28.58430,
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
 
@@ -559,7 +646,11 @@
         "layout": "Elevated",
         "longitude": 77.28319,
         "latitude": 28.53824,
+<<<<<<< HEAD
         "stationNumber": ["V19"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -571,7 +662,11 @@
         "layout": "Underground",
         "longitude": 77.23326,
         "latitude": 28.59040,
+<<<<<<< HEAD
         "stationNumber": ["V10"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -583,7 +678,11 @@
         "layout": "Elevated",
         "longitude": 77.19988,
         "latitude": 28.64427,
+<<<<<<< HEAD
         "stationNumber": ["B27"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -619,7 +718,11 @@
         "layout": "Elevated",
         "longitude": 77.24205,
         "latitude": 28.55527,
+<<<<<<< HEAD
         "stationNumber": ["V14"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -632,7 +735,11 @@
         "layout": "Elevated(VL),Underground(ML)",
         "longitude": 77.25835,
         "latitude": 28.55007,
+<<<<<<< HEAD
         "stationNumber": ["V16","M"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -656,7 +763,11 @@
         "layout": "Elevated",
         "longitude": 77.30558,
         "latitude": 28.64849,
+<<<<<<< HEAD
         "stationNumber": ["C05"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -668,7 +779,11 @@
         "layout": "Elevated",
         "longitude": 77.18855,
         "latitude": 28.64400,
+<<<<<<< HEAD
         "stationNumber": ["B26"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -694,7 +809,11 @@
         "layout": "Elevated",
         "longitude": 77.32432,
         "latitude": 28.64544,
+<<<<<<< HEAD
         "stationNumber": ["C07"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -718,7 +837,11 @@
         "layout": "Underground",
         "longitude": 77.22829,
         "latitude": 28.60276,
+<<<<<<< HEAD
         "stationNumber": ["V09"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -731,7 +854,11 @@
         "layout": "Elevated",
         "longitude": 77.15057,
         "latitude": 28.65575,
+<<<<<<< HEAD
         "stationNumber": ["B22","H03"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -755,7 +882,11 @@
         "layout": "Elevated",
         "longitude": 77.23653,
         "latitude": 28.57079,
+<<<<<<< HEAD
         "stationNumber": ["V12"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -767,7 +898,11 @@
         "layout": "Elevated",
         "longitude": 77.27749,
         "latitude": 28.63064,
+<<<<<<< HEAD
         "stationNumber": ["C02"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -779,7 +914,11 @@
         "layout": "Elevated",
         "longitude": 77.11965,
         "latitude": 28.67734,
+<<<<<<< HEAD
         "stationNumber": ["G05"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -804,7 +943,11 @@
         "layout": "Underground",
         "longitude": 77.23410,
         "latitude": 28.62588,
+<<<<<<< HEAD
         "stationNumber": ["B31","V06"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -828,7 +971,11 @@
         "layout": "Elevated",
         "longitude": 77.28925,
         "latitude": 28.60442,
+<<<<<<< HEAD
         "stationNumber": ["B36"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -840,7 +987,11 @@
         "layout": "Elevated",
         "longitude": 77.29455,
         "latitude": 28.59428,
+<<<<<<< HEAD
         "stationNumber": ["B37"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -876,7 +1027,11 @@
         "layout": "Elevated",
         "longitude": 77.29388,
         "latitude": 28.51938,
+<<<<<<< HEAD
         "stationNumber": ["V21"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -888,7 +1043,11 @@
         "layout": "Elevated",
         "longitude": 77.23423,
         "latitude": 28.56417,
+<<<<<<< HEAD
         "stationNumber": ["V13"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -900,7 +1059,11 @@
         "layout": "Elevated",
         "longitude": 77.14248,
         "latitude": 28.65784,
+<<<<<<< HEAD
         "stationNumber": ["B21"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -912,6 +1075,7 @@
         "layout": "Elevated",
         "longitude": 77.03133,
         "latitude": 28.68321,
+<<<<<<< HEAD
         "stationNumber": ["G14"]
       }
     },
@@ -997,6 +1161,9 @@
         "longitude": 76.919388,
         "latitude": 28.697357,
         "stationNumber": ["G21"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
       
@@ -1009,7 +1176,11 @@
         "layout": "Elevated",
         "longitude": 77.06471,
         "latitude": 28.68231,
+<<<<<<< HEAD
         "stationNumber": ["G11"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1021,7 +1192,11 @@
         "layout": "Elevated",
         "longitude": 77.05596,
         "latitude": 28.68208,
+<<<<<<< HEAD
         "stationNumber": ["G12"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1033,7 +1208,11 @@
         "layout": "Elevated",
         "longitude": 77.04514,
         "latitude": 28.62025,
+<<<<<<< HEAD
         "stationNumber": ["B11"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1045,7 +1224,11 @@
         "layout": "Elevated",
         "longitude": 77.25154,
         "latitude": 28.55148,
+<<<<<<< HEAD
         "stationNumber": ["V15"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1069,7 +1252,12 @@
         "layout": "Elevated",
         "longitude": 77.30204,
         "latitude": 28.58916,
+<<<<<<< HEAD
         "stationNumber": ["B38"]
+=======
+
+        "stationNumber": [""]
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1094,7 +1282,11 @@
         "layout": "Elevated",
         "longitude": 77.28683,
         "latitude": 28.63663,
+<<<<<<< HEAD
         "stationNumber": ["C03"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1106,7 +1298,11 @@
         "layout": "Elevated",
         "longitude": 77.35608,
         "latitude": 28.57466,
+<<<<<<< HEAD
         "stationNumber": ["B44"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1118,7 +1314,11 @@
         "layout": "Elevated",
         "longitude": 77.34598,
         "latitude": 28.56714,
+<<<<<<< HEAD
         "stationNumber": ["B43"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1130,7 +1330,11 @@
         "layout": "Elevated",
         "longitude": 77.31139,
         "latitude": 28.58512,
+<<<<<<< HEAD
         "stationNumber": ["B39"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1142,7 +1346,11 @@
         "layout": "Elevated",
         "longitude": 77.31757,
         "latitude": 28.57819,
+<<<<<<< HEAD
         "stationNumber": ["B40"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1154,7 +1362,11 @@
         "layout": "Elevated",
         "longitude": 77.32612,
         "latitude": 28.57081,
+<<<<<<< HEAD
         "stationNumber": ["B41"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1166,7 +1378,11 @@
         "layout": "Elevated",
         "longitude": 77.27504,
         "latitude": 28.54292,
+<<<<<<< HEAD
         "stationNumber": ["V18"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1178,7 +1394,11 @@
         "layout": "Elevated",
         "longitude": 77.11228,
         "latitude": 28.67730,
+<<<<<<< HEAD
         "stationNumber": ["G06"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1190,7 +1410,11 @@
         "layout": "Elevated",
         "longitude": 77.10227,
         "latitude": 28.67855,
+<<<<<<< HEAD
         "stationNumber": ["G07"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1214,7 +1438,11 @@
         "layout": "Elevated",
         "longitude": 77.16929,
         "latitude": 28.64498,
+<<<<<<< HEAD
         "stationNumber": ["B24"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1226,7 +1454,11 @@
         "layout": "Elevated",
         "longitude": 77.09261,
         "latitude": 28.67959,
+<<<<<<< HEAD
         "stationNumber": ["G08"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1250,7 +1482,11 @@
         "layout": "Elevated",
         "longitude": 77.24250,
         "latitude": 28.62342,
+<<<<<<< HEAD
         "stationNumber": ["B32"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1274,7 +1510,11 @@
         "layout": "Elevated",
         "longitude": 77.29543,
         "latitude": 28.64171,
+<<<<<<< HEAD
         "stationNumber": ["C04"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1290,15 +1530,25 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Punjabi Bagh",
       "details": 
+=======
+      "name": "Punjabi Bagh East",
+      "details": {
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
         "line": [
           "Green Line"
         ],
         "layout": "Elevated",
         "longitude": 77.14614,
         "latitude": 28.67289,
+<<<<<<< HEAD
         "stationNumber": ["G03"]
+=======
+
+        "stationNumber": ["G3"]
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1334,7 +1584,11 @@
         "layout": "Elevated",
         "longitude": 77.04381,
         "latitude": 28.68221,
+<<<<<<< HEAD
         "stationNumber": ["G13"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1346,7 +1600,11 @@
         "layout": "Elevated",
         "longitude": 77.17815,
         "latitude": 28.64250,
+<<<<<<< HEAD
         "stationNumber": ["B25"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1372,7 +1630,11 @@
         "layout": "Elevated",
         "longitude": 77.12270,
         "latitude": 28.64902,
+<<<<<<< HEAD
         "stationNumber": ["B19","P"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1384,7 +1646,11 @@
         "layout": "Elevated",
         "longitude": 77.20840,
         "latitude": 28.63923,
+<<<<<<< HEAD
         "stationNumber": ["B28"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1396,7 +1662,11 @@
         "layout": "Elevated",
         "longitude": 77.13164,
         "latitude": 28.65274,
+<<<<<<< HEAD
         "stationNumber": ["B20"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1456,7 +1726,11 @@
         "layout": "Elevated",
         "longitude": 77.28826,
         "latitude": 28.52878,
+<<<<<<< HEAD
         "stationNumber": ["V20"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1468,7 +1742,11 @@
         "layout": "Elevated",
         "longitude": 77.15748,
         "latitude": 28.66199,
+<<<<<<< HEAD
         "stationNumber": ["H02"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1492,7 +1770,11 @@
         "layout": "Elevated",
         "longitude": 77.15824,
         "latitude": 28.65160,
+<<<<<<< HEAD
         "stationNumber": ["B23"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1540,7 +1822,11 @@
         "layout": "Elevated",
         "longitude": 77.13056,
         "latitude": 28.67490,
+<<<<<<< HEAD
         "stationNumber": ["G04"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1552,7 +1838,7 @@
         "layout": "Underground",
         "longitude": 77.21190,
         "latitude": 28.62901,
-        "stationNumber": ""
+        "stationNumber": []
       }
     },
     {
@@ -1577,7 +1863,11 @@
         "layout": "Elevated",
         "longitude": 77.10495,
         "latitude": 28.64039,
+<<<<<<< HEAD
         "stationNumber": ["B17"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1601,7 +1891,11 @@
         "layout": "Elevated",
         "longitude": 77.07385,
         "latitude": 28.68180,
+<<<<<<< HEAD
         "stationNumber": ["G10"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1613,7 +1907,11 @@
         "layout": "Elevated",
         "longitude": 77.11284,
         "latitude": 28.64379,
+<<<<<<< HEAD
         "stationNumber": ["B18"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1625,7 +1923,11 @@
         "layout": "Elevated",
         "longitude": 77.09648,
         "latitude": 28.63657,
+<<<<<<< HEAD
         "stationNumber": ["B16"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1649,7 +1951,11 @@
         "layout": "Elevated",
         "longitude": 77.29930,
         "latitude": 28.50254,
+<<<<<<< HEAD
         "stationNumber": ["V22"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1673,7 +1979,11 @@
         "layout": "Elevated",
         "longitude": 77.08077,
         "latitude": 28.68090,
+<<<<<<< HEAD
         "stationNumber": ["G09"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1685,7 +1995,11 @@
         "layout": "Elevated",
         "longitude": 77.06530,
         "latitude": 28.62481,
+<<<<<<< HEAD
         "stationNumber": ["B13"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1697,7 +2011,11 @@
         "layout": "Elevated",
         "longitude": 77.05585,
         "latitude": 28.62177,
+<<<<<<< HEAD
         "stationNumber": ["B12"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1709,7 +2027,11 @@
         "layout": "Elevated",
         "longitude": 77.33974,
         "latitude": 28.64997,
+<<<<<<< HEAD
         "stationNumber": ["C08"]
+=======
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     },
     {
@@ -1948,9 +2270,15 @@
             "Blue Line"
         ],
         "layout": "At-Grade",
+<<<<<<< HEAD
         "longitude": 77.260113,
         "latitude": 28.620999,
         "stationNumber": ["C01","B34"]
+=======
+        "longitude": 77.26792,
+        "latitude": 28.62331,
+        "stationNumber": []
+>>>>>>> 813d09458ede80701d35c3d352bcb5f866d720ed
       }
     }
   ]
