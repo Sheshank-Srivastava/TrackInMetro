@@ -1,6 +1,6 @@
 {
   "res": "1",
-  "colorCode":"Y_yellow,B_Blue,R_red,G_green,V_violet,O_Orange_AirportExpress,M_magenta,P_pink,S_Yellow_Rapid",
+  "colorCode":"Y_yellow,B_Blue_line1_Dwarka21ToNoidaCityCenter,C_Blue_line2_YamunaToVaishali,R_red,G_Green_Line1_interLokToMundka,H_Green_Line2_At_AshokParkToKirtiNgr,V_violet,O_Orange_AirportExpress,M_magenta,P_pink,S_Yellow_Rapid",
   "stationLine": [
     {
       "name": "Adarsh Nagar",
@@ -36,7 +36,8 @@
         "layout": "Elevated",
         "longitude": 77.27869,
         "latitude": 28.61806,
-        "stationNumber": []
+        "stationNumber": ["B35"]
+
       }
     },
     {
@@ -48,7 +49,7 @@
         "layout": "Elevated",
         "longitude": 77.31603,
         "latitude": 28.64695,
-        "stationNumber": []
+        "stationNumber": ["C06"]
       }
     },
     {
@@ -67,13 +68,14 @@
       "name": "Ashok Park Main",
       "details": {
         "line": [
-          "Green Line"
+          "Green Line",
+            "Green Line Branch"
         ],
         "layout": "Elevated",
         "longitude": 77.15527,
         "latitude": 28.67153,
+        "stationNumber": ["G02","H01"]
 
-        "stationNumber": ["G02",""]
       }
     },
     {
@@ -98,7 +100,8 @@
         "layout": "Elevated",
         "longitude": 77.30307,
         "latitude": 28.49334,
-        "stationNumber": []
+        "stationNumber": ["V23"]
+
       }
     },
     {
@@ -110,7 +113,8 @@
         "layout": "Underground",
         "longitude": 77.22436,
         "latitude": 28.63003,
-        "stationNumber": []
+        "stationNumber": ["B30"]
+
       }
     },
     {
@@ -122,7 +126,8 @@
         "layout": "Elevated",
         "longitude": 77.33420,
         "latitude": 28.56409,
-        "stationNumber": []
+        "stationNumber": ["B42"]
+
       }
     },
     {
@@ -135,7 +140,7 @@
         "layout": "Underground",
         "longitude": 77.21191,
         "latitude": 28.61474,
-        "stationNumber": ["Y20"]
+        "stationNumber": ["Y20","V07"]
       }
     },
     {
@@ -231,7 +236,7 @@
         "layout": "Elevated",
         "longitude": 77.02197,
         "latitude": 28.61564,
-        "stationNumber": []
+        "stationNumber": ["B09"]
       }
     },
     {
@@ -243,7 +248,7 @@
         "layout": "Elevated",
         "longitude": 77.03326,
         "latitude": 28.61932,
-        "stationNumber": []
+        "stationNumber": ["B10"]
       }
     },
     {
@@ -255,7 +260,7 @@
         "layout": "Elevated",
         "longitude": 77.05682,
         "latitude": 28.58068,
-        "stationNumber": []
+        "stationNumber": ["B4"]
       }
     },
     {
@@ -267,7 +272,7 @@
         "layout": "Elevated",
         "longitude": 77.04929,
         "latitude": 28.58657,
-        "stationNumber": []
+        "stationNumber": ["B05"]
       }
     },
     {
@@ -279,7 +284,7 @@
         "layout": "Elevated",
         "longitude": 77.04051,
         "latitude": 28.59232,
-        "stationNumber": []
+        "stationNumber": ["B06"]
       }
     },
     {
@@ -291,7 +296,7 @@
         "layout": "Elevated",
         "longitude": 77.03326,
         "latitude": 28.59722,
-        "stationNumber": []
+        "stationNumber": ["B07"]
       }
     },
     {
@@ -303,7 +308,7 @@
         "layout": "Elevated",
         "longitude": 77.02588,
         "latitude": 28.60223,
-        "stationNumber": []
+        "stationNumber": ["B08"]
       }
     },
     {
@@ -316,7 +321,7 @@
         "layout": "Underground",
         "longitude": 77.05828,
         "latitude": 28.55226,
-        "stationNumber": []
+        "stationNumber": ["B01","O"]
       }
     },
     {
@@ -328,7 +333,8 @@
         "layout": "Elevated",
         "longitude": 77.06706,
         "latitude": 28.56583,
-        "stationNumber": []
+
+        "stationNumber": ["B02"]
       }
     },
     {
@@ -340,7 +346,8 @@
         "layout": "Elevated",
         "longitude": 77.06454,
         "latitude": 28.57487,
-        "stationNumber": []
+
+        "stationNumber": ["B03"]
       }
     },
     {
@@ -364,7 +371,8 @@
         "layout": "Elevated",
         "longitude": 77.26401,
         "latitude": 28.54451,
-        "stationNumber": []
+
+        "stationNumber": ["V17"]
       }
     },
     {
@@ -487,7 +495,8 @@
         "layout": "Elevated",
         "longitude": 77.24993,
         "latitude": 28.62051,
-        "stationNumber": []
+
+        "stationNumber": ["B33"]
       }
     },
     {
@@ -511,7 +520,8 @@
         "layout": "Elevated",
         "longitude": 77.08669,
         "latitude": 28.63305,
-        "stationNumber": []
+
+        "stationNumber": ["B15"]
       }
     },
     {
@@ -523,7 +533,8 @@
         "layout": "Elevated",
         "longitude": 77.07767,
         "latitude": 28.62943,
-        "stationNumber": []
+
+        "stationNumber": ["B14"]
       }
     },
     {
@@ -533,11 +544,25 @@
           "Violet Line"
         ],
         "layout": "Underground",
-        "longitude": 77.23766,
-        "latitude": 28.58430,
-        "stationNumber": []
+
+        "longitude": 77.239605,
+        "latitude": 28.583287,
+        "stationNumber": ["V11"]
       }
     },
+    {
+    "name": "JanPath",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Underground",
+        "longitude": 77.2144779,
+        "latitude": 28.6232809,
+        "stationNumber": ["V08"]
+      }
+    },
+
     {
       "name": "Jasola Apollo",
       "details": {
@@ -547,7 +572,8 @@
         "layout": "Elevated",
         "longitude": 77.28319,
         "latitude": 28.53824,
-        "stationNumber": []
+
+        "stationNumber": ["V19"]
       }
     },
     {
@@ -559,7 +585,8 @@
         "layout": "Underground",
         "longitude": 77.23326,
         "latitude": 28.59040,
-        "stationNumber": []
+
+        "stationNumber": ["V10"]
       }
     },
     {
@@ -571,7 +598,8 @@
         "layout": "Elevated",
         "longitude": 77.19988,
         "latitude": 28.64427,
-        "stationNumber": []
+
+        "stationNumber": ["B27"]
       }
     },
     {
@@ -607,19 +635,22 @@
         "layout": "Elevated",
         "longitude": 77.24205,
         "latitude": 28.55527,
-        "stationNumber": []
+
+        "stationNumber": ["V14"]
       }
     },
     {
       "name": "Kalkaji Mandir",
       "details": {
         "line": [
-          "Violet Line"
+          "Violet Line",
+            "Magenta Line"
         ],
-        "layout": "Elevated",
+        "layout": "Elevated(VL),Underground(ML)",
         "longitude": 77.25835,
         "latitude": 28.55007,
-        "stationNumber": []
+
+        "stationNumber": ["V16","M"]
       }
     },
     {
@@ -635,7 +666,7 @@
       }
     },
     {
-      "name": "Karkarduma",
+      "name": "Karkar Duma",
       "details": {
         "line": [
           "Blue Line branch"
@@ -643,7 +674,8 @@
         "layout": "Elevated",
         "longitude": 77.30558,
         "latitude": 28.64849,
-        "stationNumber": []
+
+        "stationNumber": ["C05"]
       }
     },
     {
@@ -655,7 +687,8 @@
         "layout": "Elevated",
         "longitude": 77.18855,
         "latitude": 28.64400,
-        "stationNumber": []
+
+        "stationNumber": ["B26"]
       }
     },
     {
@@ -669,7 +702,7 @@
         "layout": "Elevated(RL), Underground(YL),Underground(VL)",
         "longitude": 77.22817,
         "latitude": 28.66750,
-        "stationNumber": ["Y26","R08","V"]
+        "stationNumber": ["Y26","R08","V01"]
       }
     },
     {
@@ -681,7 +714,8 @@
         "layout": "Elevated",
         "longitude": 77.32432,
         "latitude": 28.64544,
-        "stationNumber": []
+
+        "stationNumber": ["C07"]
       }
     },
     {
@@ -705,7 +739,8 @@
         "layout": "Underground",
         "longitude": 77.22829,
         "latitude": 28.60276,
-        "stationNumber": []
+
+        "stationNumber": ["V09"]
       }
     },
     {
@@ -713,12 +748,13 @@
       "details": {
         "line": [
           "Blue Line",
-          "Green Line"
+          "Green Line Branch"
         ],
         "layout": "Elevated",
         "longitude": 77.15057,
         "latitude": 28.65575,
-        "stationNumber": []
+
+        "stationNumber": ["B22","H03"]
       }
     },
     {
@@ -742,7 +778,8 @@
         "layout": "Elevated",
         "longitude": 77.23653,
         "latitude": 28.57079,
-        "stationNumber": []
+
+        "stationNumber": ["V12"]
       }
     },
     {
@@ -754,7 +791,8 @@
         "layout": "Elevated",
         "longitude": 77.27749,
         "latitude": 28.63064,
-        "stationNumber": []
+
+        "stationNumber": ["C02"]
       }
     },
     {
@@ -766,7 +804,8 @@
         "layout": "Elevated",
         "longitude": 77.11965,
         "latitude": 28.67734,
-        "stationNumber": []
+
+        "stationNumber": ["G05"]
       }
     },
     {
@@ -785,12 +824,14 @@
       "name": "Mandi House",
       "details": {
         "line": [
-          "Blue Line"
+          "Blue Line",
+            "Violet Line"
         ],
         "layout": "Underground",
         "longitude": 77.23410,
         "latitude": 28.62588,
-        "stationNumber": []
+
+        "stationNumber": ["B31","V06"]
       }
     },
     {
@@ -814,7 +855,8 @@
         "layout": "Elevated",
         "longitude": 77.28925,
         "latitude": 28.60442,
-        "stationNumber": []
+
+        "stationNumber": ["B36"]
       }
     },
     {
@@ -826,7 +868,8 @@
         "layout": "Elevated",
         "longitude": 77.29455,
         "latitude": 28.59428,
-        "stationNumber": []
+
+        "stationNumber": ["B37"]
       }
     },
     {
@@ -862,7 +905,8 @@
         "layout": "Elevated",
         "longitude": 77.29388,
         "latitude": 28.51938,
-        "stationNumber": []
+
+        "stationNumber": ["V21"]
       }
     },
     {
@@ -874,7 +918,8 @@
         "layout": "Elevated",
         "longitude": 77.23423,
         "latitude": 28.56417,
-        "stationNumber": []
+
+        "stationNumber": ["V13"]
       }
     },
     {
@@ -886,7 +931,8 @@
         "layout": "Elevated",
         "longitude": 77.14248,
         "latitude": 28.65784,
-        "stationNumber": []
+
+        "stationNumber": ["B21"]
       }
     },
     {
@@ -898,9 +944,95 @@
         "layout": "Elevated",
         "longitude": 77.03133,
         "latitude": 28.68321,
-        "stationNumber": []
+
+        "stationNumber": ["G14"]
       }
     },
+    {
+      "name": "Mundka Industrial Area",
+      "details": {
+        "line": [
+          "Green Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.017152,
+        "latitude": 28.683525,
+        "stationNumber": ["G15"]
+      }
+    },
+    {
+      "name": "Gherva Metro Station",
+      "details": {
+        "line": [
+          "Green Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 76.996167,
+        "latitude": 28.685245,
+        "stationNumber": ["G16"]
+      }
+    },
+    {
+      "name": "Tikri Kalan",
+      "details": {
+        "line": [
+          "Green Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 76.977395,
+        "latitude": 28.686902,
+        "stationNumber": ["G17"]
+      }
+    },
+    {
+      "name": "Tikri Border",
+      "details": {
+        "line": [
+          "Green Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 76.964168,
+        "latitude": 28.687978,
+        "stationNumber": ["G18"]
+      }
+    },
+    {
+      "name": "Modern Industrail Estate",
+      "details": {
+        "line": [
+          "Green Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 76.951029,
+        "latitude": 28.689279,
+        "stationNumber": ["G19"]
+      }
+    },
+    {
+      "name": "Bus Stand",
+      "details": {
+        "line": [
+          "Green Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 76.935277,
+        "latitude": 28.690777,
+        "stationNumber": ["G20"]
+      }
+    },  
+    {
+      "name": "Bahadurgarh City Park",
+      "details": {
+        "line": [
+          "Green Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 76.919388,
+        "latitude": 28.697357,
+        "stationNumber": ["G21"]
+      }
+    },
+      
     {
       "name": "Nangloi",
       "details": {
@@ -910,7 +1042,8 @@
         "layout": "Elevated",
         "longitude": 77.06471,
         "latitude": 28.68231,
-        "stationNumber": []
+
+        "stationNumber": ["G11"]
       }
     },
     {
@@ -922,7 +1055,8 @@
         "layout": "Elevated",
         "longitude": 77.05596,
         "latitude": 28.68208,
-        "stationNumber": []
+
+        "stationNumber": ["G12"]
       }
     },
     {
@@ -934,7 +1068,8 @@
         "layout": "Elevated",
         "longitude": 77.04514,
         "latitude": 28.62025,
-        "stationNumber": []
+
+        "stationNumber": ["B11"]
       }
     },
     {
@@ -946,7 +1081,8 @@
         "layout": "Elevated",
         "longitude": 77.25154,
         "latitude": 28.55148,
-        "stationNumber": []
+
+        "stationNumber": ["V15"]
       }
     },
     {
@@ -971,7 +1107,7 @@
         "longitude": 77.30204,
         "latitude": 28.58916,
 
-        "stationNumber": []
+        "stationNumber": ["B38"]
       }
     },
     {
@@ -996,7 +1132,8 @@
         "layout": "Elevated",
         "longitude": 77.28683,
         "latitude": 28.63663,
-        "stationNumber": []
+
+        "stationNumber": ["C03"]
       }
     },
     {
@@ -1008,11 +1145,12 @@
         "layout": "Elevated",
         "longitude": 77.35608,
         "latitude": 28.57466,
-        "stationNumber": []
+
+        "stationNumber": ["B44"]
       }
     },
     {
-      "name": "Noida Golf Course",
+      "name": "Golf Course",
       "details": {
         "line": [
           "Blue Line"
@@ -1020,8 +1158,9 @@
         "layout": "Elevated",
         "longitude": 77.34598,
         "latitude": 28.56714,
-        "stationNumber": []
-      }
+
+        "stationNumber": ["B43"]
+    }
     },
     {
       "name": "Noida Sector 15",
@@ -1032,7 +1171,8 @@
         "layout": "Elevated",
         "longitude": 77.31139,
         "latitude": 28.58512,
-        "stationNumber": []
+
+        "stationNumber": ["B39"]
       }
     },
     {
@@ -1044,7 +1184,8 @@
         "layout": "Elevated",
         "longitude": 77.31757,
         "latitude": 28.57819,
-        "stationNumber": []
+
+        "stationNumber": ["B40"]
       }
     },
     {
@@ -1056,7 +1197,8 @@
         "layout": "Elevated",
         "longitude": 77.32612,
         "latitude": 28.57081,
-        "stationNumber": []
+
+        "stationNumber": ["B41"]
       }
     },
     {
@@ -1068,7 +1210,8 @@
         "layout": "Elevated",
         "longitude": 77.27504,
         "latitude": 28.54292,
-        "stationNumber": []
+
+        "stationNumber": ["V18"]
       }
     },
     {
@@ -1080,7 +1223,8 @@
         "layout": "Elevated",
         "longitude": 77.11228,
         "latitude": 28.67730,
-        "stationNumber": []
+
+        "stationNumber": ["G06"]
       }
     },
     {
@@ -1092,7 +1236,8 @@
         "layout": "Elevated",
         "longitude": 77.10227,
         "latitude": 28.67855,
-        "stationNumber": []
+
+        "stationNumber": ["G07"]
       }
     },
     {
@@ -1116,7 +1261,8 @@
         "layout": "Elevated",
         "longitude": 77.16929,
         "latitude": 28.64498,
-        "stationNumber": []
+
+        "stationNumber": ["B24"]
       }
     },
     {
@@ -1128,7 +1274,8 @@
         "layout": "Elevated",
         "longitude": 77.09261,
         "latitude": 28.67959,
-        "stationNumber": []
+
+        "stationNumber": ["G08"]
       }
     },
     {
@@ -1152,7 +1299,8 @@
         "layout": "Elevated",
         "longitude": 77.24250,
         "latitude": 28.62342,
-        "stationNumber": []
+
+        "stationNumber": ["B32"]
       }
     },
     {
@@ -1176,7 +1324,8 @@
         "layout": "Elevated",
         "longitude": 77.29543,
         "latitude": 28.64171,
-        "stationNumber": []
+
+        "stationNumber": ["C04"]
       }
     },
     {
@@ -1192,7 +1341,8 @@
       }
     },
     {
-      "name": "Punjabi Bagh East",
+
+      "name": "Punjabi Bagh",
       "details": {
         "line": [
           "Green Line"
@@ -1201,7 +1351,7 @@
         "longitude": 77.14614,
         "latitude": 28.67289,
 
-        "stationNumber": ["G3"]
+        "stationNumber": ["G03"]
       }
     },
     {
@@ -1237,7 +1387,8 @@
         "layout": "Elevated",
         "longitude": 77.04381,
         "latitude": 28.68221,
-        "stationNumber": []
+
+        "stationNumber": ["G13"]
       }
     },
     {
@@ -1249,7 +1400,8 @@
         "layout": "Elevated",
         "longitude": 77.17815,
         "latitude": 28.64250,
-        "stationNumber": []
+
+        "stationNumber": ["B25"]
       }
     },
     {
@@ -1262,19 +1414,21 @@
         "layout": "Underground",
         "longitude": 77.21826,
         "latitude": 28.63282,
-        "stationNumber": ["Y22","B"]
+        "stationNumber": ["Y22","B29"]
       }
     },
     {
       "name": "Rajouri Garden",
       "details": {
         "line": [
-          "Blue Line"
+          "Blue Line",
+            "Pink Line"
         ],
         "layout": "Elevated",
         "longitude": 77.12270,
         "latitude": 28.64902,
-        "stationNumber": []
+
+        "stationNumber": ["B19","P"]
       }
     },
     {
@@ -1286,7 +1440,8 @@
         "layout": "Elevated",
         "longitude": 77.20840,
         "latitude": 28.63923,
-        "stationNumber": []
+
+        "stationNumber": ["B28"]
       }
     },
     {
@@ -1298,7 +1453,8 @@
         "layout": "Elevated",
         "longitude": 77.13164,
         "latitude": 28.65274,
-        "stationNumber": []
+
+        "stationNumber": ["B20"]
       }
     },
     {
@@ -1358,19 +1514,21 @@
         "layout": "Elevated",
         "longitude": 77.28826,
         "latitude": 28.52878,
-        "stationNumber": []
+
+        "stationNumber": ["V20"]
       }
     },
     {
       "name": "Satguru Ramsingh Marg",
       "details": {
         "line": [
-          "Green Line branch"
+          "Green Line Branch"
         ],
         "layout": "Elevated",
         "longitude": 77.15748,
         "latitude": 28.66199,
-        "stationNumber": []
+
+        "stationNumber": ["H02"]
       }
     },
     {
@@ -1394,7 +1552,8 @@
         "layout": "Elevated",
         "longitude": 77.15824,
         "latitude": 28.65160,
-        "stationNumber": []
+
+        "stationNumber": ["B23"]
       }
     },
     {
@@ -1442,7 +1601,8 @@
         "layout": "Elevated",
         "longitude": 77.13056,
         "latitude": 28.67490,
-        "stationNumber": []
+
+        "stationNumber": ["G04"]
       }
     },
     {
@@ -1479,7 +1639,8 @@
         "layout": "Elevated",
         "longitude": 77.10495,
         "latitude": 28.64039,
-        "stationNumber": []
+
+        "stationNumber": ["B17"]
       }
     },
     {
@@ -1503,7 +1664,8 @@
         "layout": "Elevated",
         "longitude": 77.07385,
         "latitude": 28.68180,
-        "stationNumber": []
+
+        "stationNumber": ["G10"]
       }
     },
     {
@@ -1515,7 +1677,8 @@
         "layout": "Elevated",
         "longitude": 77.11284,
         "latitude": 28.64379,
-        "stationNumber": []
+
+        "stationNumber": ["B18"]
       }
     },
     {
@@ -1527,7 +1690,8 @@
         "layout": "Elevated",
         "longitude": 77.09648,
         "latitude": 28.63657,
-        "stationNumber": []
+
+        "stationNumber": ["B16"]
       }
     },
     {
@@ -1551,8 +1715,9 @@
         "layout": "Elevated",
         "longitude": 77.29930,
         "latitude": 28.50254,
-        "stationNumber": []
-      }
+
+        "stationNumber": ["V22"]
+    }
     },
     {
       "name": "Udyog Bhawan",
@@ -1575,7 +1740,8 @@
         "layout": "Elevated",
         "longitude": 77.08077,
         "latitude": 28.68090,
-        "stationNumber": []
+
+        "stationNumber": ["G09"]
       }
     },
     {
@@ -1587,7 +1753,8 @@
         "layout": "Elevated",
         "longitude": 77.06530,
         "latitude": 28.62481,
-        "stationNumber": []
+
+        "stationNumber": ["B13"]
       }
     },
     {
@@ -1599,7 +1766,8 @@
         "layout": "Elevated",
         "longitude": 77.05585,
         "latitude": 28.62177,
-        "stationNumber": []
+
+        "stationNumber": ["B12"]
       }
     },
     {
@@ -1611,7 +1779,8 @@
         "layout": "Elevated",
         "longitude": 77.33974,
         "latitude": 28.64997,
-        "stationNumber": []
+
+        "stationNumber": ["C08"]
       }
     },
     {
@@ -1687,15 +1856,174 @@
       }
     },
     {
+      "name": "Lal Quila",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Underground",
+        "longitude": 77.2366112,
+        "latitude": 28.656682,
+        "stationNumber": ["V02"]
+      }
+    },
+    {
+      "name": "Jama Masjid",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Underground",
+        "longitude": 77.237577,
+        "latitude": 28.650157,
+        "stationNumber": ["V03"]
+      }
+    },
+    {
+      "name": "Delhi Gate",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Underground",
+        "longitude": 77.240139,
+        "latitude": 28.639731,
+        "stationNumber": ["V03"]
+      }
+    },
+    {
+      "name": "ITO",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Underground",
+        "longitude": 77.241147,
+        "latitude": 28.628395,
+        "stationNumber": ["V05"]
+      }
+    },
+    {
+      "name": "Sarai",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.304859,
+        "latitude": 28.478064,
+        "stationNumber": ["V24"]
+      }
+    },
+    {
+      "name": "NHPC Chowk",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.307422,
+        "latitude": 28.45766,
+        "stationNumber": ["V25"]
+      }
+    },
+    {
+      "name": "Mewala Maharajpur",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.30813,
+        "latitude": 28.448495,
+        "stationNumber": ["V26"]
+      }
+    },
+    {
+      "name": "Sector 28",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.309096,
+        "latitude": 28.438325,
+        "stationNumber": ["V27"]
+      }
+    },
+    {
+      "name": "Manav Rachna Badkhal Mor",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.319278,
+        "latitude": 28.422778,
+        "stationNumber": ["V28"]
+      }
+    },
+    {
+      "name": "Old Faridabad",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.311389,
+        "latitude": 28.410833,
+        "stationNumber": ["V29"]
+      }
+    },
+    {
+      "name": "Neelam Chowk Ajronda",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.3124,
+        "latitude": 28.3978,
+        "stationNumber": ["V30"]
+      }
+    },
+    {
+      "name": "Bata Chowk",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.386052,
+        "latitude": 28.313441,
+        "stationNumber": ["V31"]
+      }
+    },
+    {
+      "name": "Escorts Mujesar",
+      "details": {
+        "line": [
+          "Violet Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.314954,
+        "latitude": 28.370081,
+        "stationNumber": ["V32"]
+      }
+    },
+    {
       "name": "Yamuna Bank",
       "details": {
         "line": [
-          "Blue Line"
+          "Blue Line Branch",
+            "Blue Line"
         ],
         "layout": "At-Grade",
-        "longitude": 77.26792,
-        "latitude": 28.62331,
-        "stationNumber": []
+
+        "longitude": 77.260113,
+        "latitude": 28.620999,
+        "stationNumber": ["C01","B34"]
+
       }
     }
   ]
