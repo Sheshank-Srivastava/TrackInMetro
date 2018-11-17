@@ -6,6 +6,7 @@ import android.example.com.trackinmetro.adapter.LastTripAdapter;
 import android.example.com.trackinmetro.model.LastTripModel;
 import android.example.com.trackinmetro.utilities.Constants;
 import android.os.Bundle;
+import android.provider.SyncStateContract;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public static ArrayList<String> tempStationName;
     ArrayList<LastTripModel> mdata;
     int backPressedLook = Constants.EXIT_KEY;
-    String sourceName,destination;
+    String sourceName, destination;
     RecyclerView recLastTrip;
     /**
      * Delete AnyTime
@@ -74,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         /**
          * getList Of Station
          */
+        Log.d("GetData","Data as Json");
         getData();
         tempStationName = new ArrayList<>(stationName);
         for (int i = 0; i < tempStationName.size(); i++) {
@@ -111,8 +113,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         txtSource.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-txtSource.setFocusableInTouchMode(true);
-                Log.d("SourceText",txtSource.isFocusable()+"");
+                txtSource.setFocusableInTouchMode(true);
+                Log.d("SourceText", txtSource.isFocusable() + "");
             }
         });
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_singlechoice, stationName);
@@ -132,45 +134,46 @@ txtSource.setFocusableInTouchMode(true);
             @Override
             public void onClick(View view) {
 
-             boolean checkField = checkFieldsCorrectness();
-              if(checkField){
-                Intent intent = new Intent(MainActivity.this,LastTripsActivity.class);
-                intent.putExtra("source",txtSource.getText()+"");
-                intent.putExtra("destination",txtDestination.getText()+"");
-                startActivity(intent);
-            }else{
-                  Toast.makeText(MainActivity.this, "Fields Data Incorrect", Toast.LENGTH_SHORT).show();
-              }
+                boolean checkField = checkFieldsCorrectness();
+                if (checkField) {
+                    Intent intent = new Intent(MainActivity.this, LastTripsActivity.class);
+                    intent.putExtra("source", txtSource.getText() + "");
+                    intent.putExtra("destination", txtDestination.getText() + "");
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(MainActivity.this, "Fields Data Incorrect", Toast.LENGTH_SHORT).show();
+                }
             }
         });
         /**
          * Recycler View
          */
         mdata = new ArrayList<>();
-        mdata.add(new LastTripModel("Preet Vihar","Pul Bangash"));
-        mdata.add(new LastTripModel("Qutab Minar","Rajdhani Park"));
-        mdata.add(new LastTripModel("Ramesh Nagar","Rohini West"));
-        mdata.add(new LastTripModel("Satguru Ramsingh Marg","Shadipur"));
-        mdata.add(new LastTripModel("Preet Vihar","Rajouri Garden"));
-         recLastTrip.setHasFixedSize(true);
-         recLastTrip.setLayoutManager(new LinearLayoutManager(MainActivity.this));
-         recLastTrip.setAdapter(new LastTripAdapter(MainActivity.this,mdata));
+        mdata.add(new LastTripModel("Preet Vihar", "Pul Bangash"));
+        mdata.add(new LastTripModel("Qutab Minar", "Rajdhani Park"));
+        mdata.add(new LastTripModel("Ramesh Nagar", "Rohini West"));
+        mdata.add(new LastTripModel("Satguru Ramsingh Marg", "Shadipur"));
+        mdata.add(new LastTripModel("Preet Vihar", "Rajouri Garden"));
+        recLastTrip.setHasFixedSize(true);
+        recLastTrip.setLayoutManager(new LinearLayoutManager(MainActivity.this));
+        recLastTrip.setAdapter(new LastTripAdapter(MainActivity.this, mdata));
     }
 
     /**
      * Check Weather Fields are with Correct Data or not
+     *
      * @return
      */
     private boolean checkFieldsCorrectness() {
         sourceName = txtSource.getText().toString().trim();
         destination = txtDestination.getText().toString().trim();
-        if(!(sourceName.isEmpty())&&!(destination.isEmpty())){
-                if(tempStationName.contains(sourceName)&&tempStationName.contains(destination)){
-                    Log.d("DataIsCorrect","Data Found"+"// "+ sourceName+"// "+ destination);
-                    return true;
-                }
+        if (!(sourceName.isEmpty()) && !(destination.isEmpty())) {
+            if (tempStationName.contains(sourceName) && tempStationName.contains(destination)) {
+                Log.d("DataIsCorrect", "Data Found" + "// " + sourceName + "// " + destination);
+                return true;
+            }
         }
-        return  false;
+        return false;
     }
 
     @Override
@@ -204,11 +207,11 @@ txtSource.setFocusableInTouchMode(true);
             startActivity(new Intent(MainActivity.this, MapActivity.class));
         } else if (id == R.id.firstLast_menu) {
             startActivity(new Intent(MainActivity.this, FirstLastActivity.class));
-        }else if (id == R.id.logout_menu) {
+        } else if (id == R.id.logout_menu) {
 //            startActivity(new Intent(MainActivity.this, AboutActivity.class));
 //            SplashActivity.splash_once = 0;
             finish();
-        }else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_share) {
             Intent share = new Intent(android.content.Intent.ACTION_SEND);
             share.setType("text/plain");
             share.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
@@ -219,7 +222,7 @@ txtSource.setFocusableInTouchMode(true);
             share.putExtra(Intent.EXTRA_TEXT, "https://www.youtube.com/");
 
             startActivity(Intent.createChooser(share, "Share App"));
-        }else if (id == R.id.nav_about) {
+        } else if (id == R.id.nav_about) {
             startActivity(new Intent(MainActivity.this, AboutActivity.class));
         }
         drawerLayout.closeDrawer(GravityCompat.START);
@@ -240,14 +243,15 @@ txtSource.setFocusableInTouchMode(true);
             is.close();
 
             json = new String(buffer, "UTF-8");
-            json = json.replace("\n","");
-            json = json.replace(" ","");
-            Log.d("JsonData",json+"======================");
-
-            JSONArray jsonArray = new JSONArray(json);
+            json = json.replace("\n", "");
+            json = json.replace(" ", "");
+            Log.d("JsonData", json + "======================");
+            JSONObject firstObject = new JSONObject(json);
+            JSONArray jsonArray = firstObject.getJSONArray("stationLine");
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject obj = jsonArray.getJSONObject(i);
                 stationName.add(obj.getString("name") + "");
+
             }
         } catch (IOException e) {
             e.printStackTrace();
