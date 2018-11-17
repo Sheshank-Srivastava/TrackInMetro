@@ -47,9 +47,12 @@ public class LastTripsActivity extends AppCompatActivity {
         /**
          * Intent Data
          */
+        Log.d("Intent", "Befor Intent");
         Intent intent = getIntent();
         sourceName = intent.getStringExtra("source");
         destinationName = intent.getStringExtra("destination");
+        Log.d("Intent", "After Intent" + sourceName + "==" + destinationName);
+
         /**
          * Component
          */
@@ -67,9 +70,10 @@ public class LastTripsActivity extends AppCompatActivity {
 
     private void intiComponent() {
         actionBar.setTitle("Last Trips");
+        dataRecycler();
         txtSource.setText(sourceName);
         txtDestination.setText(destinationName);
-        openDelay();
+//        openDelay();
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_singlechoice, mdata);
         //Find TextView control
 
@@ -84,21 +88,21 @@ public class LastTripsActivity extends AppCompatActivity {
         butFind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                fillRecycler();
             }
         });
-        dataRecycler();
-
-// -----------------------------------------------------------------------------------------------------------------------------------------
-//        if (!sourceName.equals("") && !destinationName.equals("")) {
-        fillRecycler();
-//        }
+// -------------------------------------------------------------------------------------------------
+        if (sourceName != null && destinationName != null) {
+            fillRecycler();
+        }
     }
 
     public void fillRecycler() {
         listData.clear();
+        Log.d("SourceName",  "1");
 
         if (!txtSource.getText().equals("") && !txtDestination.getText().equals("")) {
+            Log.d("SourceName", "2");
 
             for (int i = 0; i < stationData.size(); i++) {
                 if (stationData.get(i).getStationName().replace(" ", "").equals(sourceName)) {
@@ -194,13 +198,16 @@ public class LastTripsActivity extends AppCompatActivity {
                 String sName = obj.getString("name") + "";
                 String sCode = "";
                 JSONArray stationCode = no.getJSONArray("stationNumber");
-               Log.d("StationCode",stationCode.length()+"hello");
-                if(stationCode.length()>0) {
-                   Log.d("JsonData", stationCode.getString(0).charAt(0) +" Data Here" + jsonArray.length());
-               }
-                if ((stationCode.getString(0).charAt(0)+"") != "Y") {
+                Log.d("StationCode", stationCode.length() + "hello");
+                if (stationCode.length() > 0) {
+                    Log.d("JsonData", stationCode.getString(0).charAt(0) + " Data Here" + jsonArray.length());
+                }
+                if ((stationCode.getString(0).charAt(0) + "") != "Y") {
 //                    sCode = no.getString("stationNumber") + "";
-                    sCode = stationCode.getString(0)+"";
+                    sCode = stationCode.getString(0) + "";
+                    for(int j = 0 ;j<stationCode.length();j++){
+
+                    }
                     stationData.add(new RouteListModel(sName, sCode));
                     Log.d("StationData", sName + "-" + sCode);
                 }
@@ -216,9 +223,6 @@ public class LastTripsActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-//    public void sortListOFMetro(){
-//
-//    }
 
     public class SortByName implements Comparator<RouteListModel> {
         @Override

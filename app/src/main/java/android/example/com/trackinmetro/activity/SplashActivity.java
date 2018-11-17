@@ -10,7 +10,7 @@ import android.view.animation.AnimationUtils;
 
 
 public class SplashActivity extends AppCompatActivity {
-public static int splash_once = 0;
+    public static int splash_once = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +36,6 @@ public static int splash_once = 0;
     protected void onResume() {
         super.onResume();
         if(splash_once == 1)
-        finish();
+            finish();
     }
 }
