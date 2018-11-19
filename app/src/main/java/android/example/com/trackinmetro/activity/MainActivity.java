@@ -250,7 +250,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject obj = jsonArray.getJSONObject(i);
                 stationName.add(obj.getString("name") + "");
-
+//                Log.d("JsonData1", obj.getJSONObject("details").getJSONArray("stationNumber").length()+"Hello"+i+obj.getString("name"));
+//                for(int j=0;j<obj.getJSONObject("details").getJSONArray("stationNumber").length();j++){
+//                    Log.d("JsonData1", obj.getJSONObject("details").getJSONArray("stationNumber").getString(j)+"");
+//
+//                }
             }
         } catch (IOException e) {
             e.printStackTrace();

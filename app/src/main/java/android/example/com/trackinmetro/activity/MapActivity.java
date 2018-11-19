@@ -14,10 +14,10 @@ import uk.co.senab.photoview.PhotoViewAttacher;
 
 public class MapActivity extends AppCompatActivity {
     ActionBar actionBar;
-   Matrix matrix;
-   Float scale = 1f;
-   ScaleGestureDetector SGD;
-   ImageView imgMetroMap;
+    Matrix matrix;
+    Float scale = 1f;
+    ScaleGestureDetector SGD;
+    ImageView imgMetroMap;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

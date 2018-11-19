@@ -1,15 +1,12 @@
 package android.example.com.trackinmetro.activity;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.example.com.trackinmetro.R;
 import android.example.com.trackinmetro.adapter.ListRouteAdapter;
 import android.example.com.trackinmetro.model.RouteListModel;
-import android.os.Handler;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -17,7 +14,6 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,8 +22,6 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.Comparator;
 
 public class LastTripsActivity extends AppCompatActivity {
@@ -36,7 +30,7 @@ public class LastTripsActivity extends AppCompatActivity {
     AutoCompleteTextView txtSource, txtDestination;
     ImageView butFind;
     int sourceCode = 0, destinationCode = 0;
-    ArrayList<String> mdata;
+    ArrayList<String> mdata, listOfCode;
     ArrayList<RouteListModel> stationData, listData;
     RecyclerView recyclerView;
 
@@ -70,10 +64,9 @@ public class LastTripsActivity extends AppCompatActivity {
 
     private void intiComponent() {
         actionBar.setTitle("Last Trips");
-        dataRecycler();
         txtSource.setText(sourceName);
         txtDestination.setText(destinationName);
-//        openDelay();
+
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_singlechoice, mdata);
         //Find TextView control
 
@@ -84,14 +77,13 @@ public class LastTripsActivity extends AppCompatActivity {
         txtDestination.setThreshold(1);
         //Set the adapter
         txtDestination.setAdapter(adapter);
-
+        dataRecycler();
         butFind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 fillRecycler();
             }
         });
-// -------------------------------------------------------------------------------------------------
         if (sourceName != null && destinationName != null) {
             fillRecycler();
         }
@@ -99,84 +91,64 @@ public class LastTripsActivity extends AppCompatActivity {
 
     public void fillRecycler() {
         listData.clear();
-        Log.d("SourceName",  "1");
+        Log.d("SourceName", "1");
 
         if (!txtSource.getText().equals("") && !txtDestination.getText().equals("")) {
             Log.d("SourceName", "2");
 
             for (int i = 0; i < stationData.size(); i++) {
-                if (stationData.get(i).getStationName().replace(" ", "").equals(sourceName)) {
-                    sourceCode = Integer.parseInt(stationData.get(i).getStationCode().replace("Y", ""));
-                    Log.d("SourceName", sourceCode + "");
+              RouteListModel model = stationData.get(i);
+                Log.d("SourceName", model.getStationName().replace(" ", "")+ "hola "+i+"destination");
+
+                if (model.getStationName().replace(" ", "").equals(sourceName)) {
+//                    sourceCode = Integer.parseInt(stationData.get(i).getStationCode().replace("Y", ""));
+                    if(model.getStationCode().size() == 1){
+                        sourceCode = Integer.parseInt(model.getStationCode().get(0).substring(1)+"");
+                        Log.d("SourceName111", sourceCode + "=="+model.getStationName()+"///"+model.getStationCode().get(0).charAt(0));
+
+                    }
+                    if (model.getStationCode().size() > 1){
+
+                    }
                 }
 
                 if (stationData.get(i).getStationName().replace(" ", "").equals(destinationName)) {
-                    destinationCode = Integer.parseInt(stationData.get(i).getStationCode().replace("Y", ""));
+//                    destinationCode = Integer.parseInt(stationData.get(i).getStationCode().replace("Y", ""));
                     Log.d("destinationName", destinationCode + "");
 
                 }
+
             }
         }
         Log.d("StationAndDes", sourceCode + "==" + destinationCode);
-
-        if (sourceCode > destinationCode) {
-            Log.d("StationAndDes", "sourceCode>destinationCode");
-            Log.d("StationAndDes", sourceCode + "sourceCode>destinationCode");
-            Log.d("StationAndDes", destinationCode + "sourceCode>destinationCode");
-            for (int i = sourceCode - 1; i >= destinationCode - 1; i--) {
-                listData.add(stationData.get(i));
-            }
-        } else {
-            Log.d("StationAndDes", "sourceCode<destinationCode");
-            Log.d("StationAndDes", sourceCode + "sourceCode<destinationCode");
-            Log.d("StationAndDes", destinationCode + "sourceCode<destinationCode");
-            for (int i = sourceCode - 1; i <= destinationCode - 1; i++) {
-                Log.d("StationList", stationData.get(i + 1) + "====" + stationData.get(i + 1).getStationName());
-                listData.add(stationData.get(i));
-
-            }
-        }
-        for (int i = 0; i < listData.size(); i++) {
-            Log.d("newStationData", listData.get(i).getStationName() + "");
-        }
-        RecyclerView recyclerView = findViewById(R.id.recRouteToShow);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(LastTripsActivity.this));
-        recyclerView.setAdapter(new ListRouteAdapter(LastTripsActivity.this, listData));
-    }
-
-    public void openDelay() {
-        final AlertDialog.Builder dialog = new AlertDialog.Builder(this).setTitle("Leaving launcher").setMessage("Are you sure you want to leave the launcher?");
-        dialog.setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int whichButton) {
-//                exitLauncher();
-            }
-        });
-        final AlertDialog alert = dialog.create();
-        alert.show();
-
-// Hide after some seconds
-        final Handler handler = new Handler();
-        final Runnable runnable = new Runnable() {
-            @Override
-            public void run() {
-                if (alert.isShowing()) {
-                    alert.dismiss();
-                }
-            }
-        };
-
-        alert.setOnDismissListener(new DialogInterface.OnDismissListener() {
-            @Override
-            public void onDismiss(DialogInterface dialog) {
-                handler.removeCallbacks(runnable);
-            }
-        });
-
-        handler.postDelayed(runnable, 10000);
-
-
+//
+//        if (sourceCode > destinationCode) {
+//            Log.d("StationAndDes", "sourceCode>destinationCode");
+//            Log.d("StationAndDes", sourceCode + "sourceCode>destinationCode");
+//            Log.d("StationAndDes", destinationCode + "sourceCode>destinationCode");
+//            for (int i = sourceCode - 1; i >= destinationCode - 1; i--) {
+//                listData.add(stationData.get(i));
+//            }
+//        } else {
+//            Log.d("StationAndDes", "sourceCode<destinationCode");
+//            Log.d("StationAndDes", sourceCode + "sourceCode<destinationCode");
+//            Log.d("StationAndDes", destinationCode + "sourceCode<destinationCode");
+//            for (int i = sourceCode - 1; i <= destinationCode - 1; i++) {
+//                Log.d("StationList", stationData.get(i + 1) + "====" + stationData.get(i + 1).getStationName());
+//                listData.add(stationData.get(i));
+//
+//            }
+//        }
+//        for (int i = 0; i < listData.size(); i++) {
+//            Log.d("newStationData", listData.get(i).getStationName() + "");
+//        }
+//        if (listData.size() > 0) {
+//            RecyclerView recyclerView = findViewById(R.id.recRouteToShow);
+//            recyclerView.setHasFixedSize(true);
+//            recyclerView.setLayoutManager(new LinearLayoutManager(LastTripsActivity.this));
+//            recyclerView.setAdapter(new ListRouteAdapter(LastTripsActivity.this, listData));
+//
+//        }
     }
 
     public void dataRecycler() {
@@ -192,30 +164,28 @@ public class LastTripsActivity extends AppCompatActivity {
             Log.d("JsonData", json + "");
             JSONObject firstObject = new JSONObject(json);
             JSONArray jsonArray = firstObject.getJSONArray("stationLine");
-            for (int i = 0; i < jsonArray.length(); i++) {
-                JSONObject obj = jsonArray.getJSONObject(i);
-                JSONObject no = obj.getJSONObject("details");
-                String sName = obj.getString("name") + "";
-                String sCode = "";
-                JSONArray stationCode = no.getJSONArray("stationNumber");
-                Log.d("StationCode", stationCode.length() + "hello");
-                if (stationCode.length() > 0) {
-                    Log.d("JsonData", stationCode.getString(0).charAt(0) + " Data Here" + jsonArray.length());
-                }
-                if ((stationCode.getString(0).charAt(0) + "") != "Y") {
-//                    sCode = no.getString("stationNumber") + "";
-                    sCode = stationCode.getString(0) + "";
-                    for(int j = 0 ;j<stationCode.length();j++){
+            /**
+             * Filling Data for StationData List
+             */
+            Log.d("JsonData", jsonArray.length() + "");
 
-                    }
-                    stationData.add(new RouteListModel(sName, sCode));
-                    Log.d("StationData", sName + "-" + sCode);
-                }
+            for(int i=0;i<jsonArray.length();i++){
+                /**
+                 *  Data
+                 */
+                Log.d("JsonData", i + "");
 
-            }
-            Collections.sort(stationData, new SortByName());
-            for (int i = 0; i < stationData.size(); i++) {
-                Log.d("AfterStationData", stationData.get(i).getStationName() + "-" + stationData.get(i).getStationCode());
+                JSONObject arrayObject = jsonArray.getJSONObject(i) ;
+                JSONObject detailObject =  arrayObject.getJSONObject("details");
+                JSONArray statNumberArray = detailObject.getJSONArray("stationNumber");
+                String name = arrayObject.getString("name");
+                ArrayList<String> statCodes = new ArrayList<>();
+                for(int j=0;j<statNumberArray.length();j++){
+                    statCodes.add(statNumberArray.get(j)+"");
+                    Log.d("StationCodeList",statNumberArray.get(j)+"--"+i);
+                }
+                stationData.add(new RouteListModel(name,statCodes));
+
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -227,7 +197,7 @@ public class LastTripsActivity extends AppCompatActivity {
     public class SortByName implements Comparator<RouteListModel> {
         @Override
         public int compare(RouteListModel routeListModel, RouteListModel t1) {
-            return routeListModel.getStationCode().compareTo(t1.getStationCode());
+            return /*routeListModel.getStationCode().compareTo(t1.getStationCode())*/0;
         }
     }
 }
