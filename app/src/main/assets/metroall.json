@@ -1,6 +1,6 @@
 {
   "res": "1",
-  "colorCode":"Y_yellow,B_Blue_line1_Dwarka21ToNoidaCityCenter,C_Blue_line2_YamunaToVaishali,R_red,G_Green_Line1_interLokToMundka,H_Green_Line2_At_AshokParkToKirtiNgr,V_violet,O_Orange_AirportExpress,M_magenta,P_pink,S_Yellow_Rapid",
+  "colorCode":"Y_yellow,B_Blue_line1_Dwarka21ToNoidaCityCenter,C_Blue_line2_YamunaToVaishali,R_red,G_Green_Line1_interLokToMundka,H_Green_Line2_At_AshokParkToKirtiNgr,V_violet,O_Orange_AirportExpress,M_magenta,P_pinkLine,S_Rapid_Line",
   "stationLine": [
     {
       "name": "Adarsh Nagar",
@@ -86,9 +86,9 @@
             "Pink Line"
         ],
         "layout": "Elevated(YL),Underground(PL)",
-        "longitude": 77.18053,
-        "latitude": 28.70696,
-        "stationNumber": ["Y32","P"]
+        "longitude": 77.17994,
+        "latitude": 28.707273,
+        "stationNumber": ["Y32","P02"]
       }
     },
     {
@@ -192,7 +192,7 @@
       }
     },
     {
-      "name": "Delhi Aerocity",
+      "name": "Delhi Aero City",
       "details": {
         "line": [
           "Airport Express"
@@ -200,7 +200,7 @@
         "layout": "Underground",
         "longitude": 77.12092,
         "latitude": 28.54881,
-        "stationNumber": []
+        "stationNumber": ["O04"]
       }
     },
     {
@@ -212,7 +212,7 @@
         "layout": "Elevated",
         "longitude": 77.16155,
         "latitude": 28.59178,
-        "stationNumber": []
+        "stationNumber": ["O03"]
       }
     },
     {
@@ -321,7 +321,7 @@
         "layout": "Underground",
         "longitude": 77.05828,
         "latitude": 28.55226,
-        "stationNumber": ["B01","O"]
+        "stationNumber": ["B01","O06"]
       }
     },
     {
@@ -458,7 +458,7 @@
         "layout": "Underground",
         "longitude": 77.20935,
         "latitude": 28.57526,
-        "stationNumber": ["Y16","P"]
+        "stationNumber": ["Y16","P16"]
       }
     },
     {
@@ -483,7 +483,7 @@
         "layout": "Underground",
         "longitude": 77.08669,
         "latitude": 28.55693,
-        "stationNumber": []
+        "stationNumber": ["O05"]
       }
     },
     {
@@ -773,13 +773,14 @@
       "name": "Lajpat Nagar",
       "details": {
         "line": [
-          "Violet Line"
+          "Violet Line",
+            "Pink Line"
         ],
         "layout": "Elevated",
         "longitude": 77.23653,
         "latitude": 28.57079,
 
-        "stationNumber": ["V12"]
+        "stationNumber": ["V12","P18"]
       }
     },
     {
@@ -1089,12 +1090,13 @@
       "name": "Netaji Subhash Place",
       "details": {
         "line": [
-          "Red Line"
+          "Red Line",
+            "Pink Line"
         ],
-        "layout": "Elevated",
+        "layout": "Elevated(RL),Underground(PL)",
         "longitude": 77.15226,
         "latitude": 28.69591,
-        "stationNumber": ["R16"]
+        "stationNumber": ["R16","P04"]
       }
     },
     {
@@ -1120,7 +1122,7 @@
         "layout": "Underground",
         "longitude": 77.22144,
         "latitude": 28.64307,
-        "stationNumber": ["Y23","O"]
+        "stationNumber": ["Y23","O01"]
       }
     },
     {
@@ -1355,6 +1357,20 @@
       }
     },
     {
+
+      "name": "Punjabi Bagh West",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.137364,
+        "latitude": 28.673018,
+
+        "stationNumber": ["P06"]
+      }
+    },
+      {
       "name": "Qutab Minar",
       "details": {
         "line": [
@@ -1428,7 +1444,7 @@
         "longitude": 77.12270,
         "latitude": 28.64902,
 
-        "stationNumber": ["B19","P"]
+        "stationNumber": ["B19","P08"]
       }
     },
     {
@@ -1614,7 +1630,7 @@
         "layout": "Underground",
         "longitude": 77.21190,
         "latitude": 28.62901,
-        "stationNumber": []
+        "stationNumber": ["O02"]
       }
     },
     {
@@ -1627,7 +1643,7 @@
         "layout": "Elevated",
         "longitude": 77.09235,
         "latitude": 28.48182,
-        "stationNumber": ["Y04","S"]
+        "stationNumber": ["Y04","S06"]
       }
     },
     {
@@ -2011,6 +2027,284 @@
         "stationNumber": ["V32"]
       }
     },
+    {
+      "name": "Sector 55-66",
+      "details": {
+        "line": [
+          "Rapid Metro"
+        ],
+        "layout": "Elevated",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["S01"]
+      }
+    },
+    {
+      "name": "Sector 54 Chowk",
+      "details": {
+        "line": [
+          "Rapid Metro"
+        ],
+        "layout": "Elevated",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["S02"]
+      }
+    },
+    {
+      "name": "Sector 53-54",
+      "details": {
+        "line": [
+          "Rapid Metro"
+        ],
+        "layout": "Elevated",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["S03"]
+      }
+    },  
+    {
+      "name": "Sector 42-43",
+      "details": {
+        "line": [
+          "Rapid Metro"
+        ],
+        "layout": "Elevated",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["S04"]
+      }
+    },  
+    {
+      "name": "DLF Phase ",
+      "details": {
+        "line": [
+          "Rapid Metro"
+        ],
+        "layout": "Elevated",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["S05"]
+      }
+    },  
+    {
+      "name": "DLF Phase 2",
+      "details": {
+        "line": [
+          "Rapid Metro"
+        ],
+        "layout": "Elevated",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["S07"]
+      }
+    },  
+    {
+      "name": "Vodafone Belvedere Towers",
+      "details": {
+        "line": [
+          "Rapid Metro"
+        ],
+        "layout": "Elevated",
+        "longitude": 77.0882,
+        "latitude": 28.4918,
+        "stationNumber": ["S08"]
+      }
+    },  
+    {
+      "name": "IndusInd Bank Cyber City",
+      "details": {
+        "line": [
+          "Rapid Metro"
+        ],
+        "layout": "Elevated",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["S09"]
+      }
+    },  
+    
+    {
+      "name": "Micromax Moulsari Avenue",
+      "details": {
+        "line": [
+          "Rapid Metro"
+        ],
+        "layout": "Elevated",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["S10"]
+      }
+    },  
+      
+    {
+      "name": "DLF Phase 3",
+      "details": {
+        "line": [
+          "Rapid Metro"
+        ],
+        "layout": "Elevated",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["S11"]
+      }
+    },  
+    {
+      "name": "Majlis Park",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Elevated",
+        "longitude":77.177561 ,
+        "latitude": 28.723708,
+        "stationNumber": ["P01"]
+      }
+    },  
+    {
+      "name": "Majlis Park",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Elevated",
+        "longitude":77.177561 ,
+        "latitude": 28.723708,
+        "stationNumber": ["P01"]
+      }
+    },  
+    {
+      "name": "Shalimar Bagh",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Underground",
+        "longitude":77.164095 ,
+        "latitude": 28.701976,
+        "stationNumber": ["P03"]
+      }
+    },  
+    {
+      "name": "Shakurpur",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Elevated",
+        "longitude":77.148769 ,
+        "latitude": 28.685956,
+        "stationNumber": ["P05"]
+      }
+    },  
+    {
+      "name": "ESI Hospital",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Elevated",
+        "longitude":77.126311 ,
+        "latitude": 28.657987,
+        "stationNumber": ["P07"]
+      }
+    },   
+    {
+      "name": "Mayapuri",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Elevated",
+        "longitude":77.129731 ,
+        "latitude": 28.63717,
+        "stationNumber": ["P09"]
+      }
+    },   
+    {
+      "name": "Naraina Vihar",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Underground",
+        "longitude":77.136488 ,
+        "latitude": 28.624125,
+        "stationNumber": ["P10"]
+      }
+    },   
+    {
+      "name": "Delhi Cantonment",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Elevated",
+        "longitude":77.139913 ,
+        "latitude": 28.609243,
+        "stationNumber": ["P11"]
+      }
+    },      
+    {
+      "name": "Durgabai Deshmukh South Campus",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Elevated",
+        "longitude":77.169475,
+        "latitude": 28.589441,
+        "stationNumber": ["P12"]
+      }
+    },    
+    {
+      "name": "Sir Vishweshwariah Moti Bagh",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Elevated",
+        "longitude":77.174934 ,
+        "latitude": 28.578352,
+        "stationNumber": ["P13"]
+      }
+    },    
+    {
+      "name": "Bhikaji Cama Place",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Underground",
+        "longitude":77.186772 ,
+        "latitude": 28.570275,
+        "stationNumber": ["P14"]
+      }
+    },  
+    {
+      "name": "Sarojini Nagar",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Underground",
+        "longitude": 77.197651,
+        "latitude": 28.575918,
+        "stationNumber": ["P15"]
+      }
+    },
+    {
+      "name": "South Extension",
+      "details": {
+        "line": [
+          "Pink Line"
+        ],
+        "layout": "Underground",
+        "longitude": 77.219611,
+        "latitude": 28.568695,
+        "stationNumber": ["P17"]
+      }
+    },   
     {
       "name": "Yamuna Bank",
       "details": {
