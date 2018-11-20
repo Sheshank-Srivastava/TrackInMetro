@@ -1,18 +1,6 @@
 {
   "res":"0",
   "interchange":[
-    "yellow":[
-      "red":{
-        "stationName": "Kashmere Gate",
-        "stationCode":"R8"
-      },
-      "magenta":{
 
-      },
-      "pink"
-    ],
-    "red":[],
-    "blue":[]
-
-  ]
+    ]
 }

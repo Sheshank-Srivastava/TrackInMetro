@@ -26,7 +26,7 @@ import java.util.Comparator;
 
 public class LastTripsActivity extends AppCompatActivity {
     ActionBar actionBar;
-    String sourceName = "", destinationName = "";
+    String sourceName = "", destinationName = "", sourceColor = "", destinationColor = "";
     AutoCompleteTextView txtSource, txtDestination;
     ImageView butFind;
     int sourceCode = 0, destinationCode = 0;
@@ -97,28 +97,54 @@ public class LastTripsActivity extends AppCompatActivity {
             Log.d("SourceName", "2");
 
             for (int i = 0; i < stationData.size(); i++) {
-              RouteListModel model = stationData.get(i);
-                Log.d("SourceName", model.getStationName().replace(" ", "")+ "hola "+i+"destination");
+                RouteListModel model = stationData.get(i);
+                Log.d("SourceName", model.getStationName().replace(" ", "") + " hola " + i + sourceName+"==="+destinationName);
 
                 if (model.getStationName().replace(" ", "").equals(sourceName)) {
 //                    sourceCode = Integer.parseInt(stationData.get(i).getStationCode().replace("Y", ""));
-                    if(model.getStationCode().size() == 1){
-                        sourceCode = Integer.parseInt(model.getStationCode().get(0).substring(1)+"");
-                        Log.d("SourceName111", sourceCode + "=="+model.getStationName()+"///"+model.getStationCode().get(0).charAt(0));
+                    if (model.getStationCode().size() == 1) {
+                        sourceCode = Integer.parseInt(model.getStationCode().get(0).substring(1) + "");
+                        sourceColor = model.getStationCode().get(0).charAt(0) + "";
+                        Log.d("SourceName111", sourceCode + "==" + model.getStationName() + "///" + model.getStationCode().get(0).charAt(0));
 
                     }
-                    if (model.getStationCode().size() > 1){
+                    if (model.getStationCode().size() > 1) {
 
                     }
                 }
 
-                if (stationData.get(i).getStationName().replace(" ", "").equals(destinationName)) {
-//                    destinationCode = Integer.parseInt(stationData.get(i).getStationCode().replace("Y", ""));
-                    Log.d("destinationName", destinationCode + "");
+                if (model.getStationName().replace(" ", "").equals(destinationName)) {
+                    if (model.getStationCode().size() == 1) {
+                        destinationCode = Integer.parseInt(model.getStationCode().get(0).substring(1) + "");
+                        Log.d("destinationName", destinationCode + "==" + model.getStationName() + "///" + model.getStationCode().get(0).charAt(0));
+                        destinationColor = model.getStationCode().get(0).charAt(0) + "";
 
+                    }
+                    if (model.getStationCode().size() > 1) {
+                            for(int j=0;j<model.getStationCode().size();j++){
+                                if(!sourceColor.equals("")){
+                                    if()
+                                }
+                            }
+                    }
                 }
 
             }
+            if (sourceColor.equals(destinationColor)) {
+                Log.d("GetTheCodeSocDis",sourceName+"//"+destinationName);
+
+                for (int i = 0; i <stationData.size();i++){
+                    RouteListModel model = stationData.get(i);
+                    for(int j =0;j<model.getStationCode().size();j++){
+                        String code = model.getStationCode().get(j).charAt(0)+"";
+                        if(code.equals(sourceColor)){
+                            Log.d("GetTheCode",i+"=="+code+"=="+model.getStationName()+"=="+model.getStationCode().get(j).replace(sourceColor,""));
+//                            listData.add(model);
+                        }
+                    }
+                }
+            }
+
         }
         Log.d("StationAndDes", sourceCode + "==" + destinationCode);
 //
@@ -169,22 +195,22 @@ public class LastTripsActivity extends AppCompatActivity {
              */
             Log.d("JsonData", jsonArray.length() + "");
 
-            for(int i=0;i<jsonArray.length();i++){
+            for (int i = 0; i < jsonArray.length(); i++) {
                 /**
                  *  Data
                  */
                 Log.d("JsonData", i + "");
 
-                JSONObject arrayObject = jsonArray.getJSONObject(i) ;
-                JSONObject detailObject =  arrayObject.getJSONObject("details");
+                JSONObject arrayObject = jsonArray.getJSONObject(i);
+                JSONObject detailObject = arrayObject.getJSONObject("details");
                 JSONArray statNumberArray = detailObject.getJSONArray("stationNumber");
                 String name = arrayObject.getString("name");
                 ArrayList<String> statCodes = new ArrayList<>();
-                for(int j=0;j<statNumberArray.length();j++){
-                    statCodes.add(statNumberArray.get(j)+"");
-                    Log.d("StationCodeList",statNumberArray.get(j)+"--"+i);
+                for (int j = 0; j < statNumberArray.length(); j++) {
+                    statCodes.add(statNumberArray.get(j) + "");
+                    Log.d("StationCodeList", statNumberArray.get(j) + "--" + i);
                 }
-                stationData.add(new RouteListModel(name,statCodes));
+                stationData.add(new RouteListModel(name, statCodes));
 
             }
         } catch (IOException e) {

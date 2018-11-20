@@ -253,7 +253,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //                Log.d("JsonData1", obj.getJSONObject("details").getJSONArray("stationNumber").length()+"Hello"+i+obj.getString("name"));
 //                for(int j=0;j<obj.getJSONObject("details").getJSONArray("stationNumber").length();j++){
 //                    Log.d("JsonData1", obj.getJSONObject("details").getJSONArray("stationNumber").getString(j)+"");
-//
 //                }
             }
         } catch (IOException e) {
