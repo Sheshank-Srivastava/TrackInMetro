@@ -133,12 +133,13 @@
       "name": "Botanical Garden",
       "details": {
         "line": [
-          "Blue Line"
+          "Blue Line",
+            "Magenta Line"
         ],
         "layout": "Elevated",
         "longitude": 77.33420,
         "latitude": 28.56409,
-        "stationNumber": ["B42"]
+        "stationNumber": ["B42","M25"]
 
       }
     },
@@ -527,13 +528,14 @@
       "name": "Janakpuri East",
       "details": {
         "line": [
-          "Blue Line"
+          "Blue Line",
+            "Magenta Line"
         ],
         "layout": "Elevated",
         "longitude": 77.08669,
         "latitude": 28.63305,
 
-        "stationNumber": ["B15"]
+        "stationNumber": ["B15","M01"]
       }
     },
     {
@@ -662,7 +664,7 @@
         "longitude": 77.25835,
         "latitude": 28.55007,
 
-        "stationNumber": ["V16","M"]
+        "stationNumber": ["V16","M17"]
       }
     },
     {
@@ -2318,6 +2320,270 @@
       }
     },   
     {
+      "name": "Dabri Mor",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": 77.085262,
+        "latitude": 28.615907,
+        "stationNumber": ["M02"]
+      }
+    },
+    {
+      "name": "Dashrath Puri",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M03"]
+      }
+    },
+    {
+      "name": "Palam",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M04"]
+      }
+    },
+    {
+      "name": "Sadar Bazaar Cantonment",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M05"]
+      }
+    },  
+    {
+      "name": "Terminal 1 IGI Airport",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M06"]
+      }
+    },  
+    {
+      "name": "Shankar Vihar",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M07"]
+      }
+    },  
+    {
+      "name": "Vasant Vihar",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M08"]
+      }
+    },
+    {
+      "name": "Munirka",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M09"]
+      }
+    },
+    {
+      "name": "R.K Puram",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M10"]
+      }
+    },  
+    {
+      "name": "IIT Delhi",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M11"]
+      }
+    },
+    {
+      "name": "Hauz Khas",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M12"]
+      }
+    },
+    {
+      "name": "Panchsheel Park",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M13"]
+      }
+    },  
+    {
+      "name": "Chirag Delhi",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M14"]
+      }
+    },
+    {
+      "name": "greeater Kailesh",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M15"]
+      }
+    },
+    {
+      "name": "Nehru Enclave",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M16"]
+      }
+    },
+    {
+      "name": "Okhla N.S.I.C",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M18"]
+      }
+    },
+    {
+      "name": "Sukhdev Vihar",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M19"]
+      }
+    },  
+    {
+      "name": "Jamia Millia Islamia",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M20"]
+      }
+    }, 
+    {
+      "name": "Okhla Vihar",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M21"]
+      }
+    },
+    {
+      "name": "Jasola Vihar Shaheen Bagh",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M22"]
+      }
+    },
+    {
+      "name": "Kalindi Kunj",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M23"]
+      }
+    },
+    {
+      "name": "Okhla Bird Sanctuary",
+      "details": {
+        "line": [
+          "Magenta Line"
+        ],
+        "layout": "Underground",
+        "longitude": ,
+        "latitude": ,
+        "stationNumber": ["M24"]
+      }
+    },
+      {
       "name": "Yamuna Bank",
       "details": {
         "line": [
