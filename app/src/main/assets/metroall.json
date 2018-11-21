@@ -2338,8 +2338,8 @@
           "Magenta Line"
         ],
         "layout": "Underground",
-        "longitude": ,
-        "latitude": ,
+        "longitude": 0,
+        "latitude": 0,
         "stationNumber": ["M03"]
       }
     },
@@ -2351,7 +2351,7 @@
         ],
         "layout": "Underground",
         "longitude": ,
-        "latitude": ,
+        
         "stationNumber": ["M04"]
       }
     },
