@@ -189,12 +189,18 @@ public class LastTripsActivity extends AppCompatActivity {
             json = new String(buffer, "UTF-8");
             Log.d("JsonData", json + "");
             JSONObject firstObject = new JSONObject(json);
+            JSONArray codeArray = firstObject.getJSONArray("colorCode");
             JSONArray jsonArray = firstObject.getJSONArray("stationLine");
             /**
              * Filling Data for StationData List
              */
             Log.d("JsonData", jsonArray.length() + "");
+            /**
+             * getting the Color Code
+             */
+            for(int i=0;i<codeArray.length();i++){
 
+            }
             for (int i = 0; i < jsonArray.length(); i++) {
                 /**
                  *  Data

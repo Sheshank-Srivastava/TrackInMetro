@@ -1,6 +1,18 @@
 {
   "res": "1",
-  "colorCode":"Y_yellow,B_Blue_line1_Dwarka21ToNoidaCityCenter,C_Blue_line2_YamunaToVaishali,R_red,G_Green_Line1_interLokToMundka,H_Green_Line2_At_AshokParkToKirtiNgr,V_violet,O_Orange_AirportExpress,M_magenta,P_pinkLine,S_Rapid_Line",
+  "colorCode":[
+    "Y_yellow",
+    "B_Blue_line1_Dwarka21ToNoidaCityCenter",
+    "C_Blue_line2_YamunaToVaishali",
+    "R_red",
+    "G_Green_Line1_interLokToMundka",
+    "H_Green_Line2_At_AshokParkToKirtiNgr",
+    "V_violet",
+    "O_Orange_AirportExpress",
+    "M_magenta",
+    "P_pinkLine",
+    "S_Rapid_Line"
+  ],
   "stationLine": [
     {
       "name": "Adarsh Nagar",
@@ -2034,8 +2046,8 @@
           "Rapid Metro"
         ],
         "layout": "Elevated",
-        "longitude": ,
-        "latitude": ,
+        "longitude":0 ,
+        "latitude": 0,
         "stationNumber": ["S01"]
       }
     },
@@ -2046,8 +2058,8 @@
           "Rapid Metro"
         ],
         "layout": "Elevated",
-        "longitude": ,
-        "latitude": ,
+        "longitude":0 ,
+        "latitude": 0,
         "stationNumber": ["S02"]
       }
     },
@@ -2058,8 +2070,8 @@
           "Rapid Metro"
         ],
         "layout": "Elevated",
-        "longitude": ,
-        "latitude": ,
+        "longitude":0 ,
+        "latitude": 0,
         "stationNumber": ["S03"]
       }
     },  
@@ -2070,8 +2082,8 @@
           "Rapid Metro"
         ],
         "layout": "Elevated",
-        "longitude": ,
-        "latitude": ,
+        "longitude":0 ,
+        "latitude": 0,
         "stationNumber": ["S04"]
       }
     },  
@@ -2082,8 +2094,8 @@
           "Rapid Metro"
         ],
         "layout": "Elevated",
-        "longitude": ,
-        "latitude": ,
+        "longitude":0 ,
+        "latitude": 0,
         "stationNumber": ["S05"]
       }
     },  
@@ -2094,8 +2106,8 @@
           "Rapid Metro"
         ],
         "layout": "Elevated",
-        "longitude": ,
-        "latitude": ,
+        "longitude":0 ,
+        "latitude": 0,
         "stationNumber": ["S07"]
       }
     },  
@@ -2118,8 +2130,8 @@
           "Rapid Metro"
         ],
         "layout": "Elevated",
-        "longitude": ,
-        "latitude": ,
+        "longitude":0 ,
+        "latitude": 0,
         "stationNumber": ["S09"]
       }
     },  
@@ -2131,8 +2143,8 @@
           "Rapid Metro"
         ],
         "layout": "Elevated",
-        "longitude": ,
-        "latitude": ,
+        "longitude":0 ,
+        "latitude": 0,
         "stationNumber": ["S10"]
       }
     },  
@@ -2144,8 +2156,8 @@
           "Rapid Metro"
         ],
         "layout": "Elevated",
-        "longitude": ,
-        "latitude": ,
+        "longitude":0 ,
+        "latitude": 0,
         "stationNumber": ["S11"]
       }
     },  
