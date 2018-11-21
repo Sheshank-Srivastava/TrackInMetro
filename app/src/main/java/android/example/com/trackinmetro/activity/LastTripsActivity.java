@@ -123,7 +123,7 @@ public class LastTripsActivity extends AppCompatActivity {
                     if (model.getStationCode().size() > 1) {
                             for(int j=0;j<model.getStationCode().size();j++){
                                 if(!sourceColor.equals("")){
-                                    if()
+//                                    if()
                                 }
                             }
                     }
@@ -199,7 +199,8 @@ public class LastTripsActivity extends AppCompatActivity {
              * getting the Color Code
              */
             for(int i=0;i<codeArray.length();i++){
-
+                String code= codeArray.getString(i);
+                Log.d("ColorCode123",code+"=="+code.charAt(0));
             }
             for (int i = 0; i < jsonArray.length(); i++) {
                 /**
