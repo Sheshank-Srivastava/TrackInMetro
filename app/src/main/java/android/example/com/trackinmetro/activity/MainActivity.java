@@ -136,8 +136,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 boolean checkField = checkFieldsCorrectness();
                 if (checkField) {
                     Intent intent = new Intent(MainActivity.this, LastTripsActivity.class);
-                    intent.putExtra("source", txtSource.getText() + "");
-                    intent.putExtra("destination", txtDestination.getText() + "");
+                    int source = stationName.indexOf(txtSource.getText().toString().trim());
+                    int destination = stationName.indexOf(txtDestination.getText().toString().trim());
+                    intent.putExtra("source", source);
+                    intent.putExtra("destination", destination);
+                    Log.d("Station Code",source+"->"+destination);
                     startActivity(intent);
                 } else {
                     Toast.makeText(MainActivity.this, "Fields Data Incorrect", Toast.LENGTH_SHORT).show();
@@ -207,8 +210,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.firstLast_menu) {
             startActivity(new Intent(MainActivity.this, FirstLastActivity.class));
         } else if (id == R.id.logout_menu) {
-//            startActivity(new Intent(MainActivity.this, AboutActivity.class));
-//            SplashActivity.splash_once = 0;
+
             finish();
         } else if (id == R.id.nav_share) {
             Intent share = new Intent(android.content.Intent.ACTION_SEND);
@@ -235,30 +237,28 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void getData() {
         String json = "";
         try {
-            InputStream is = getAssets().open("metroall.json");
+            InputStream is = getAssets().open("metromapdata.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
             is.close();
-
+            stationName.clear();
             json = new String(buffer, "UTF-8");
             json = json.replace("\n", "");
-            json = json.replace(" ", "");
-            Log.d("JsonData", json + "======================");
+//            json = json.replace(" ", "");
             JSONObject firstObject = new JSONObject(json);
-            JSONArray jsonArray = firstObject.getJSONArray("stationLine");
+            JSONArray jsonArray = firstObject.getJSONArray("data");
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject obj = jsonArray.getJSONObject(i);
                 stationName.add(obj.getString("name") + "");
-//                Log.d("JsonData1", obj.getJSONObject("details").getJSONArray("stationNumber").length()+"Hello"+i+obj.getString("name"));
-//                for(int j=0;j<obj.getJSONObject("details").getJSONArray("stationNumber").length();j++){
-//                    Log.d("JsonData1", obj.getJSONObject("details").getJSONArray("stationNumber").getString(j)+"");
-//                }
             }
+            Log.d("JsonData", stationName.size()+json + "======================");
+
         } catch (IOException e) {
             e.printStackTrace();
         } catch (JSONException e) {
             e.printStackTrace();
         }
     }
+
 }

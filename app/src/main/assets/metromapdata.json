@@ -1,0 +1,2912 @@
+{
+  "res": 1,
+  "msg": "Gate and Direction",
+  "ColorCode": [
+    "YELLOW",
+    "RED",
+    "BLUE",
+    "ORANGE",
+    "GREEN",
+    "VIOLET",
+    "MAGENTA",
+    "PINK",
+    "AQUA"
+  ],
+  "data": [
+    {
+      "id": 0,
+      "name": "HUDA CITY CENTRE",
+      "list": [
+        "Max Hospital Gurgaon",
+        "Gymkana Club Sector-29",
+        "Signature Tower"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "IFFCO CHOWK",
+      "list": [
+        "Umkal Hospital",
+        "IFFCO Tower",
+        "Sushantlok Phase-1"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MG ROAD",
+      "list": [
+        "DT City Center Mall",
+        "MGF Metropolitan Mall"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "SIKANDERPUR",
+      "list": [
+        "DLF Phase 2 and 3",
+        "Ambience Mall"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "GURUDRONACHARYA",
+      "list": [
+        "Global Business Park",
+        "Garden Estate Colony"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ARJAN GARH",
+      "list": [
+        "Aya Nagar",
+        "Air Force Station Arjangarh"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "GHITORNI",
+      "list": [
+        "Mehrauli Gurgaon Road",
+        "Ghitorni Village"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "SULTANPUR",
+      "list": [
+        "Sultanpur Metro Depot",
+        "Mehrauli Gurgaon Road"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "CHATTARPUR",
+      "list": [
+        "Vasant Kunj Sector-D",
+        "Andheriya Mor"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "QUTAB MINAR",
+      "list": [
+        "Anuvart Marg",
+        "Anuvart Marg"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Saket",
+      "list": [
+        "Vidya Niketan School",
+        "SAI-UL-Azaib",
+        "CISF Northen Regional Headquarters"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "MALVIYA NAGAR",
+      "list": [
+        "Geetanjali Enclave",
+        "Shivalik Enclave",
+        "Metro Enclave",
+        "PVR saket"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "HAUZ KHAS",
+      "list": [
+        "Sarvpriya Vihar",
+        "Laxman Public School",
+        "RBI Colony"
+      ],
+      "color": [
+        "YELLOW",
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "GREEN PARK",
+      "list": [
+        "Yusuf Sarai Market",
+        "Siri Fort auditorium",
+        "Uphar Cinema",
+        "Gurudwar Sikh Sangat(Green Park)"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "AIIMS",
+      "list": [
+        "AIIMS Hospital",
+        "Ansari Nagar",
+        "Safdarjung Hospital",
+        "Vardhman Mahavir Medical College"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "INA",
+      "list": [
+        "Delhi Haat",
+        "INA Market",
+        "West Kidwai Nagar",
+        "Laxmibai Nagar(Market Sanjay Lake)"
+      ],
+      "color": [
+        "YELLOW",
+        "PINK"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "JORBAGH",
+      "list": [
+        "Fire Station Safdarjung",
+        "Rajiv Gandhi Bhawan",
+        "Safdarjung Airport Office Complex"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "LOK KALYAN MARG(RACE COURSE)",
+      "list": [
+        "Nagaland",
+        "Race Course"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "UDYOG BHAWAN",
+      "list": [
+        "Udyog Bhawan",
+        "Nirman Bhawan",
+        "Vayu Sena Bhawan",
+        "Sena Bhawan"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "CENTRAL SECRETARIAT",
+      "list": [
+        "Red Cross Building",
+        "Krishi Bhawan",
+        "India Gate(Boat Club)",
+        "Vijay Chowk",
+        "Rail Bhawan"
+      ],
+      "color": [
+        "YELLOW",
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Patel Chowk",
+      "list": [
+        "Rajiv Chowk",
+        "Sanchar Bhawan"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "RAJIV CHOWK",
+      "list": [
+        "R.K Ashram",
+        "PVR Plaza(B & H Block",
+        "D & E Block",
+        "Odeon Cinema",
+        "N & F block",
+        "Palika Bazar",
+        "Regal Cinema",
+        "Oriental Bank"
+      ],
+      "color": [
+        "YELLOW",
+        "BLUE"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "NEW DELHI",
+      "list": [
+        "New Delhi Railway Station",
+        "Not Available",
+        "Kamla Market",
+        "Rail Yatri Niwas",
+        "Airport Line"
+      ],
+      "color": [
+        "YELLOW",
+        "ORANGE"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Chawri Bazar",
+      "list": [
+        "Ajmeri Gate",
+        "Hauz Qazi",
+        "Nai Sadak"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "CHANDHNI CHOWK",
+      "list": [
+        "Kucha Natwa",
+        "Delhi Public Library",
+        "Old Delhi Railway Station",
+        "MCD Parking",
+        "Shish Ganj Gurudwara(Red Fort)"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "KASHMERE GATE",
+      "list": [
+        "MCD Park",
+        "Maharaja Aggrasan Park",
+        "Mori Gate Bus Stand",
+        "Shamnath Marg",
+        "Kudasiya Park",
+        "ISBT Road",
+        "ISBT"
+      ],
+      "color": [
+        "YELLOW",
+        "RED",
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "CIVIL LINES",
+      "list": [
+        "Sant Paramanand Hospital",
+        "IP College",
+        "Oberbi Maidens Hotel"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "VIDHAN SABHA",
+      "list": [
+        "DMRC Officer Flats",
+        "Old Secretariat",
+        "Yellow Fever Inoculation Center MCD"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "VISWA VIDHYALAYA",
+      "list": [
+        "Reviera Apartment",
+        "Mail Road",
+        "Cavelary lane",
+        "Universtiy Campus Khalsa College"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "GTB NAGAR",
+      "list": [
+        "Rajan Babu TB Hospital",
+        "Mukharji Nagar",
+        "GTB NAgar",
+        "King Sway Camp",
+        "Nirankari Colony"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "MODEL TOWN",
+      "list": [
+        "Alpana Cinema #Model Town-2",
+        "Tagor Park # Malikpur Village",
+        "Kirpal Bagh # Ishwar Colony",
+        "Gujrawalan town # Chhatrasal Stadium"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "AZADPUR",
+      "list": [
+        "Mahendru Enclave (Model Town-3)",
+        "Not Operational",
+        "Azadpur GT Road, Azadpur Railway Stn. Lal bagh",
+        "Municipal colony, Model town-3, Chatrasaal Stdm."
+      ],
+      "color": [
+        "YELLOW",
+        "PINK"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "ADARSH NAGAR",
+      "list": [
+        "Moolchand Colony",
+        "Keval Park # Majlish Park",
+        "New Sabzi Mandi",
+        "Fruit Mandi # Sarai Pipal Thala"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "JAHANGIRPURI",
+      "list": [
+        "Jahangir puri Colony (J & K)Block",
+        "DDA Flat # Mahendra",
+        "Fruit Mandi",
+        "GTK Bus Depot"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "HAIDERPUR BADLI MOR",
+      "list": [
+        "Haiderpur, Badli Village",
+        "Adarsh Nagar Railway Station,Max Hospital",
+        "Adarsh Nagar Railway Station,Max Hospital"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "ROHINI SECTOR 18",
+      "list": [
+        "Vardhman A.C market",
+        "Badi Village"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "SAMAYPUR BADLI",
+      "list": [
+        "Badli Railway Station",
+        "Sanjay Gandhi Transport Nagar"
+      ],
+      "color": [
+        "YELLOW"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "RITHALA",
+      "list": [
+        "Jagan Institute of Management of Studies # Delhi Metro RAil Police Station Rithala",
+        "Rohini Sec 24",
+        "Metro walk # Rohini Sec. 11 & 15"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "ROHINI WEST",
+      "list": [
+        "Rohini Sec-7(Lotus Apartment)",
+        "Rajiv Gandhi Cancer Institute(Baba Saheb Ambedkar Hospital)Rohini Sec-5",
+        "Swarn Jayanthi Park(Sec-11 & 16 & 17)"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "ROHINI EAST",
+      "list": [
+        "Om Sai Apartment(Rohini Sec-1,2,3,6,7&8",
+        "Metro Parking Rohini Sec-9,10,13 & 14(Rajpur Village)"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "PITAMPURA",
+      "list": [
+        "Mandakini Apartment(Rajasthali Apartment)",
+        "Madhubun Chowk",
+        "South Pitampura(Vishaka Enclave)",
+        "Prashant Vihar(District Court Rohini)"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "KOHAT ENCLAVE",
+      "list": [
+        "Morya Enclave Police Station(Vishali Enclave)",
+        "Shakur Pur Basti",
+        "Kapi Vihar Nishant Kunj"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "NETAJI SUBHASH PLACE",
+      "list": [
+        "Big Bazar(Ring Road)",
+        "Netaji Subhash Palace(District Center)",
+        "Delhi Haat(Guru Govind Singh College(Tv Tower)",
+        "Wazirpur Depot",
+        "Netaji Subhash Center"
+      ],
+      "color": [
+        "RED",
+        "PINK"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "KESHAV PURAM",
+      "list": [
+        "Lawerence Road",
+        "Nanak Kunj(DDA Shopping Complex)",
+        "Parking",
+        "Ashok Vihar"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "KANHAIYA NAGAR",
+      "list": [
+        "Tota Ram Bazar(Ganesg Pura)",
+        "Maharishi Dayanand Park",
+        "JJ Colony(MCD Sports Complex)"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "INDERLOK",
+      "list": [
+        "JJ Colony (Anand Nagar)",
+        "M Block Shastri Nagar",
+        "Inderlok Line-5",
+        "Inderlok Cooler Market",
+        "Inderlok Masid"
+      ],
+      "color": [
+        "RED",
+        "GREEN"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "SHASHTRI NAGAR",
+      "list": [
+        "Govt. Boys SR Sec School(Shastri Nagar, Rohilla Railway Station)",
+        "Shastri Nagar"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "PRATAP NAGAR",
+      "list": [
+        "Prathiba Vikas Vidyalaya Krishna Ganj",
+        "Sabzi Mandi Railway Station"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "PUL BANGASH",
+      "list": [
+        "Baraf Khana",
+        "Parking"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "TIS HAZARI",
+      "list": [
+        "District Court Tis Hazari",
+        "St.Stephen Hospital",
+        "DMRC Parking"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "SHASHTRI PARK",
+      "list": [
+        "DMRC Operational Control Centre Shastri Park",
+        "IT Park(Metro Vihar)"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "SEELAM PUR",
+      "list": [
+        "SDM Office"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "WELCOME",
+      "list": [
+        "MCD Office",
+        "Shaym Lal College, East MCD Office(Keshav Chowk)"
+      ],
+      "color": [
+        "RED",
+        "PINK"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "SHAHDARA",
+      "list": [
+        "Shahdara Bus Terminal",
+        "Shahdara Indian Railway Station"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "MANSAROVA PARK",
+      "list": [
+        "Shahdara Industrial Area",
+        "MCD Office"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "JHILMIL",
+      "list": [
+        "Jhilmil",
+        "DDA Flats"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "DILSHAD GARDEN",
+      "list": [
+        "Vivek Vihar (Parking)",
+        "J & K Pocket Dilshad Garden"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "SHAHID NAGAR",
+      "list": [
+        "Pipe Market, Transport Office, Aradhna Cinema, ESI Hospital"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "RAJ BAGH",
+      "list": [
+        "Shalimar Garden, Vrindavan Garden",
+        "Institute of Management Education(IMF), Sahibabad Industrial Area, Indra Plaza"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "MAJOR MOHIT SHARMA RAJENDER NAGAR",
+      "list": [
+        "Rajendara Nagar Sector-2,3,5, Major Mohit Sharma Marg, Miraz Cinema",
+        "Satyam Enclave, Girdhar Enclave, Fire Station Sahibabad, Durga Colony"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "SHYAM PARK",
+      "list": [
+        "Police Station Sahabibad, Ashok Vatika Apartment, Sani Chowk, Ambay Hospital",
+        "Shyam Park Lajpat Rai College, Diwakra Model School",
+        "Shyam Park,The Pentecostal Mission Church"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "MOHAN NAGAR",
+      "list": [
+        "Mohan Mandir, World Square Mall, Mita Pvt Limited",
+        "Mohan Nagar Chowk, Vaishali Anand Vihar Road, Mohan Meakin Factory,Mohan Nagar Bus Adda"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "ARTHALA",
+      "list": [
+        "Parsavnath Exotica, Arthla Peer, Commercial Tax Office, City Forest Ghazibad, Mohan Mandir",
+        "I.T.S College, Arthala Village"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "HINDON RIVER",
+      "list": [
+        "Raj Nagar Extension Societies, K D P Gol Chakkar",
+        "Sai Upvan Temple, Hindom Ghat, Sai Upvan"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "SHAHEED STHAL(NEW BUS ADDA)",
+      "list": [
+        "Deewan Nursing Home, Patel Nagar, Shani Temple, Chaudhary Chhabil Dass School, Hapur Mor, Meerut Mor, Shaheed Park",
+        "New Bus Adda, Red Mall, Mahamaya Stadium, Metro Parking, DRDO Complex, Islam Nagar"
+      ],
+      "color": [
+        "RED"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "LAL QUILA",
+      "list": [
+        "Red Fort, Indian War Museum, Lahori Gate, Nai Sarak, Lajpat Rai Market.",
+        "Old Delhi Railway Station, St. Mary's Catholic, Ring Road Anguri Bag, Mukherjee Marg, Yamuna Bazar.",
+        "Old Delhi Railway Station, Presentation Convent Sr. Sec School, G.P.O, Ring Road, Anguri Bag, S.P, Mukherjee Nagar",
+        "Red Fort, Indian War Museum, Lahori Gate, Ballimaran, Digambar Jain Lal Mandir, Chandani Chowk Road, Central Bapist Church, Shahi Masid Fatepuri."
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "JAMA MASJID",
+      "list": [
+        "Darya Ganj, Kasturba Road, Kasturba Hospital, Jagat Cinema, Urdu Bazar Road, Delhi Public Library, Ketan Mehal.",
+        "Menna Bajaar, Jama Masjid.",
+        "Red Fort, Shantivan, Shaki Sthal, Sunehri Masjid.",
+        "Prade Ground Parking, Subhash Marg.",
+        "Firozsaha Kotla Stadium."
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "DELHI GATE",
+      "list": [
+        "Maulana Azad Medical College, Bahadurshah Jafar Marg, Delhi Parsi Anjuman Guest House.",
+        "New Delhi Tuberculosis Center, Lok Nayak Jai Parkash Hospital, G.B Pant Hospital, Ram Leela Maidan",
+        "MTNL Building (Telephone Exchange), Oriental House, Asaf Ali Road, Delite Cinema, Prabhat Publication, Netaji Subhash Marg, Daryaganj",
+        "Ambedkar Stadium, National Gandhi Museum & Library, Jawaharlal Nehru Marg, Raj Ghat, Prakash Chand Jain Marg."
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "ITO",
+      "list": [
+        "Andhra Eductaion Society, Gandhi Peace Foundation.",
+        "Ramcharan Agrawal Chowk, Dayal Singh Library",
+        "Indian National Science Academy, University Grants Commission.",
+        "Dolls Museum, Herald House, Pearey Lal Bhawan.",
+        "Delhi Police Head Quarter, Pwd Headquater",
+        "Income Tax Office, Vikas Minar"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "MANDI HOUSE",
+      "list": [
+        "Himanchal Bhawan",
+        "Sikandara Road",
+        "National School of Drama",
+        "National School of Drama"
+      ],
+      "color": [
+        "VIOLET",
+        "BLUE"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "JANPAT",
+      "list": [
+        "Western Court",
+        "Janpath Market, General Williams Masonic Poly Clinic, Jantar Mantar",
+        "Jawahar Vyapar Kendra, Cottage Emporium.",
+        "East Court"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "KHAN MARKET",
+      "list": [
+        "UPSC Bhawan(Dholpur House), Delhi High Court",
+        "Pandara Road(Golf Link)",
+        "Lodhi Road(Amibassador Hotel)",
+        "Khan Market (Lok Nayak Bhawan)"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "JAWAHARLAL NEHRU STADIUM",
+      "list": [
+        "Delhi Transco Ltd.",
+        "CGO Complex",
+        "CRPF Ground",
+        "Dayal Singh College"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "JANGPURA",
+      "list": [
+        "Soochna Bhawan(Electronic Niketan)",
+        "Eros Cinema Jangpur Ext.(Nizamuddin Railway Station)",
+        "MTNL Building (JNL Stadium (Scope Complex)"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "LAJPAT NAGAR",
+      "list": [
+        "Metro Parking",
+        "3Cs Cinema",
+        "Defence Colony",
+        "Moolchand Hospital Lajpat Nagar Block A,B,C",
+        "Central Market, Lajpat Nagar Block D,I,J,K,L"
+      ],
+      "color": [
+        "VIOLET",
+        "PINK"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "MOOLCHAND",
+      "list": [
+        "rAJKUMARI Amrita Kaur Nursing (Kendriya Vidyalaya Andrews Ganj), Vijram Hotel"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "KAILASH COLONY",
+      "list": [
+        "Sant Nagar(RG Stone Hospital), Kailash Colony",
+        "Greater Kailsh-1(Zamrudpur Village)"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "NEHRU PLACE",
+      "list": [
+        "ISKON Temple",
+        "EROS Corporate(Satyam Cinema"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "KALKAJI MANDIR",
+      "list": [
+        "Kalkaji Mandir, Nehru Place Terminal, Lotus Temple",
+        "Lotus Temple, Kalkaji Mandir, Astha Kunj Park",
+        "Nehru Place DTC Bus Terminal, Fire Brigade Office, Baba Bhaironath Mandir",
+        "MTNL Office, BSES Corporate Office"
+      ],
+      "color": [
+        "VIOLET",
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "GOVIND PURI",
+      "list": [
+        "Banarsi Das Chandiwala Hospital & Educational Institute NSIC Ground",
+        "C.R Park(Jamia Milia Islamia University),(Desh Bandu College)"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "HARKESH NAGAR OKHLA",
+      "list": [
+        "Not Available",
+        "Harkesh Nagar(Okhla Phase-1,2,3),Sanjay Colony",
+        "Jasola",
+        "Govind Puri"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "JASOLA APOLLO",
+      "list": [
+        "Jasola Distric Park(Living Style Mall",
+        "Container Corporation Of India Limited "
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "SARITA VIHAR",
+      "list": [
+        "Sarita Vihar",
+        "Madan Pur Kadar"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "MOHAE ESTATE",
+      "list": [
+        "Sarita Vihar Depot(NIIT Technology), Aaligaon"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "TUGHLAJABAD",
+      "list": [
+        "Tughlakabad Railway Station (NTPC Badarpur Plant)"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "BADARPUR",
+      "list": [
+        "Passenger Underpass (Near Faridabad Toll Plaza)",
+        "Institute Of Hotel Management"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "SARAI",
+      "list": [
+        "North-Vatika Tower",
+        "South-L & T Building",
+        "East-Crown Park"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "NHPC CHOWK",
+      "list": [
+        "North Rajjiv Chowk, Santosh Nagar",
+        "South-SSR, DLF Industrial Area, Jiva Ayurvedic",
+        "West-SSR Corporate Park Lakkadpur"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "MEWALA MAHARAJPUR",
+      "list": [
+        "North Havels, Sec-30,31, Spring Field Colony, Indraprasth Colony",
+        "South-SRS, Mewala Maharajpur Chowk, Sec-28",
+        "West-Sec-46,47,48"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "SECTOR-28",
+      "list": [
+        "North-SRS Mall, Sec-30 Police Line,SRS Cinema",
+        "South-Tarang Archid Apartments, Sunshine Apartment, Asian Hospital.",
+        "West-Beeby, Play School, Escort Corporate Center, Perfect Vision Hospital"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "BADKAL MOR",
+      "list": [
+        "North-Verddhman Multiplex Mall",
+        "South-Chlrif Apartment Delhi Public School",
+        "West-Karkhana Bagh Industrial Area"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "OLD FARIDABAD",
+      "list": [
+        "North-Sec-16",
+        "South-Sec-15, Magpia Holiday Resort, Park Hospital",
+        "West-Faridabad Railway Station, EF 3 Mall, Sant Nagar, Parshnath Mall"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 92,
+      "name": "NEELAM CHOWK AJRONDA",
+      "list": [
+        "North-Megpai",
+        "South-Crown Plaza",
+        "West-Neelam Chowk"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "BATA CHOWK",
+      "list": [
+        "North-IMF Faridabad",
+        "South-SRS Multiplex, Sec-12, Parshnath City",
+        "West-Airforce Station, Radisson Hotel, Sec-20"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 94,
+      "name": "ESCORTS MUJESAR",
+      "list": [
+        "North-Sec-7, Sec-11, YAMCA Chowk, Park Hospital",
+        "South-Sec-07, YMCA University.",
+        "West-Piyush Goyal, Mujesar Village"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "SANT SURDAS(SIHI)",
+      "list": [
+        "State Bank of India, YMCA University, DHBVNXEN Office, PASCO TATA Motors",
+        "NTPC Faridabad, Sarvodaya Hospital, Sihi Village, NCB Colony, HSEB Colony",
+        "SAIL, Good Year Company, Mujesar Village"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 96,
+      "name": "RAJA NAHAR SINGH",
+      "list": [
+        "Sohna Road, District Jail, Chawla Colony, Bus Stand Ballabhgarh, Aggarwal High School and College",
+        "City Park, Palwal, CRHSP AIIMS Ballabhgarh, Anaj and Fruit Mandi",
+        "Ballabgarh Railway Station"
+      ],
+      "color": [
+        "VIOLET"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "JANAKPURI-WEST",
+      "list": [
+        "Vikas Puri",
+        "District Centre, DMRC Parking",
+        "Sub Register Office, Janakpuri Police Station"
+      ],
+      "color": [
+        "MAGENTA",
+        "BLUE"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "DABRI MOR-JANAKPURI SOUTH",
+      "list": [
+        "Pankha Road, Arya Hospital, Dabri Police Station, Mata Chanan Devi Hospital, Janakpuri C-1,C-3,C-4",
+        "Janakpuri C-2, Kendriya Vidyalaya C-2, BSES Office, Sumermal Jain Public School."
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 99,
+      "name": "DASHRATH PURI",
+      "list": [
+        "Vijay Enclave, Dwarikapuri, Dashrathpuri, Dabri Extention, Nasirpur",
+        "Mahavir Enclave, Bhagat Chandra Hospital, Sulabh International, (Vardhaman Plaza)",
+        "Vijay Enclave, Dwarikapuri, Dashrathpuri, MTNL Office"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 100,
+      "name": "PALAM",
+      "list": [
+        "Mahavir Enclave Part-2, Dwarika Sec-1, Bhagat Chandra Hospital, Manglapuri Bus Terminal",
+        "Puran Nagar, Raj Nagar, Palam Railway Station, Police Station",
+        "Puran Nagar, Raj Nagar, Palam Colony, Divya Prastha Hospital Hospital."
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "SADAR BAZAR CANTONMENT",
+      "list": [
+        "Prhaladpur Village, Air Force Museum, Air Force Cricket Ground, Institute of Aerospace Safety",
+        "Dhruv Auditorium Shekhawati Lines Park, Kendriya Vidyalaya Sadar Bazaar",
+        "Prhaladpur Village, Air Force Museum, Pinto Park, Sekhon Vihar"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "TERMINAL T1 IGI AIRPORT",
+      "list": [
+        "Mehram Nagar West, Dhaula Kuan",
+        "T-1 Parking, Mehram Nagar EAST, Dr.Bheemrao Ambedkar School",
+        "Domestic Arrivals, Domestic Airport Police Station"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "SHANKAR VIHAR",
+      "list": [
+        "Mahipalpur Residential Area, Army Public School Shankar Vihar Army Residential Area",
+        "Mahipalpur Residential Area, Army Public School Shankar Vihar"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "VASANT VIHAR",
+      "list": [
+        "Gurudwara, Munirka Marg, Embassy of Togo, Vasant Lok Market, PVR Priya Cinema",
+        "Gurudwara, Jaypee Vasant Continent Hotel, Holy Angels Hospital, CBI Colony",
+        "Gurudwara, Munirka Marg, Embassy of Togo, Vasant Lok Market, PVR Priya Cinema",
+        "Vasant Vihar F-Block, Jharkhand Bhawan, Mizoram Bhawan, Embassy of EI Salvador Meghalaya House"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "MUNIRKA",
+      "list": [
+        "CPWD Colony, Vivekanand Marg",
+        "Jain Mandir, Munirka Market, Capital Court, DDA Market, RTO Office Vasant Vihar",
+        "Jain Mandir, Munirka Market, Capital Court, DDA Market, RTO Office Vasant Vihar, DTC Depot Vasant Vihar, CPWD Colony."
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "RK PURAM",
+      "list": [
+        "Africa Avenue Road, R K Puram Sector-3, R K Khanna Tennis Stadium,DDA Sports Complex",
+        "Africa Avenue Road, R K Puram Sector-3, R K Khanna Tennis Stadium,DDA Sports Complex",
+        "Africa Avenue Road, R K Puram Sector-3, R K Khanna Tennis Stadium,DDA Sports Complex",
+        "IIT Hostels, Ber Sarai, Rose Garden, Indian Institute of Technology Delhi",
+        "IIT Hostels, Ber Sarai, ROSE Garden, Indian Institute of Technology Delhi"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "IIT",
+      "list": [
+        "Sarvapriya Vihar, Max Hospital, Malviya Nagar Market, Indian Institute of Technology Delhi, SDA Market",
+        "Laxman Public School, Police Colony, Ring Road",
+        "RBI Colony, Mayfair Garden, Hauz Khas Market, Shanpur Jat",
+        "Ring Road, Kalu Sarai, Sarvapriya Vihar, Ayurvedic Panchkarm Hospital, IIT Delhi"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "PANCHSHEEL PARK",
+      "list": [
+        "Max Hospital, R.M Vats Marg Savitri Nagar, Panchsheel Park, Sadhna Enclave, MCD Colony",
+        "R.M Vats Marg, Savitri Nagar, Panchsheel Park, Sadhna Enclave, Mcd Colony",
+        "Government School",
+        "NA"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "CHIRAG DELHI",
+      "list": [
+        "Chirag Nursery, Swami Nagar,Panchsheel Enclave",
+        "Chirag Nursery, Swami Nagar, Panchsheel Enclave",
+        "Jahapanah City Forest, Chirag Delhi Gaon, DDA Flat Masjid Moth Phase-1, DDA Flat Masjid Moth Phase-2",
+        "Jahapanah City Forest, Chirag Delhi Gaon, DDA Flat Masjid Moth Phase-1, DDA Flat Masjid Moth Phase-2",
+        "Jahapanah City Forest, Chirag Delhi Gaon, DDA Flat Masjid Moth Phase-1, DDA Flat Masjid Moth Phase-2"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "GREATER KAILASH",
+      "list": [
+        "Masjid Moth DDA Flats, BSES Office",
+        "Pumposh Enclave, TCIL Building, CR Park, Greater Kailash Enclave-1, Greater Kailsh Enclave-2",
+        "Pumposh Enclave, TCIL Building, CR Park, Greater Kailash Enclave-1, Greater Kailsh Enclave-2"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "NEHRU ENCLAVE",
+      "list": [
+        "Chirag Enclav, Pamposh Enclave, Kalkaji, Veer Savarkar Govt. Sarvodaya Kanya Vidyalaya, EROS Intercontinental, CR Park, Devika Tower",
+        "Paras Cinema, Nehru Place Market, Kalkaji Extension, JIMS Kalkaji, Bhairav Mandir, Kalkaji Police Station, Modi Tower",
+        "Paras Cinema, Nehru Place Market, Kalkaji Extension, JIMS Kalkaji, Bhairav Mandir, Kalkaji Police Station, Modi Tower",
+        "Chirag Enclave, Pamposh Enclave, Kalkaji, Veer Savarkar Govt. Sarvodaya kanya Vidyalaya, EROS Intercontinental, CR Park, Devika Tower",
+        "Chirag Enclave, Pamposh Enclave, Kalkaji, Veer Savarkar Govt. Sarvodaya kanya Vidyalaya, EROS Intercontinental, CR Park, Devika Tower"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "NSIC OKHLA",
+      "list": [
+        "NSIC, Okhla Phase-3, Okhla Railway Station, Shambhu Dayal Bagh",
+        "NSIC Exhibition Complex, Lotus Temple, Kalkaji Mandir"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "SUKHDEV VIHAR",
+      "list": [
+        "Fortis Escorts Hospital(IPD & Emergency), Ishwar Nagar,Taimoor Nagar, Maharani bagh, Hazi Colony, Fortis Escorts Hospital(OPD)",
+        "Fortis Escorts Hospital(IPD & Emergency), Ishwar Nagar,Taimoor Nagar, Maharani bagh, Hazi Colony, Fortis Escorts Hospital(OPD)",
+        "Holy Family Hospital, Jamia Milia Islamia University, Jauhar Marg, The Ardee School",
+        "Fortis Escorts Hospital(OPD), Doon Bosco Technical Institute(I.T.I), Dev Samaj Modren School, Sukhdev Vihar"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "JAMIA MILLIA ISLAMIA",
+      "list": [
+        "Jamia Millia Islamia University, Tikona Park, Noor Nagar, Gaffar Manjil, Jamia Community Center.",
+        "Batla House, Jakir Nagar, Joga Bai, Jauhar Bagh, Okhla Village"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "OKHLA VIHAR",
+      "list": [
+        "Okhla Head, Canal Colony, Okhla Village, Okhla Bus Terminal",
+        "Okhla Head, Canal Colony, Okhla Village , Okhla Bus Terminal",
+        "Abdul Fazal Enclave, Hari Kothi Road, Jamia Nagar Police Station, Delhi Electoral Office"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "JASOLA VIHAR SHAHEEN BAGH",
+      "list": [
+        "(YWCA)Working Women's Hostel, Good Samaritan School, HIG Flats, Sec-9A, Jasola Vihar(DDA)",
+        "(YWCA)Working Women's Hostel, Good Samaritan School, HIG Flats, Sec-9A, Jasola Vihar(DDA)",
+        "Shaheen Bagh, Choudhary Charan Singh Udyan, Delhi Rides, Sarita Vihar, Mandanpur Khadar",
+        "DAV School, Living Style Mall, SFS Flats, Sec 7 & 8, Jasola Vihar (DDA), Jasola Pocket 1&2."
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "KALINDI KUNJ",
+      "list": [
+        "Jaitpur, Mithapur,Madanpur Khadar, Kalindi Kunj Park, Shaheen Bagh"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "OKHLA BIRD SANTUARY",
+      "list": [
+        "Okhla Bird Sanctuary Gate No-1, Amrapali Marg, Raipur Khadar, Noida Sec-94, Rotary Noida Blood Bank",
+        "Okhla Bird Sanctuary Gate No-1, Amrapali Marg, Raipur Khadar, Noida Sec-94, Rotary Noida Blood Bank",
+        "Amity University, Mahamaya Flyover, Noida Sec-37 Bus Station, Worlds of Wonder Park, Salapur Colony, Mahamaya Balika Inter College, HCL Sec-125",
+        "Supernova Apartment"
+      ],
+      "color": [
+        "MAGENTA"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "BOTANICAL GARDEN",
+      "list": [
+        "Chhalera Village, Amity University, Salapur Village, Bus Terminal Sec-37",
+        "Amar Shaheed Vijayant Enclave Sector-29, N.M.C Hospital, Arun Vihar Sec-37, Authority Parking, Metro Parking",
+        "Authority Parking, Metro Parking",
+        "Amar Shaheed Vijayant Enclave Sector-29, N.M.C Hospital, Arun Vihar Sec-37, Authority Parking, Metro Parking"
+      ],
+      "color": [
+        "MAGENTA",
+        "BLUE"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "MAJLIS PARK",
+      "list": [
+        "Mukundpur Staff Qtrs.",
+        "Jahangir Puri Fire Station, Adarsh Nagar"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "SHALIMAR BAGH",
+      "list": [
+        "Kendriya Vidyalaya",
+        "Fortis Hospital",
+        "Wazirpur Fire Station",
+        "Computer Market",
+        "EPF Office, KC Goyal Marg"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "SHAKUR PUR",
+      "list": [
+        "Shankurpur Colony, MCD Polyclinic",
+        "Anandwas Shakurpur, Shakurpur Railway Station"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 123,
+      "name": "PUNJABI BAGH(WEST)",
+      "list": [
+        "Traffic Traning Park, Punjabi Bagh Paschim Colony, Maharaja Aggrasain Hospital",
+        "Traffic Traning Park, Punjabi Bagh Paschim Colony, Maharaja Aggrasain Hospital"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "ESI BASAI DARAPUR",
+      "list": [
+        "Rajhdhani College",
+        "Club Road, ESI Hospital"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 125,
+      "name": "RAJOURI GARDEN",
+      "list": [
+        "MTNL Office",
+        "Rajouri Garden Metro Thana",
+        "Vishal Cinema",
+        "City Square Mall",
+        "Ilhabad Bank",
+        "Ilhabad Bank",
+        "Bikenerwala",
+        "Bikenerwala"
+      ],
+      "color": [
+        "pink, blue"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "MAYAPURI",
+      "list": [
+        "Braham Kumari Ashram",
+        "Govt. of India Press, Mayapuri Depot(DTC)"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "NARAINA VIHAR",
+      "list": [
+        "BHEL Hospital, Block B-Central Park, Naraina Vihar Ring Road",
+        "Post Office, Naraina Vihar Village Park"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "DELHI CANTT.",
+      "list": [
+        "R&R Hospital",
+        "Brar Squire Railway Station"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 129,
+      "name": "DUGABAI DESHMUKH SOUTH CAMPUS",
+      "list": [
+        "Sh Venkateswar College, Satya Niketan",
+        "Northen Railway ECO Park, Smriti Vatika, San Martin Park"
+      ],
+      "color": [
+        "pink, orange"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "SRI VISHWESHWARAIAN MOTI BAGH",
+      "list": [
+        "Sector-12 R.K Puram, Sector-9 R.K Puram, K-D Colony, North Moti Bagh, Aradhna Enclave",
+        "Block-A moti bagh, Sector-3 Shanti Niketan, Sadhu Vaswani Mission Medical Center.",
+        "Sector-12 R.K Puram, Sector-9 R.K Puram, K-D Colony, Aradhna Enclave"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "BHIKAJI NAGAR",
+      "list": [
+        "Netaji Nagar (Block-A,B,C,G), Palika Bhawan",
+        "Sector-55, Sulekha Vihar (Across), DTC Sarojini Nagar Depot",
+        "EIL, Hyatt Regency, Gail India Ltd."
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 132,
+      "name": "SAROJINI NAGAR",
+      "list": [
+        "Sarojini Nagar Market, Delhi Public Library",
+        "Pilanji Gaon, Sarojini Nagar (Block-A,B,X,Y,AB,AG)"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "SOUTH EXTENSION",
+      "list": [
+        "East Kidwai Nagar, NBCC Flats, KaleKhan Ka Makbara",
+        "South Extension Part-1 Market",
+        "South Extension Part-1 Market, South Extension Part-2",
+        "AIIMS Campus National Medical Library"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 134,
+      "name": "VINOBAPURI",
+      "list": [
+        "Delhi Public Library",
+        "Nehru Nagar"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 135,
+      "name": "ASHRAM",
+      "list": [
+        "Delhi Fire Service Station",
+        "Siddharth Enclave",
+        "Kilokari Market"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "HAZRAT NIZAMUDDIN",
+      "list": [
+        "Sarai Kale Khan Bus Stand",
+        "Hazarat Nizzamuddin Railway Station",
+        "Hazarat Nizzamuddin Railway Station"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 137,
+      "name": "MAYUR VIHAR-I",
+      "list": [
+        "Hindustan Apartment (IPS Apartment)",
+        "Jeevan Anmol Hospital",
+        "Mayur Vihar Pocket-1",
+        "Arya Samaj Mandir"
+      ],
+      "color": [
+        "pink, blue"
+      ]
+    },
+    {
+      "id": 138,
+      "name": "MAYUR VIHAR POCKET-I",
+      "list": [
+        "Pratap Nagar",
+        "Chilla Village"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 139,
+      "name": "TRILOK PURI SANJAY LAKE",
+      "list": [
+        "Sanjay Lake, Chand Cinema, Lal Bahadur Shastri Hospital, Dharamshila Cancer Hospital",
+        "Sanjay Lake, Chand Cinema, Lal Bahadur Shastri Hospital, Dharamshila Cancer Hospital"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "EAST VINOD NAGAR (MAYUR VIHAR-II)",
+      "list": [
+        "Sarvodaya Govt. School Mayur Vihar Pocket-C, Radha Saomi Satsang Beas, Super Shine Chowk",
+        "Sport Camplex, Phase-II Gurudwara, Bimla Devi Hospital, DTC Depot."
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "MANDAWALI-WEST VINOD NAGAR",
+      "list": [
+        "Ras Vihar Apartment, Engineers State Apartment, Fire Station"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "IP EXTENSION",
+      "list": [
+        "DDA Park, Max Hospital"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "ANAND VIHAR ISBT",
+      "list": [
+        "Urban Institute of Management",
+        "ISBT Anand Vihar",
+        "Anand Vihar I.S.B.T",
+        "Anand Vihar Railway Station"
+      ],
+      "color": [
+        "pink, blue"
+      ]
+    },
+    {
+      "id": 144,
+      "name": "KARKARDUMA",
+      "list": [
+        "Karkarduma Court",
+        "Metro Parking"
+      ],
+      "color": [
+        "pink, blue"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "KARKARDUMA COURT",
+      "list": [
+        "Rishabh Vihar, Priya Enclave, Gang Hospital, Kendraya Vidyalaya, AGCR Enclave, Morden Public School",
+        "Karkarduma Court, Dr. Hedgewar Hospital, Govt. of Delhi District Empolyment Exchange, LIC Apartment, Chitrkut Apartment, Anand Vihar Police Station, Regional Council of ICAI (Northen India)",
+        "Karkarduma Village, Saini Enclave, Sharad Vihar, Shanti Mukunda Hospital",
+        "Karkarduma Village, Saini Enclave, Sharad Vihar, Shanti Mukunda Hospital"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "KRISHNA NAGAR",
+      "list": [
+        "Sri Ram Vihar, Lal Quarter Market, Radhe Puri, Shri Ram Singh Hospital & Health Institute, Krishan Nagar Market",
+        "Vishwas Nagar, Hans Apartment, DCP Office, Farsh Bazar, Dr. Hedgewar Arogya Sansthan"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 147,
+      "name": "EAST AZAD NAGAR",
+      "list": [
+        "Brijraj Sweets, Allahbad Bank, Azad Nagar",
+        "Bhola Nath Nagar, Shalimar Park, Police Station"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "JAFFRABAD",
+      "list": [
+        "Zeenat Mahal School, Main Jafrabad",
+        "Loni Bus Depot, Gulab Vatika"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "MAUJPUR-BABARPUR",
+      "list": [
+        "Maujpur-Babarpur",
+        "Maujpur-Babarpur",
+        "Maujpur-Babarpur",
+        "Maujpur-Babarpur"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "GOKUL PURI",
+      "list": [
+        "Gokulpuri, Ganga Vihar, Sarvodaya Kanya Vidyalaya, Govt. Boys Sr. Secondary School",
+        "Police Station, Dr. Bhim Rao Ambedkar College, Yamuna Vihar"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "JOHRI ENCLAVE",
+      "list": [
+        "Johripur, Indra Enclave, Ganga Enclave",
+        "Loni Bus Depot, Gulab Vatika"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "SHIV VIHAR",
+      "list": [
+        "Inderpuri Colony, Ambedkar Nagar",
+        "Jawahar Nagar, Balraj Nagar"
+      ],
+      "color": [
+        "pink"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "DWARKA SECTOR-21",
+      "list": [
+        "Nh-8 (BIJWASAN Village)"
+      ],
+      "color": [
+        "blue, orange"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "DWARKA SECTOR-8",
+      "list": [
+        "SPG Complex"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "DWARKA SECTOR-9",
+      "list": [
+        "PF Office",
+        "Bharat Gas Godown"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "DWARKA SECTOR-10",
+      "list": [
+        "Pinacle Mall",
+        "Dwarka Dist Court"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 157,
+      "name": "DWARKA SECTOR-11",
+      "list": [
+        "Amrahi Village",
+        "St. Gregorios School"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 158,
+      "name": "DWARKA SECTOR-12",
+      "list": [
+        "Sam International School",
+        "Bansup Hospital"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 159,
+      "name": "DWARKA SECTOR-13",
+      "list": [
+        "Not Available",
+        "Metro View Apartment"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "DWARKA SECTOR-14",
+      "list": [
+        "EROS Etro Mall",
+        "Nirmal Bharatiya Public School"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 161,
+      "name": "DWARKA",
+      "list": [
+        "CRPF Quaters",
+        "Kakrola Village"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 162,
+      "name": "DWARKA MOR",
+      "list": [
+        "Vipin Garden",
+        "Rama Park"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 163,
+      "name": "NAWADA",
+      "list": [
+        "Rnayar Hospital",
+        "Not Available",
+        "Dwarka Mor",
+        "Mahendru Hospital"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 164,
+      "name": "UTTAM NAGAR WEST",
+      "list": [
+        "OM Vihar",
+        "Dal Mill Road",
+        "Prem Nagar",
+        "Arya Samaj Road",
+        "Arya Samaj Road"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 165,
+      "name": "UTTAM NAGAR EAST",
+      "list": [
+        "Pankha Road",
+        "DTC Bus Terminal"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 166,
+      "name": "JANAKPURI EAST",
+      "list": [
+        "Mahavir Nagar",
+        "Kanjawal Nagar",
+        "Janakpuri (B-1 & B-2)"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 167,
+      "name": "TILAK NAGAR",
+      "list": [
+        "Central Market Tilak Nagar",
+        "7th Floor Temple",
+        "Jail Road Gurudwara",
+        "Prem Nagar"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 168,
+      "name": "SUBHASH NAGAR",
+      "list": [
+        "State Bank of India Tilak Nagar",
+        "Pacfic Mall",
+        "Tilak Nagar Police Station",
+        "Minakshi Garden"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 169,
+      "name": "TAGORE GARDEN",
+      "list": [
+        "Khyala Kendriya Vidyalaya",
+        "Kukreja Hospital",
+        "Cambridge School",
+        "Rajouri Garden J-Block"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 170,
+      "name": "RAMESH NAGAR",
+      "list": [
+        "Metro Parking",
+        "Ramesh Nagar",
+        "Sun Temple",
+        "Main Najafgarh Road",
+        "Namdhari Colony"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 171,
+      "name": "MOTI NAGAR",
+      "list": [
+        "Mn Fire Station.",
+        "Kirti Nagar",
+        "DMRC Parking"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 172,
+      "name": "KIRTI NAGAR",
+      "list": [
+        "Furniture Market Moments Mall",
+        "Not Operational",
+        "Kirti Nagar Railway Station Parking",
+        "Not Operational",
+        "Parking"
+      ],
+      "color": [
+        "blue, green"
+      ]
+    },
+    {
+      "id": 173,
+      "name": "SHADIPUR",
+      "list": [
+        "DTC Bus Depot",
+        "Not Available",
+        "Not Available",
+        "Shanti Place Hotel",
+        "Not Available",
+        "DTC Colonyy",
+        "Satyam Cinema"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 174,
+      "name": "PATEL NAGAR",
+      "list": [
+        "Ayur House",
+        "BB Patel Nagar Hospital",
+        "Hotel Bricks",
+        "Pusa Institute",
+        "DMRC Parking Area",
+        "Ranjeet Nagar"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 175,
+      "name": "RAJENDRA PLACE",
+      "list": [
+        "Hotel Sidartha",
+        "BLK Hospital",
+        "Fire Station",
+        "Pusa Institute"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 176,
+      "name": "KAROL BAGH",
+      "list": [
+        "Karolbagh Market",
+        "Pusa Road",
+        "Pusa Road",
+        "Faishan Big Bazar",
+        "City Hospital",
+        "Apsara Arcade",
+        "Ganga Ram Hospital",
+        "Jeevan Nursing Home"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 177,
+      "name": "JHANDEWALAN",
+      "list": [
+        "Jhulelal Mandir",
+        "Videocon Tower",
+        "Hunuman Mandir",
+        "Baba Lalji Mandir"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 178,
+      "name": "RAMAKRISHNA ASHRAM MARG",
+      "list": [
+        "Heart & Lung Hospital",
+        "RK Ashram",
+        "Gol Market",
+        "Lady Harding Hospital",
+        "DMRC Metro Parking"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 179,
+      "name": "BARAKHAMBA ROAD",
+      "list": [
+        "Metro Bhawan",
+        "Kanchanjunga Building",
+        "DCM Building",
+        "Inderprakash & Vijay Building",
+        "Narayan Manjil",
+        "New Delhi House"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 180,
+      "name": "PRAGATI MAIDAN",
+      "list": [
+        "Supreme Court",
+        "ITO",
+        "Way to IITF Gate No.10"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 181,
+      "name": "INDRAPRASTHA",
+      "list": [
+        "DTC Head Quarters",
+        "Parking"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 182,
+      "name": "YAMUNA BANK",
+      "list": [
+        "Yamuna Bank Staff Quarters"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 183,
+      "name": "AKSHARDHAM",
+      "list": [
+        "Swami Narayan Akshardham Mandir",
+        "Parking"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 184,
+      "name": "MAYUR VIHAR EXTENSION",
+      "list": [
+        "Samachar Apartment",
+        "Glaxo Apartment"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 185,
+      "name": "NEW ASHOK NAGAR",
+      "list": [
+        "Dharmshila Cancer Hospital"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 186,
+      "name": "NOIDA SECTOR-15",
+      "list": [
+        "Noida Sec-1,2,3,4, Hhec Building (Naruja Hotel)",
+        "Golchakkar"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 187,
+      "name": "NOIDA SECTOR-16",
+      "list": [
+        "Rajnigandha Chowk",
+        "Naya Bansh Film City"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 188,
+      "name": "NOIDA SECTOR-18",
+      "list": [
+        "Atta Market",
+        "Not Available"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 189,
+      "name": "GOLF COURSE",
+      "list": [
+        "Not Available",
+        "Golf Course Ground Noida"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 190,
+      "name": "NOIDA CITY CENTER",
+      "list": [
+        "Roadways Bus Stand",
+        "Rajkiya Degree College Noida",
+        "Sector-32 & 34, Sector 60 & 62, Roadways Bus Stand",
+        "I.C.P.O, Government Post Graduate College, Sector 39,41,50,51"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 191,
+      "name": "NOIDA SECTOR-34",
+      "list": [
+        "North Towards Billbong High School",
+        "South towards(Alok Vihar)"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 192,
+      "name": "NOIDA SECTOR-52",
+      "list": [
+        "North towards Noida-52,53,61",
+        "North towards Noida Sec-72,73,74,75,76,77",
+        "South Noida Sector-51, Hoshiyarpur Village"
+      ],
+      "color": [
+        "blue, aqua"
+      ]
+    },
+    {
+      "id": 193,
+      "name": "NOIDA SECTOR-61",
+      "list": [
+        "West towards Sai Karuna Dham Temple",
+        "East towards noida sector-70,71, police station"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 194,
+      "name": "NOIDA SECTOR 59",
+      "list": [
+        "West towards UFLEX Limited, Bishan Pura Village",
+        "East towards Mamura Village"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 195,
+      "name": "NOIDA SECTOR 62",
+      "list": [
+        "West towards UFLEX Limitech Bishan Pura Village",
+        "East towards Mamura Village"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 196,
+      "name": "NOIDA ELECTRONIC CITY",
+      "list": [
+        "South towards Towards Sector-62,63",
+        "Noth towards Towards Sector-63",
+        "towards Jay Pee Institute of Information Technology"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 197,
+      "name": "LAXMI NAGAR",
+      "list": [
+        "D-Block Laxmi Nagar",
+        "Shakarpur",
+        "Patel Hospital"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 198,
+      "name": "NIRMAN VIHAR",
+      "list": [
+        "V3S Mall (Bharat Public School)",
+        "Bharat Colony",
+        "Nirman Vihar Area"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 199,
+      "name": "PREET VIHAR",
+      "list": [
+        "Soffpro Institute",
+        "Taneja Hospital",
+        "State Bank of India",
+        "Punjab National Bank"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 200,
+      "name": "KAUSHAMBI",
+      "list": [
+        "Kaushambi",
+        "Wave Cinema"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 201,
+      "name": "VAISHALI",
+      "list": [
+        "Vaishali",
+        "Shri Krishanvatika Vaishali Sec-4"
+      ],
+      "color": [
+        "blue"
+      ]
+    },
+    {
+      "id": 202,
+      "name": "BRIGADIER HOSHIAR SINGH",
+      "list": [
+        "Tau Devilal Park, Sector-6, Sector-7, Housing Board Colony",
+        "Old Industrial Area, Civil Hospital, New Basti, Nehru Park"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 203,
+      "name": "BAHADURGARH CITY",
+      "list": [
+        "Bus Stand Bahadur Garh, New Sabji Mandi, Dalbir Nagar, Basant Vihar, Astha Hospital",
+        "Shaheed Brigadier Hoshyar Singh Stadium, Sadar Thana Brahma Shakti Sanjivni Hospital"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 204,
+      "name": "PANDIT SHREE RAM SHARMA",
+      "list": [
+        "MIE Part-B, Jeevan Jyoti Colony, Jeevan Jyoti Hospital, Delhi Metro Staff Quarter, Sector 9 & 9A",
+        "MIE Part-A, Relaxo Footwear Industry, Chotu Ram Nagar"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 205,
+      "name": "TIKRI BORDER",
+      "list": [
+        "Lekhram Colony, Tikri Market, Govt. Sarvodaya Kanya Vidyalaya, Geetanjali Colony, PVC Road/Market, Shri Ram Global School, Govt. Boys Senior Secondary School",
+        "Tikri Border Toll Tax, Hira Market, Haridas Colony Kodiya Colony"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 206,
+      "name": "TIKRI KALAN",
+      "list": [
+        "Shirdi Sai Temple, Tikri Kalan Village, Prince Public School",
+        "HP Delhi Terminal and Receiving Station, Azad Hind Gram"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 207,
+      "name": "GHEVRA METRO STATION",
+      "list": [
+        "Shri Vaishno Mata Mandir, Late Sahib Singh Verma Swabhimam Sthal, Neelwaal Goan, Hiran Kudna Mor",
+        "Ghevra Railway Station, Ghevra Village,Sawda Colony"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 208,
+      "name": "MUNDKA INDUSTRIAL AREA",
+      "list": [
+        "DDA Flats Bakkarwala, Mundka Industrial Area, LoknayakPuram",
+        "DDA Flats Bakkarwala, Mundka Industrial Area, Loknayak Puram"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 209,
+      "name": "MUNDKA",
+      "list": [
+        "Bahadurgarh Rohthak Road",
+        "Janardan Rai Nagar, Institute of Aviation Technology(Rajender Lakra Model School)"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 210,
+      "name": "RAJDHANI PARK",
+      "list": [
+        "Timber Market",
+        "Union Bank of India (Sai Vatika)"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 211,
+      "name": "NANGLOI RAILWAY STATION",
+      "list": [
+        "Booming Dales Public School",
+        "Govt. Girls Sr. Sec School School JJ Colony (Kamp No.2), Nangloi"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 212,
+      "name": "NANGLOI",
+      "list": [
+        "Kirari More",
+        "Govt. Sarvodaya Bal (Kanya Vidhalaya Nangloi, Govt. Girls Sr)(Sec School Nangloi)"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 213,
+      "name": "MAHARAJA SURAJMAL STADIUM",
+      "list": [
+        "Rail Neer Water Plant",
+        "Surajmal Stadium (MCD Community Center)"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 214,
+      "name": "UDYOG NAGAR",
+      "list": [
+        "JJ.Colony (Mianwali Police Station)",
+        "DTC Bus Depot (Udyog Nagar Industrial Area)"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 215,
+      "name": "PEERAGARHI",
+      "list": [
+        "Ekta Enclave (Redison Blue, DTC Busdepot Peeragarhi)",
+        "Mangol Puri Industrial Area(Safa Fruit & vegitable)"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 216,
+      "name": "PASCHIM VIHAR WEST",
+      "list": [
+        "Jwalaheri Market(Vishal Bharti Public School)",
+        "Sahdev Park(Multan Nagar)"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 217,
+      "name": "PASCHIM VIHAR EAST",
+      "list": [
+        "Bharti Vidyapeeth University(Balajee Action Hospital)",
+        "Ordance Depot (Multan Nagar)"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 218,
+      "name": "MADI PUR",
+      "list": [
+        "Madipur JJ Colony",
+        "Railway Reservation Centre"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 219,
+      "name": "SHIVAJI PARK",
+      "list": [
+        "Shivaji Park Colony (DCP Office)",
+        "Indian Oil Depot"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 220,
+      "name": "PUNJABI BAGH",
+      "list": [
+        "Punjabi Bagh (Railway Colony)",
+        "Transport Center"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 221,
+      "name": "ASHOK PARK MAIN",
+      "list": [
+        "Madan Park(Ashok Park Extn.)",
+        "Ashok Park Colony(Rampura)"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 222,
+      "name": "SATGURU RAM SINGH MARG",
+      "list": [
+        "Patel Nagar Railway Station"
+      ],
+      "color": [
+        "green"
+      ]
+    },
+    {
+      "id": 223,
+      "name": "IGI AIRPORT",
+      "list": [
+      ],
+      "color": [
+        "orange"
+      ]
+    },
+    {
+      "id": 224,
+      "name": "DELHI AERO CITY",
+      "list": [
+      ],
+      "color": [
+        "orange"
+      ]
+    },
+    {
+      "id": 225,
+      "name": "SHIVAJI STADIUM",
+      "list": [
+      ],
+      "color": [
+        "orange"
+      ]
+    },
+    {
+      "id": 226,
+      "name": "NOIDA SECTOR 51",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 227,
+      "name": "NOIDA SECTOR 50",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 228,
+      "name": "NOIDA SECTOR 76",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 229,
+      "name": "NOIDA SECTOR 101",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 230,
+      "name": "NOIDA SECTOR 81",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 231,
+      "name": "NSEZ",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 232,
+      "name": "NOIDA SECTOR 83",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 233,
+      "name": "NOIDA SECTOR 137",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 234,
+      "name": "NOIDA SECTOR 142",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 235,
+      "name": "NOIDA SECTOR 143",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 236,
+      "name": "NOIDA SECTOR 144",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 237,
+      "name": "NOIDA SECTOR 145",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 238,
+      "name": "NOIDA SECTOR 146",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 239,
+      "name": "NOIDA SECTOR 147",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 240,
+      "name": "NOIDA SECTOR 148",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 241,
+      "name": "KNOWLEDGE PARK 2",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 242,
+      "name": "PARI CHOWK",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 243,
+      "name": "ALPHA 1",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 244,
+      "name": "DELTA 1",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 245,
+      "name": "GNOIDA OFFICE",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 246,
+      "name": "DEPOT",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    },
+    {
+      "id": 247,
+      "name": "Dhaula KUAN",
+      "list": [
+      ],
+      "color": [
+        "AQUA"
+      ]
+    }
+  ]
+}

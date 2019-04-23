@@ -6,40 +6,51 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".activity.LastTripsActivity">
-    <AutoCompleteTextView
-        android:id="@+id/txtSource"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/layout_small_margin"
-        android:layout_marginTop="@dimen/layout_small_margin"
-        android:layout_marginRight="@dimen/spacing_xxlarge"
-        android:padding="@dimen/small_padding"
-        android:hint="Hello World!"
-        android:textSize="@dimen/text_small" />
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/layout_small_margin">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <AutoCompleteTextView
-        android:id="@+id/txtDestination"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/layout_small_margin"
-        android:padding="@dimen/small_padding"
-        android:layout_marginRight="@dimen/spacing_xxlarge"
-        android:hint="Hello World!"
-        android:textSize="@dimen/text_small" />
+            <AutoCompleteTextView
+                android:id="@+id/txtSource"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/layout_small_margin"
+                android:layout_marginTop="@dimen/layout_small_margin"
+                android:padding="@dimen/small_padding"
+                android:hint="Hello World!"
+                android:textSize="@dimen/text_small" />
 
-    <ImageView
-        android:id="@+id/imgSwapRoute"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:layout_marginRight="@dimen/layout_medium_margin"
-        android:layout_marginTop="-60dp"
-        android:background="@drawable/circular_button"
-        android:src="@drawable/ic_change" />
+            <AutoCompleteTextView
+                android:id="@+id/txtDestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/layout_small_margin"
+                android:padding="@dimen/small_padding"
+                android:hint="Hello World!"
+                android:textSize="@dimen/text_small" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgSwapRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/layout_small_margin"
+            android:background="@drawable/circular_button"
+            android:src="@drawable/ic_change" />
+    </LinearLayout>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recRouteToShow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:padding="@dimen/small_padding"/>
+        android:layout_margin="@dimen/layout_small_margin"
+        />
 </LinearLayout>
