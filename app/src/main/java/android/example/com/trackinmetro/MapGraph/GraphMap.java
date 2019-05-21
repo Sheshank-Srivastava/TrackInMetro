@@ -1,6 +1,8 @@
 package android.example.com.trackinmetro.MapGraph;
 
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.example.com.trackinmetro.utilities.Constants;
 import android.util.Log;
 
 import java.util.ArrayList;
@@ -30,12 +32,7 @@ public class GraphMap {
         initAdjList();
         //initialise time list
         timeMap = new ArrayList<>();
-        if (timeMap == null)
-            Log.d("TimeGet", "Is Null");
-        else
-            Log.d("TimeGet", "Is Not Null");
 
-        Log.d("TimeGet", timeMap.toString());
     }
 
     // utility method to initialise
@@ -58,8 +55,11 @@ public class GraphMap {
     // Prints all paths from
     // 's' to 'd'
     public void printAllPaths(int s, int d) {
+        Log.d("Intent", "printAllPaths  Graph Map " + s + "==" + d);
+
         boolean[] isVisited = new boolean[v];
-        ArrayList<Integer> pathList = new ArrayList<>();
+        ArrayList<Integer> pathList=null;
+        pathList = new ArrayList<>();
 
         //add source to path[]
         pathList.add(s);
@@ -81,17 +81,12 @@ public class GraphMap {
         // Mark the current node
         isVisited[u] = true;
 
+
         if (u.equals(d)) {
-//            System.out.println(localPathList);
-//-----------------------------------------------------------------------
-//            for (int i = 0;i<localPathList.size();i++){
-//                Log.d("hello"," "+localPathList.get(i));
-//            }
             int durTime = 0;
             for (int i = 0; i < localPathList.size() - 1; i++) {
                 durTime += getTime(localPathList.get(i), localPathList.get(i + 1));
             }
-            Log.d("StationNumber111111", durTime + " durTime Sheshank");
 //
             if (no > durTime) {
                 no = durTime;
@@ -100,7 +95,6 @@ public class GraphMap {
                 for (int i = 0; i < localPathList.size(); i++) {
                     list2.add(localPathList.get(i));
                 }
-                Log.d("Sis", localPathList.size() + "->" + no);
             }
 //            this.list.add(localPathList);
 //-----------------------------------------------------------------------
@@ -148,10 +142,7 @@ public class GraphMap {
     void makeDuration(int s, int d, int du) {
         timeMap.add(new GraphTime(s, d, du));
         timeMap.add(new GraphTime(d, s, du));
-//        Log.d("TimeFrame", timeMap.get(k).getSource() + "**" + timeMap.get(k).getDuration() + "**" + timeMap.get(k).getDestination());
-//        Log.d("TimeFrame", timeMap.get(k + 1).getSource() + "**" + timeMap.get(k + 1).getDuration() + "**" + timeMap.get(k + 1).getDestination());
-//        k += 2;
-//        Log.d("TIme At Every ins",timeMap.size()+"");
+
 
     }
 
@@ -443,6 +434,7 @@ public class GraphMap {
     }
 
     public ArrayList<Integer> getMap(Context mCtx, int s, int d) {
+        Log.d("Intent", "In Class  Graph Map " + s + "==" + d);
 
         GraphMap g = new GraphMap(248);
         g.makeEdge(0, 1);//huda City Centre to Iffco Chowk
@@ -1259,14 +1251,14 @@ public class GraphMap {
 //
 //        // arbitrary destination
 //        int d = 0;
-        g.printAllPaths(s, d);
-        Log.d("Tanshu", list2.size()+"");
+        Log.d("Intent", "In Class  Graph Map " + s + "==" + d);
 
-        //        System.out.println((System.currentTimeMillis() - start) + " Time is taken in seconds");
-        Log.d("Station Time", no + " is the minutes time");
-        for (int i = 0; i < list2.size(); i++) {
-            Log.d("Station Time", list2.get(i) + "->" + stationName.get(list2.get(i)));
-        }
+        g.printAllPaths(s, d);
+        SharedPreferences sharedPreferences =  mCtx.getSharedPreferences(Constants.SHARED_PREF_DATA,Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(Constants.TRAVELLING_TIME,no);
+        editor.apply();
+        Log.d("Intent","In Graph map"+ list2.toString());
         return list2;
     }
 

@@ -1,10 +1,12 @@
 package android.example.com.trackinmetro.activity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.example.com.trackinmetro.MapGraph.GraphMap;
 import android.example.com.trackinmetro.R;
 import android.example.com.trackinmetro.adapter.ListRouteAdapter;
 import android.example.com.trackinmetro.model.RouteListModel;
+import android.example.com.trackinmetro.utilities.Constants;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -35,23 +37,31 @@ public class LastTripsActivity extends AppCompatActivity {
 
     GraphMap map;
     ArrayList<Integer> list;
-    ArrayList<RouteListModel> fullRouteData,listData;
+    ArrayList<RouteListModel> fullRouteData, listData;
     ListRouteAdapter adapter;
 
-    public static int totalStation =0;
+    public static int totalStation = 0;
+
+    SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_last_trips);
         /**
+         * Sharedpreference Data
+         */
+        sharedPreferences = getSharedPreferences(Constants.SHARED_PREF_DATA, MODE_PRIVATE);
+        sourceCode = sharedPreferences.getInt(Constants.SOURCE_STATION_CODE, -1);
+        destinationCode = sharedPreferences.getInt(Constants.DESTINATION_STATION_CODE, -1);
+        /**
          * Intent Data
          */
         Log.d("Intent", "Befor Intent");
-        Intent intent = getIntent();
-        sourceCode = intent.getIntExtra("source", -1);
-        destinationCode = intent.getIntExtra("destination", -1);
-        Log.d("Intent", "After Intent" + sourceName + "==" + destinationName);
+//        Intent intent = getIntent();
+//        sourceCode = intent.getIntExtra("source", -1);
+//        destinationCode = intent.getIntExtra("destination", -1);
+        Log.d("Intent", "After Intent" + sourceCode + "==" + destinationCode);
 
         /**
          * Component
@@ -85,25 +95,32 @@ public class LastTripsActivity extends AppCompatActivity {
         /**
          * Getting Route List
          */
-        if (sourceCode != -1 && destinationCode != -1){
+        if (sourceCode != -1 && destinationCode != -1) {
             txtSource.setText(mdata.get(sourceCode));
             txtDestination.setText(mdata.get(destinationCode));
+
             dataRecycler();
             getData();
+            for (int i = 0; i < fullRouteData.size(); i++) {
+                Log.d("ListPrint", fullRouteData.get(i).getStationName());
+            }
+
             adapter.notifyDataSetChanged();
             sourceName = fullRouteData.get(0).getStationName().trim();
-            destinationName = fullRouteData.get(list.size()-1).getStationName().trim();
+            destinationName = fullRouteData.get(list.size() - 1).getStationName().trim();
+
         }
     }
 
     private void dataRecycler() {
         map = new GraphMap();
+        Log.d("Intent", "After Intent" + sourceCode + "==" + destinationCode);
         list = map.getMap(this, sourceCode, destinationCode);
         Log.d("StationName", list.toString());
         recyclerView = findViewById(R.id.recRouteToShow);
         LinearLayoutManager manager = new LinearLayoutManager(this);
         fullRouteData = new ArrayList<>();
-        adapter = new ListRouteAdapter(this,fullRouteData);
+        adapter = new ListRouteAdapter(this, fullRouteData);
         recyclerView.setLayoutManager(manager);
         recyclerView.setAdapter(adapter);
         totalStation = list.size();
@@ -141,7 +158,7 @@ public class LastTripsActivity extends AppCompatActivity {
                     gateDirlist.add(list.get(j) + "");
 
                 }
-                fullRouteData.add(new RouteListModel(stationname,stationNumber,colorList,gateDirlist));
+                fullRouteData.add(new RouteListModel(stationname, stationNumber, colorList, gateDirlist));
 
             }
 //            Log.d("JsonData", stationName.size()+json + "======================");
@@ -153,4 +170,13 @@ public class LastTripsActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        list = null;
+        fullRouteData = null;
+        Log.d("JsonData", "Both null");
+
+        finish();
+    }
 }

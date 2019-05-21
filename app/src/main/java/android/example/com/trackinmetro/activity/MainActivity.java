@@ -1,6 +1,7 @@
 package android.example.com.trackinmetro.activity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.example.com.trackinmetro.R;
 import android.example.com.trackinmetro.adapter.LastTripAdapter;
 import android.example.com.trackinmetro.model.LastTripModel;
@@ -47,12 +48,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     int backPressedLook = Constants.EXIT_KEY;
     String sourceName, destination;
     RecyclerView recLastTrip;
-    /**
-     * Delete AnyTime
-     *
-     * @param savedInstanceState
-     */
-    String[] languages = {"C", "C++", "Java", "C#", "PHP", "JavaScript", "jQuery", "AJAX", "JSON"};
+    SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         txtDestination = findViewById(R.id.txtDestination);
         butFindRoute = findViewById(R.id.butFindRoute);
         recLastTrip = findViewById(R.id.recRecentTrip);
+        sharedPreferences = getSharedPreferences(Constants.SHARED_PREF_DATA,MODE_PRIVATE);
         initComponent();
 
     }
@@ -74,12 +71,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         /**
          * getList Of Station
          */
-        Log.d("GetData","Data as Json");
         getData();
-        tempStationName = new ArrayList<>(stationName);
-        for (int i = 0; i < tempStationName.size(); i++) {
-            Log.d("StationName", i + " = " + tempStationName.get(i));
-        }
+
         /**
          * ImageSwap View
          */
@@ -113,7 +106,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onClick(View view) {
                 txtSource.setFocusableInTouchMode(true);
-                Log.d("SourceText", txtSource.isFocusable() + "");
             }
         });
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_singlechoice, stationName);
@@ -138,8 +130,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     Intent intent = new Intent(MainActivity.this, LastTripsActivity.class);
                     int source = stationName.indexOf(txtSource.getText().toString().trim());
                     int destination = stationName.indexOf(txtDestination.getText().toString().trim());
-                    intent.putExtra("source", source);
-                    intent.putExtra("destination", destination);
+//                    intent.putExtra("source", source);
+//                    intent.putExtra("destination", destination);
+                    SharedPreferences.Editor editor =sharedPreferences.edit();
+                    editor.putInt(Constants.SOURCE_STATION_CODE,source);
+                    editor.putInt(Constants.DESTINATION_STATION_CODE,destination);
+                    editor.apply();
                     Log.d("Station Code",source+"->"+destination);
                     startActivity(intent);
                 } else {
@@ -170,7 +166,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         sourceName = txtSource.getText().toString().trim();
         destination = txtDestination.getText().toString().trim();
         if (!(sourceName.isEmpty()) && !(destination.isEmpty())) {
-            if (tempStationName.contains(sourceName) && tempStationName.contains(destination)) {
+            if (stationName.contains(sourceName) && stationName.contains(destination)) {
                 Log.d("DataIsCorrect", "Data Found" + "// " + sourceName + "// " + destination);
                 return true;
             }
