@@ -27,7 +27,7 @@ public class ListRouteAdapter extends RecyclerView.Adapter<ListRouteAdapter.List
     @NonNull
     @Override
     public ListRouteViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.route_list_row,parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.route_list_row, parent, false);
         final ListRouteViewHolder holder = new ListRouteViewHolder(view);
         return holder;
     }
@@ -42,23 +42,42 @@ public class ListRouteAdapter extends RecyclerView.Adapter<ListRouteAdapter.List
         /**
          * View Station Color Code
          */
+        setColor(holder.colorCode,model);
 
-        holder.colorCode.setBackgroundColor(context.getResources().getColor(R.color.yellow));
         /**
          * Track ImageView
          */
-        Log.d("Adapter",model.getStationName() +"--"+ LastTripsActivity.sourceName+"--"+LastTripsActivity.destinationName+"--"+position);
+        Log.d("Adapter", model.getStationName() + "--" + LastTripsActivity.sourceName + "--" + LastTripsActivity.destinationName + "--" + position);
         holder.upperTrack.setVisibility(View.INVISIBLE);
         holder.bottomTrack.setVisibility(View.INVISIBLE);
 
-        if(position != 0){
-            Log.d("Adapter","Source");
+        if (position != 0) {
+
             holder.upperTrack.setVisibility(View.VISIBLE);
         }
-        if(position != LastTripsActivity.totalStation-1){
-//            Log.d("Adapter",);
+        if (position != LastTripsActivity.totalStation - 1) {
             holder.bottomTrack.setVisibility(View.VISIBLE);
         }
+    }
+
+    private void setColor(View colorCode,RouteListModel model) {
+        Log.d("ColorCode",model.getStationName()+"===>"+model.getStationColorlist().get(0));
+        if (model.getStationColorlist().get(0).equalsIgnoreCase("yellow"))
+           colorCode.setBackgroundColor(context.getResources().getColor(R.color.yellow));
+        else if (model.getStationColorlist().get(0).equalsIgnoreCase("pink"))
+           colorCode.setBackgroundColor(context.getResources().getColor(R.color.pink));
+        else if (model.getStationColorlist().get(0).equalsIgnoreCase("red"))
+           colorCode.setBackgroundColor(context.getResources().getColor(R.color.red));
+        else if (model.getStationColorlist().get(0).equalsIgnoreCase("green"))
+           colorCode.setBackgroundColor(context.getResources().getColor(R.color.green));
+        else if (model.getStationColorlist().get(0).equalsIgnoreCase("magenta"))
+           colorCode.setBackgroundColor(context.getResources().getColor(R.color.magenta));
+        else if (model.getStationColorlist().get(0).equalsIgnoreCase("blue"))
+           colorCode.setBackgroundColor(context.getResources().getColor(R.color.blue));
+        else if (model.getStationColorlist().get(0).equalsIgnoreCase("violet"))
+           colorCode.setBackgroundColor(context.getResources().getColor(R.color.blue_violet));
+        else if (model.getStationColorlist().get(0).equalsIgnoreCase("orange"))
+           colorCode.setBackgroundColor(context.getResources().getColor(R.color.orange));
     }
 
     @Override
@@ -66,10 +85,10 @@ public class ListRouteAdapter extends RecyclerView.Adapter<ListRouteAdapter.List
         return mData.size();
     }
 
-    public  class ListRouteViewHolder extends RecyclerView.ViewHolder{
+    public class ListRouteViewHolder extends RecyclerView.ViewHolder {
         TextView txtName;
         View colorCode;
-        ImageView upperTrack,bottomTrack;
+        ImageView upperTrack, bottomTrack;
 
         public ListRouteViewHolder(View itemView) {
             super(itemView);
@@ -80,4 +99,5 @@ public class ListRouteAdapter extends RecyclerView.Adapter<ListRouteAdapter.List
 
         }
     }
+
 }

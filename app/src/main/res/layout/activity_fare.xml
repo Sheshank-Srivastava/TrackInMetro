@@ -49,7 +49,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:hint="Hello"
+                        android:hint="Duration"
                         android:textSize="@dimen/text_small"
                         android:padding="@dimen/small_padding"/>
                     <TextView
@@ -57,7 +57,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:hint="Hello"
+                        android:hint="Fare"
                         android:textSize="@dimen/text_small"
                         android:padding="@dimen/small_padding"/>
                 </LinearLayout>
@@ -70,7 +70,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:hint="Hello"
+                        android:hint="Inter-Change"
                         android:textSize="@dimen/text_small"
                         android:padding="@dimen/small_padding"/>
                     <TextView
@@ -78,7 +78,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:hint="Hello"
+                        android:hint="Total Station"
                         android:textSize="@dimen/text_small"
                         android:padding="@dimen/small_padding"/>
                 </LinearLayout>

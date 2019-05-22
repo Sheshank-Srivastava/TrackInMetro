@@ -42,14 +42,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     Toolbar toolbar;
     AutoCompleteTextView txtSource, txtDestination;
     Button butFindRoute;
-    public static ArrayList<String> stationName = new ArrayList<>();
     public static ArrayList<String> tempStationName;
     ArrayList<LastTripModel> mdata;
     int backPressedLook = Constants.EXIT_KEY;
     String sourceName, destination;
     RecyclerView recLastTrip;
     SharedPreferences sharedPreferences;
-
+    ArrayList<String> stationName = SplashActivity.stationName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,15 +62,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         butFindRoute = findViewById(R.id.butFindRoute);
         recLastTrip = findViewById(R.id.recRecentTrip);
         sharedPreferences = getSharedPreferences(Constants.SHARED_PREF_DATA,MODE_PRIVATE);
+        int sc =sharedPreferences.getInt(Constants.SOURCE_STATION_CODE,-1);
+        int des =sharedPreferences.getInt(Constants.DESTINATION_STATION_CODE,-1);
+        if (sc!=-1)
+            txtSource.setText(stationName.get(sc));
+        if (des!=-1)
+            txtDestination  .setText(stationName.get(des));
         initComponent();
 
     }
 
     private void initComponent() {
-        /**
-         * getList Of Station
-         */
-        getData();
 
         /**
          * ImageSwap View
@@ -226,35 +227,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
 
-    /**
-     * Function For Parsing the Json File
-     */
 
-    public void getData() {
-        String json = "";
-        try {
-            InputStream is = getAssets().open("metromapdata.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            stationName.clear();
-            json = new String(buffer, "UTF-8");
-            json = json.replace("\n", "");
-//            json = json.replace(" ", "");
-            JSONObject firstObject = new JSONObject(json);
-            JSONArray jsonArray = firstObject.getJSONArray("data");
-            for (int i = 0; i < jsonArray.length(); i++) {
-                JSONObject obj = jsonArray.getJSONObject(i);
-                stationName.add(obj.getString("name") + "");
-            }
-            Log.d("JsonData", stationName.size()+json + "======================");
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-    }
 
 }

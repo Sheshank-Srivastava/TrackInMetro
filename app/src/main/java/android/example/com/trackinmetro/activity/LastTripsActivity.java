@@ -1,6 +1,6 @@
 package android.example.com.trackinmetro.activity;
 
-import android.content.Intent;
+import android.app.ProgressDialog;
 import android.content.SharedPreferences;
 import android.example.com.trackinmetro.MapGraph.GraphMap;
 import android.example.com.trackinmetro.R;
@@ -8,6 +8,7 @@ import android.example.com.trackinmetro.adapter.ListRouteAdapter;
 import android.example.com.trackinmetro.model.RouteListModel;
 import android.example.com.trackinmetro.utilities.Constants;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -44,11 +45,18 @@ public class LastTripsActivity extends AppCompatActivity {
 
     SharedPreferences sharedPreferences;
 
+    ProgressDialog dialog;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_last_trips);
-        /**
+        dialog= new ProgressDialog(LastTripsActivity.this);
+        dialog.setMessage("Loading Route...");
+        dialog.show();
+
+        /*Source*
          * Sharedpreference Data
          */
         sharedPreferences = getSharedPreferences(Constants.SHARED_PREF_DATA, MODE_PRIVATE);
@@ -70,16 +78,24 @@ public class LastTripsActivity extends AppCompatActivity {
         txtSource = findViewById(R.id.txtSource);
         txtDestination = findViewById(R.id.txtDestination);
         butFind = findViewById(R.id.imgSwapRoute);
-        mdata = new ArrayList<>(MainActivity.stationName);
+        mdata = new ArrayList<>(SplashActivity.stationName);
         /**
          * Recycler Data
          */
 
-        intiComponent();
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                intiComponent();
+
+            }
+        },1000);
+
+        dialog.dismiss();
     }
 
     private void intiComponent() {
-        actionBar.setTitle("Last Trips");
+        actionBar.setTitle(mdata.get(sourceCode)+"->"+mdata.get(destinationCode));
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_singlechoice, mdata);
         //Find TextView control
@@ -117,6 +133,9 @@ public class LastTripsActivity extends AppCompatActivity {
         Log.d("Intent", "After Intent" + sourceCode + "==" + destinationCode);
         list = map.getMap(this, sourceCode, destinationCode);
         Log.d("StationName", list.toString());
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(Constants.TOTAL_STATION,list.size());
+        editor.apply();
         recyclerView = findViewById(R.id.recRouteToShow);
         LinearLayoutManager manager = new LinearLayoutManager(this);
         fullRouteData = new ArrayList<>();
@@ -175,8 +194,6 @@ public class LastTripsActivity extends AppCompatActivity {
         super.onBackPressed();
         list = null;
         fullRouteData = null;
-        Log.d("JsonData", "Both null");
-
-        finish();
+        Log.d("JsonData", "Both null"+list.toString());
     }
 }

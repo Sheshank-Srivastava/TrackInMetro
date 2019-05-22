@@ -8,5 +8,6 @@ public class Constants {
     public static final String SOURCE_STATION_CODE = "sourceCode";
     public static final String DESTINATION_STATION_CODE = "destinationCode";
     public static final String TRAVELLING_TIME = "duration";
+    public static final String TOTAL_STATION = "noOfStation";
 
 }

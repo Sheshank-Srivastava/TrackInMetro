@@ -19,7 +19,7 @@ public class FirstLastActivity extends AppCompatActivity {
         setContentView(R.layout.activity_first_last);
         actionBar = getSupportActionBar();
         txtSource = findViewById(R.id.txtFirstLast);
-        mdata = new ArrayList<>(MainActivity.stationName);
+        mdata = new ArrayList<>(SplashActivity.stationName);
 
         intiComponent();
     }
