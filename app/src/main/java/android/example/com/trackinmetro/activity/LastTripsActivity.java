@@ -1,9 +1,11 @@
 package android.example.com.trackinmetro.activity;
 
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
 import android.example.com.trackinmetro.MapGraph.GraphMap;
 import android.example.com.trackinmetro.R;
+import android.example.com.trackinmetro.adapter.GateAdapter;
 import android.example.com.trackinmetro.adapter.ListRouteAdapter;
 import android.example.com.trackinmetro.model.RouteListModel;
 import android.example.com.trackinmetro.utilities.Constants;
@@ -14,8 +16,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import org.json.JSONArray;
@@ -45,16 +49,11 @@ public class LastTripsActivity extends AppCompatActivity {
 
     SharedPreferences sharedPreferences;
 
-    ProgressDialog dialog;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_last_trips);
-        dialog= new ProgressDialog(LastTripsActivity.this);
-        dialog.setMessage("Loading Route...");
-        dialog.show();
 
         /*Source*
          * Sharedpreference Data
@@ -89,13 +88,11 @@ public class LastTripsActivity extends AppCompatActivity {
                 intiComponent();
 
             }
-        },1000);
-
-        dialog.dismiss();
+        }, 1000);
     }
 
     private void intiComponent() {
-        actionBar.setTitle(mdata.get(sourceCode)+"->"+mdata.get(destinationCode));
+        actionBar.setTitle(mdata.get(sourceCode) + "->" + mdata.get(destinationCode));
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_singlechoice, mdata);
         //Find TextView control
@@ -117,29 +114,89 @@ public class LastTripsActivity extends AppCompatActivity {
 
             dataRecycler();
             getData();
+            setStationColor();
             for (int i = 0; i < fullRouteData.size(); i++) {
                 Log.d("ListPrint", fullRouteData.get(i).getStationName());
             }
 
             adapter.notifyDataSetChanged();
-            sourceName = fullRouteData.get(0).getStationName().trim();
-            destinationName = fullRouteData.get(list.size() - 1).getStationName().trim();
+//            sourceName = fullRouteData.get(0).getStationName().trim();
+//            destinationName = fullRouteData.get(list.size() - 1).getStationName().trim();
 
         }
     }
 
+    private void setStationColor() {
+        String tempColor = "";
+        int interChange = 0;
+        for (int position = 0; position < fullRouteData.size(); position++) {
+
+            if (fullRouteData.get(position).getStationColorlist().size() == 1) {
+                tempColor = null;
+                tempColor = fullRouteData.get(position).getStationColorlist().get(0);
+            } else {
+
+                if (position == (fullRouteData.size() - 1)) {
+                    ArrayList<String> list = new ArrayList<>();
+                    list.add(tempColor);
+                    fullRouteData.get(position).setStationColorlist(list);
+                } else {
+                    RouteListModel tempModelmData = fullRouteData.get(position+1);
+                    ArrayList<String> tempList = new ArrayList<>(fullRouteData.get(position).getStationColorlist());
+                    tempList.retainAll(tempModelmData.getStationColorlist());
+                    Log.d("GivenColor", tempList.toString() + "->" + fullRouteData.get(position).getStationName());
+                    fullRouteData.get(position).setStationColorlist(tempList);
+                    tempColor = tempList.get(0);
+
+                }
+
+            }
+            if(position!=0 && !fullRouteData.get(position).getStationColorlist().get(0).equals(fullRouteData.get(position-1).getStationColorlist().get(0))){
+                interChange+=1;
+            }
+        }
+        SharedPreferences sharedPreferences = getSharedPreferences(Constants.SHARED_PREF_DATA,MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(Constants.INTERCHANGE_STATION,interChange);
+        editor.apply();
+    }
+
     private void dataRecycler() {
+        map = null;
         map = new GraphMap();
         Log.d("Intent", "After Intent" + sourceCode + "==" + destinationCode);
         list = map.getMap(this, sourceCode, destinationCode);
         Log.d("StationName", list.toString());
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putInt(Constants.TOTAL_STATION,list.size());
+        editor.putInt(Constants.TOTAL_STATION, list.size());
         editor.apply();
         recyclerView = findViewById(R.id.recRouteToShow);
         LinearLayoutManager manager = new LinearLayoutManager(this);
         fullRouteData = new ArrayList<>();
-        adapter = new ListRouteAdapter(this, fullRouteData);
+        adapter = new ListRouteAdapter(this, fullRouteData, new ListRouteAdapter.ClickListener() {
+            @Override
+            public void onItemClick(View v, int position) {
+                final Dialog dialog = new Dialog(LastTripsActivity.this);
+                dialog.setContentView(R.layout.dialog_gate_info);
+                RecyclerView recyclerView = dialog.findViewById(R.id.rec_gateList);
+                LinearLayoutManager gateManager = new LinearLayoutManager(LastTripsActivity.this);
+                Log.d("gateList",fullRouteData.get(position).getGateDirlist().toString()+"");
+                GateAdapter adapter = new GateAdapter(LastTripsActivity.this,fullRouteData.get(position).getGateDirlist());
+                recyclerView.setLayoutManager(gateManager);
+                recyclerView.setAdapter(adapter);
+                /**
+                 * Dialog ButtonFunction
+                 */
+                Button but_dialog = dialog.findViewById(R.id.but_dialogClose);
+                but_dialog.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        dialog.dismiss();
+                    }
+                });
+                dialog.show();
+            }
+        });
         recyclerView.setLayoutManager(manager);
         recyclerView.setAdapter(adapter);
         totalStation = list.size();
@@ -191,9 +248,11 @@ public class LastTripsActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         list = null;
         fullRouteData = null;
-        Log.d("JsonData", "Both null"+list.toString());
+        map = null;
+        super.onBackPressed();
+
+//        Log.d("JsonData", "Both null"+list.toString());
     }
 }

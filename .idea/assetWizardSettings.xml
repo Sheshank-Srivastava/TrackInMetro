@@ -19,8 +19,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_track" />
-                            <entry key="sourceFile" value="/home/sheshank/Downloads/track.svg" />
+                            <entry key="outputName" value="ic_interchange" />
+                            <entry key="sourceFile" value="/home/sheshank/Downloads/interchange.svg" />
                           </map>
                         </option>
                       </PersistentState>

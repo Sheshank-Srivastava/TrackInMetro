@@ -9,5 +9,7 @@ public class Constants {
     public static final String DESTINATION_STATION_CODE = "destinationCode";
     public static final String TRAVELLING_TIME = "duration";
     public static final String TOTAL_STATION = "noOfStation";
+    public static final String TOTAL_FARE = "fareCost";
+    public static final String INTERCHANGE_STATION = "interChangeStation";
 
 }

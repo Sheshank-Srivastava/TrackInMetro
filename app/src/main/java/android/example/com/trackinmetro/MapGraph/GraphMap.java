@@ -12,7 +12,7 @@ public class GraphMap {
     private int v;
     private static int no = 999;
     private ArrayList<Integer>[] adjList;
-    private static ArrayList<Integer> list2;
+    private static ArrayList<Integer> list2 =null;
     static ArrayList<String> stationName;
 
     static ArrayList<GraphTime> timeMap;
@@ -58,7 +58,7 @@ public class GraphMap {
         Log.d("Intent", "printAllPaths  Graph Map " + s + "==" + d);
 
         boolean[] isVisited = new boolean[v];
-        ArrayList<Integer> pathList=null;
+        ArrayList<Integer> pathList = null;
         pathList = new ArrayList<>();
 
         //add source to path[]
@@ -436,7 +436,9 @@ public class GraphMap {
     public ArrayList<Integer> getMap(Context mCtx, int s, int d) {
         Log.d("Intent", "In Class  Graph Map " + s + "==" + d);
 
-        GraphMap g = new GraphMap(248);
+        GraphMap g = null;
+        g = new GraphMap(248);
+
         g.makeEdge(0, 1);//huda City Centre to Iffco Chowk
         g.makeEdge(1, 2);//Iffco Chowk to MG Road
         g.makeEdge(2, 3);//MG Road to Sikanderpur
@@ -1254,11 +1256,11 @@ public class GraphMap {
         Log.d("Intent", "In Class  Graph Map " + s + "==" + d);
 
         g.printAllPaths(s, d);
-        SharedPreferences sharedPreferences =  mCtx.getSharedPreferences(Constants.SHARED_PREF_DATA,Context.MODE_PRIVATE);
+        SharedPreferences sharedPreferences = mCtx.getSharedPreferences(Constants.SHARED_PREF_DATA, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putInt(Constants.TRAVELLING_TIME,no);
+        editor.putInt(Constants.TRAVELLING_TIME, no);
         editor.apply();
-        Log.d("Intent","In Graph map"+ list2.toString());
+        Log.d("Intent", "In Graph map" + list2.toString());
         return list2;
     }
 

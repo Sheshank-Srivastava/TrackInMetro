@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     RecyclerView recLastTrip;
     SharedPreferences sharedPreferences;
     ArrayList<String> stationName = SplashActivity.stationName;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,13 +62,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         txtDestination = findViewById(R.id.txtDestination);
         butFindRoute = findViewById(R.id.butFindRoute);
         recLastTrip = findViewById(R.id.recRecentTrip);
-        sharedPreferences = getSharedPreferences(Constants.SHARED_PREF_DATA,MODE_PRIVATE);
-        int sc =sharedPreferences.getInt(Constants.SOURCE_STATION_CODE,-1);
-        int des =sharedPreferences.getInt(Constants.DESTINATION_STATION_CODE,-1);
-        if (sc!=-1)
+        sharedPreferences = getSharedPreferences(Constants.SHARED_PREF_DATA, MODE_PRIVATE);
+        int sc = sharedPreferences.getInt(Constants.SOURCE_STATION_CODE, -1);
+        int des = sharedPreferences.getInt(Constants.DESTINATION_STATION_CODE, -1);
+        if (sc != -1)
             txtSource.setText(stationName.get(sc));
-        if (des!=-1)
-            txtDestination  .setText(stationName.get(des));
+        if (des != -1)
+            txtDestination.setText(stationName.get(des));
         initComponent();
 
     }
@@ -133,11 +134,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     int destination = stationName.indexOf(txtDestination.getText().toString().trim());
 //                    intent.putExtra("source", source);
 //                    intent.putExtra("destination", destination);
-                    SharedPreferences.Editor editor =sharedPreferences.edit();
-                    editor.putInt(Constants.SOURCE_STATION_CODE,source);
-                    editor.putInt(Constants.DESTINATION_STATION_CODE,destination);
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putInt(Constants.SOURCE_STATION_CODE, source);
+                    editor.putInt(Constants.DESTINATION_STATION_CODE, destination);
                     editor.apply();
-                    Log.d("Station Code",source+"->"+destination);
+                    Log.d("Station Code", source + "->" + destination);
                     startActivity(intent);
                 } else {
                     Toast.makeText(MainActivity.this, "Fields Data Incorrect", Toast.LENGTH_SHORT).show();
@@ -167,9 +168,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         sourceName = txtSource.getText().toString().trim();
         destination = txtDestination.getText().toString().trim();
         if (!(sourceName.isEmpty()) && !(destination.isEmpty())) {
-            if (stationName.contains(sourceName) && stationName.contains(destination)) {
-                Log.d("DataIsCorrect", "Data Found" + "// " + sourceName + "// " + destination);
-                return true;
+            if (stationName.contains(sourceName) && stationName.contains(destination)&&!sourceName.equals(destination)) {
+//                if (!sourceName.equals(destination)) {
+                    Log.d("DataIsCorrect", "Data Found" + "// " + sourceName + "// " + destination);
+                    return true;
+//                }
             }
         }
         return false;
@@ -226,7 +229,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
-
 
 
 }

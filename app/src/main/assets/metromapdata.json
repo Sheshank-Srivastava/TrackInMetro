@@ -1488,7 +1488,7 @@
         "Jahangir Puri Fire Station, Adarsh Nagar"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1502,7 +1502,7 @@
         "EPF Office, KC Goyal Marg"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1513,7 +1513,7 @@
         "Anandwas Shakurpur, Shakurpur Railway Station"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1524,7 +1524,7 @@
         "Traffic Traning Park, Punjabi Bagh Paschim Colony, Maharaja Aggrasain Hospital"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1535,7 +1535,7 @@
         "Club Road, ESI Hospital"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1552,8 +1552,8 @@
         "Bikenerwala"
       ],
       "color": [
-        "pink",
-        "blue"
+        "PINK",
+        "BLUE"
       ]
     },
     {
@@ -1564,7 +1564,7 @@
         "Govt. of India Press, Mayapuri Depot(DTC)"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1575,7 +1575,7 @@
         "Post Office, Naraina Vihar Village Park"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1586,7 +1586,7 @@
         "Brar Squire Railway Station"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1597,8 +1597,8 @@
         "Northen Railway ECO Park, Smriti Vatika, San Martin Park"
       ],
       "color": [
-        "pink",
-        "orange"
+        "PINK",
+        "ORANGE"
       ]
     },
     {
@@ -1610,7 +1610,7 @@
         "Sector-12 R.K Puram, Sector-9 R.K Puram, K-D Colony, Aradhna Enclave"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1622,7 +1622,7 @@
         "EIL, Hyatt Regency, Gail India Ltd."
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1633,7 +1633,7 @@
         "Pilanji Gaon, Sarojini Nagar (Block-A,B,X,Y,AB,AG)"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1646,7 +1646,7 @@
         "AIIMS Campus National Medical Library"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1657,7 +1657,7 @@
         "Nehru Nagar"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1669,7 +1669,7 @@
         "Kilokari Market"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1681,7 +1681,7 @@
         "Hazarat Nizzamuddin Railway Station"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1694,8 +1694,8 @@
         "Arya Samaj Mandir"
       ],
       "color": [
-        "pink",
-        "blue"
+        "PINK",
+        "BLUE"
       ]
     },
     {
@@ -1706,7 +1706,7 @@
         "Chilla Village"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1717,7 +1717,7 @@
         "Sanjay Lake, Chand Cinema, Lal Bahadur Shastri Hospital, Dharamshila Cancer Hospital"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1728,7 +1728,7 @@
         "Sport Camplex, Phase-II Gurudwara, Bimla Devi Hospital, DTC Depot."
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1738,7 +1738,7 @@
         "Ras Vihar Apartment, Engineers State Apartment, Fire Station"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1748,7 +1748,7 @@
         "DDA Park, Max Hospital"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1761,8 +1761,8 @@
         "Anand Vihar Railway Station"
       ],
       "color": [
-        "pink",
-        "blue"
+        "PINK",
+        "BLUE"
       ]
     },
     {
@@ -1773,7 +1773,7 @@
         "Metro Parking"
       ],
       "color": [
-        "pink", "blue"
+        "PINK", "BLUE"
       ]
     },
     {
@@ -1786,7 +1786,7 @@
         "Karkarduma Village, Saini Enclave, Sharad Vihar, Shanti Mukunda Hospital"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1797,7 +1797,7 @@
         "Vishwas Nagar, Hans Apartment, DCP Office, Farsh Bazar, Dr. Hedgewar Arogya Sansthan"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1808,7 +1808,7 @@
         "Bhola Nath Nagar, Shalimar Park, Police Station"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1819,7 +1819,7 @@
         "Loni Bus Depot, Gulab Vatika"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1827,12 +1827,10 @@
       "name": "MAUJPUR-BABARPUR",
       "list": [
         "Maujpur-Babarpur",
-        "Maujpur-Babarpur",
-        "Maujpur-Babarpur",
-        "Maujpur-Babarpur"
+
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1843,7 +1841,7 @@
         "Police Station, Dr. Bhim Rao Ambedkar College, Yamuna Vihar"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1854,7 +1852,7 @@
         "Loni Bus Depot, Gulab Vatika"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1865,7 +1863,7 @@
         "Jawahar Nagar, Balraj Nagar"
       ],
       "color": [
-        "pink"
+        "PINK"
       ]
     },
     {
@@ -1875,8 +1873,8 @@
         "Nh-8 (BIJWASAN Village)"
       ],
       "color": [
-        "blue",
-        "orange"
+        "BLUE",
+        "ORANGE"
       ]
     },
     {
@@ -1886,7 +1884,7 @@
         "SPG Complex"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -1897,7 +1895,7 @@
         "Bharat Gas Godown"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -1908,7 +1906,7 @@
         "Dwarka Dist Court"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -1919,7 +1917,7 @@
         "St. Gregorios School"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -1930,7 +1928,7 @@
         "Bansup Hospital"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -1941,7 +1939,7 @@
         "Metro View Apartment"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -1952,7 +1950,7 @@
         "Nirmal Bharatiya Public School"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -1963,7 +1961,7 @@
         "Kakrola Village"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -1974,7 +1972,7 @@
         "Rama Park"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -1987,7 +1985,7 @@
         "Mahendru Hospital"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2001,7 +1999,7 @@
         "Arya Samaj Road"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2012,7 +2010,7 @@
         "DTC Bus Terminal"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2024,7 +2022,7 @@
         "Janakpuri (B-1 & B-2)"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2037,7 +2035,7 @@
         "Prem Nagar"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2050,7 +2048,7 @@
         "Minakshi Garden"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2063,7 +2061,7 @@
         "Rajouri Garden J-Block"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2077,7 +2075,7 @@
         "Namdhari Colony"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2089,7 +2087,7 @@
         "DMRC Parking"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2103,7 +2101,7 @@
         "Parking"
       ],
       "color": [
-        "blue, green"
+        "BLUE","green"
       ]
     },
     {
@@ -2119,7 +2117,7 @@
         "Satyam Cinema"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2134,7 +2132,7 @@
         "Ranjeet Nagar"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2147,7 +2145,7 @@
         "Pusa Institute"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2164,7 +2162,7 @@
         "Jeevan Nursing Home"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2177,7 +2175,7 @@
         "Baba Lalji Mandir"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2191,7 +2189,7 @@
         "DMRC Metro Parking"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2206,7 +2204,7 @@
         "New Delhi House"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2218,7 +2216,7 @@
         "Way to IITF Gate No.10"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2229,7 +2227,7 @@
         "Parking"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2239,7 +2237,7 @@
         "Yamuna Bank Staff Quarters"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2250,7 +2248,7 @@
         "Parking"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2261,7 +2259,7 @@
         "Glaxo Apartment"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2271,7 +2269,7 @@
         "Dharmshila Cancer Hospital"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2282,7 +2280,7 @@
         "Golchakkar"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2293,7 +2291,7 @@
         "Naya Bansh Film City"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2304,7 +2302,7 @@
         "Not Available"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2315,7 +2313,7 @@
         "Golf Course Ground Noida"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2328,7 +2326,7 @@
         "I.C.P.O, Government Post Graduate College, Sector 39,41,50,51"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2339,7 +2337,7 @@
         "South towards(Alok Vihar)"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2351,7 +2349,7 @@
         "South Noida Sector-51, Hoshiyarpur Village"
       ],
       "color": [
-        "blue, aqua"
+        "BLUE","aqua"
       ]
     },
     {
@@ -2362,7 +2360,7 @@
         "East towards noida sector-70,71, police station"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2373,7 +2371,7 @@
         "East towards Mamura Village"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2384,7 +2382,7 @@
         "East towards Mamura Village"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2396,7 +2394,7 @@
         "towards Jay Pee Institute of Information Technology"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2408,7 +2406,7 @@
         "Patel Hospital"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2420,7 +2418,7 @@
         "Nirman Vihar Area"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2433,7 +2431,7 @@
         "Punjab National Bank"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2444,7 +2442,7 @@
         "Wave Cinema"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2455,7 +2453,7 @@
         "Shri Krishanvatika Vaishali Sec-4"
       ],
       "color": [
-        "blue"
+        "BLUE"
       ]
     },
     {
@@ -2605,7 +2603,7 @@
       "id": 215,
       "name": "PEERAGARHI",
       "list": [
-        "Ekta Enclave (Redison Blue, DTC Busdepot Peeragarhi)",
+        "Ekta Enclave (Redison BLUE, DTC Busdepot Peeragarhi)",
         "Mangol Puri Industrial Area(Safa Fruit & vegitable)"
       ],
       "color": [
@@ -2694,7 +2692,7 @@
       "list": [
       ],
       "color": [
-        "orange"
+        "ORANGE"
       ]
     },
     {
@@ -2703,7 +2701,7 @@
       "list": [
       ],
       "color": [
-        "orange"
+        "ORANGE"
       ]
     },
     {
@@ -2712,7 +2710,7 @@
       "list": [
       ],
       "color": [
-        "orange"
+        "ORANGE"
       ]
     },
     {
